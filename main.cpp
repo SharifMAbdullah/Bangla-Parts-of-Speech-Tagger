@@ -1,17 +1,28 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void tokeniser(fstream *f2)
+{
+	char s;
+	do
+	{
+		s = fscanf("%c",*f2);
+		cout << c << "\n";
+		
+	}while(*f2)
+}
+
 int main() 
 {
     fstream file1, file2;
 	file1.open("read.txt", ios::out);
 	if(!file1)
 	{
-		cout<<"file failed to open\n";	
+		cout<<"File not found!\n";	
 	}
 	else
 	{
-		file1 << "হুম দেখি কি হয় ";
+		file1 << "হম দেখা যাক। কি, হয়।";
 		file1.close();		
 	}
 	
@@ -19,9 +30,8 @@ int main()
 	file2.open("write.txt", ios::out);
 	if(!file2)
 	{
-		cout<<"file failed to open\n";
-	}
-	else
+		cout<<"File not found!\n";
+	}else
 	{
 		char ch;
 		file1 >> noskipws;
@@ -32,7 +42,9 @@ int main()
 		}
 		
 	}
+	tokeniser(&file2);
 	file2.close();
 	file1.close();
 	return 0;
+	
 }
