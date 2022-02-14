@@ -1,50 +1,35 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-
-void tokeniser(fstream *f2)
+int main()
 {
-	char s;
-	do
-	{
-		s = fscanf("%c",*f2);
-		cout << c << "\n";
-		
-	}while(*f2)
-}
-
-int main() 
-{
-    fstream file1, file2;
-	file1.open("read.txt", ios::out);
-	if(!file1)
-	{
-		cout<<"File not found!\n";	
-	}
-	else
-	{
-		file1 << "হম দেখা যাক। কি, হয়।";
-		file1.close();		
-	}
-	
-	file1.open("read.txt", ios::in);
-	file2.open("write.txt", ios::out);
-	if(!file2)
-	{
-		cout<<"File not found!\n";
-	}else
-	{
-		char ch;
-		file1 >> noskipws;
-		while (file1)
-		{
-			file1 >> ch;
-			file2 << ch;
-		}
-		
-	}
-	tokeniser(&file2);
-	file2.close();
-	file1.close();
-	return 0;
-	
+    wstring str,temp=L"";
+    std::vector<wstring> store;
+    wfstream f1,f2;
+    //FILE *ptr = fopen("read.txt","r");
+    if(!f1 && !f2)
+        cout << "File not found!" << endl;
+    else
+    {
+    f1.open("read.txt");
+    f2.open("write.txt");
+    getline(f1,str);
+    int j=0;
+    for(int i=0;i<str.size();i++)
+    {
+        if(str[i] == ' ' || str[i] ==  L'।' || str[i] == L'।' || str[i] == ',')
+            {
+                store.push_back(temp);
+                temp = L"";
+               
+            }
+        else
+            {
+                temp.push_back(str[i]);
+                //cout << "Found delimeter\n";
+            }
+    }
+    store.push_back(temp);
+    for(int i=0;i<str.size();i++)
+    f2 << store[i] << endl;
+    }
 }
