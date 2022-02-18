@@ -1,25 +1,36 @@
 #include <bits/stdc++.h>
+#include <codecvt>
+#include <locale>
+#include <fcntl.h>
 using namespace std;
 
-bool isPunctuation(wchar_t c)
+bool isPunctuation(char16_t c)
 {
-    if(c == L' ')
+    if(c == u' ')
         return 1; 
-    else if (c ==  L'।')
+    else if (c ==  u'।')
         return 1; 
-    else if (c == L'।')
+    else if (c == u'।')
         return 1; 
-    else if (c == L',')
+    else if (c ==  u'\r')
         return 1;
-    else if (c == L'?')
+    else if (c ==  u'\n')
         return 1;
+    else if (c == u',')
+        return 1;
+    else if (c == u'?')
+        return 1;    
 return 0;
 }
 
-void tokeniser(vector<wstring> s)
+void tokeniser(vector<string> s)
 {
-    wstring str,temp=L"";
-    wfstream f1,f2;
+ 
+    string str,temp="";
+    fstream f1,f2;
+    /*f1.imbue(utf16_locale);
+    f2.imbue(utf16_locale);
+    _setmode(_fileno(stdout), _O_U16TEXT);*/
     //FILE *ptr = fopen("read.txt","r");
     f1.open("read.txt");
     f2.open("write.txt");
@@ -28,23 +39,27 @@ void tokeniser(vector<wstring> s)
         cout << "File not found!" << endl;
     else
     {
-        getline(f1,str);
-        int j=0;
-        for(int i=0;i<str.size();i++)
+        while(getline(f1,str))
         {
-            if(isPunctuation(str[i]))
-            {
-                s.push_back(temp);
-                temp = L"";
+            //getline(f1,str);
+            int j=0;
+            for(int i=0;i<str.size();i++)
+                {
+                    if(isPunctuation(str[i]))
+                    {
+                    s.push_back(temp);
+                    temp = "";
                
-            }
-        else
-            {
-                temp.push_back(str[i]);
+                    }
+                    else
+                    {
+                    temp.push_back(str[i]);
                 //cout << "Found delimeter\n";
-            }
-    }
-    s.push_back(temp);
+                    }
+                }
+            s.push_back(temp);
+        }
+        
     for(int i=0;i<s.size();i++)
     f2 << s[i] << endl;
     }
@@ -52,6 +67,6 @@ void tokeniser(vector<wstring> s)
 
 int main()
 {
-    std::vector<wstring> store;
+    std::vector<string> store;
     tokeniser(store);
 }
