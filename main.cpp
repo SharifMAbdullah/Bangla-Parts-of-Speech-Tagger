@@ -18,7 +18,8 @@ bool isPunctuation(wchar_t c)
 {
     //std::locale::global(std::locale(""));
     wchar_t ch = L'\u0964';
-    if (c == ch)
+    //if (c == ch)
+    if(isDari(c))
         return 1;
     //if(iswspace(c))
         //return 1;    
@@ -32,9 +33,7 @@ bool isPunctuation(wchar_t c)
         //return 1; 
     //else if (c == L'।')
         //return 1; 
-    else if (c ==  L'\r')
-        return 1;
-    else if (c ==  L'\n')
+    else if (c ==  L'\r' || c ==  L'\n')
         return 1;
     else if (c == L',')
         return 1;
@@ -68,8 +67,11 @@ void tokeniser(vector<wstring> s)
                 {
                     if(isPunctuation(str[i]))
                     {
-                    s.push_back(temp);
-                    temp = L"";
+                    if(temp.size()>0)
+                        {
+                            s.push_back(temp);
+                            temp = L"";
+                        }
                     }
                     else
                     {
