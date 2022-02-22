@@ -5,13 +5,34 @@
 #include<uchar.h>
 using namespace std;
 
-bool isDari(wchar_t c)
+bool isDari(wstring c)
 {
     //std::locale::global(std::locale(""));
-    wchar_t ch = L'\u0964';
+    wstring ch = L"\u0964";
     if (c == ch)
     return 1;
 return 0;
+}
+
+void replaceDari()
+{
+    wstring str;
+    wfstream f1;
+    f1.open("read.txt");
+
+    if(!f1)
+        cout << "File not found!" << endl;
+    else
+    {
+        while(getline(f1,str))
+        {
+                    if(isDari(str))
+                    {
+                        str = L" ";
+                    }
+        }
+    }
+f1.close();
 }
 
 bool isPunctuation(wchar_t c)
@@ -19,15 +40,15 @@ bool isPunctuation(wchar_t c)
     //std::locale::global(std::locale(""));
     wchar_t ch = L'\u0964';
     //if (c == ch)
-    if(isDari(c))
-        return 1;
+    //if(isDari(c))
+        //return 1;
     //if(iswspace(c))
         //return 1;    
     //if(iswblank(c))
         //return 1;
     //if(iswpunct(c))
         //return 1;
-    else if(c == L' ')
+    if(c == L' ')
         return 1; 
     //else if (u_isalpha(।))
         //return 1; 
@@ -85,11 +106,14 @@ void tokeniser(vector<wstring> s)
     for(int i=0;i<s.size();i++)
     f2 << s[i] << endl;
     }
+f1.close();
+f2.close();
 }
 
 int main()
 {
     //setlocale(LC_ALL, "en_US.utf8");
     std::vector<wstring> store;
+    replaceDari();
     tokeniser(store);
 }
