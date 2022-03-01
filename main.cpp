@@ -1,119 +1,128 @@
-#include <bits/stdc++.h>
-#include <codecvt>
-#include <locale>
-#include <fcntl.h>
-#include<uchar.h>
+#include <iostream>
+#include <fstream>
+#include<vector>
+#include <cstring> 
+#define max 30
+
 using namespace std;
 
-bool isDari(wstring c)
+string strings[max];
+
+bool isPunctuation(char c)
 {
-    //std::locale::global(std::locale(""));
-    wstring ch = L"\u0964";
-    if (c == ch)
-    return 1;
+     if(c == ' ')
+         return 1; 
+     else if (c ==  '?')
+         return 1; 
+     else if (c == '#')
+         return 1; 
+     else if (c == ',')
+         return 1;
+     else if (c == '-')
+         return 1;        
+
 return 0;
 }
 
-void replaceDari()
-{
-    wstring str;
-    wfstream f1;
-    f1.open("read.txt");
+int len(string str)  
+{  
+    int length = 0;  
+    for (int i = 0; str[i] != '\0'; i++)  
+    {  
+        length++;  
+        // cout<<str[i]<<endl;
+        // cout<<(int)str[i]<<endl;  
+    }  
+    return length;     
+}
 
-    if(!f1)
-        cout << "File not found!" << endl;
-    else
-    {
-        while(getline(f1,str))
-        {
-                    if(isDari(str))
-                    {
-                        str = L" ";
-                    }
+int split (string str, char seperator)  
+{  
+    int  currentIndex=0, i = 0;  
+    int startIndex = 0, endIndex = 0;  
+    while (i <= len(str))  
+    {  
+        if (str[i] == seperator || i == len(str))  
+        {  
+            endIndex = i;  
+            string subStr = "";  
+            subStr.append(str, startIndex, endIndex - startIndex);  
+            strings[currentIndex] = subStr;  
+            currentIndex += 1;  
+            startIndex = endIndex + 1;  
+        }  
+        i++;  
+        
         }
-    }
-f1.close();
-}
+    return currentIndex;     
+} 
 
-bool isPunctuation(wchar_t c)
+
+void tokeniser() //vector<string> s
 {
-    //std::locale::global(std::locale(""));
-    wchar_t ch = L'\u0964';
-    //if (c == ch)
-    //if(isDari(c))
-        //return 1;
-    //if(iswspace(c))
-        //return 1;    
-    //if(iswblank(c))
-        //return 1;
-    //if(iswpunct(c))
-        //return 1;
-    if(c == L' ')
-        return 1; 
-    //else if (u_isalpha(।))
-        //return 1; 
-    //else if (c == L'।')
-        //return 1; 
-    else if (c ==  L'\r' || c ==  L'\n')
-        return 1;
-    else if (c == L',')
-        return 1;
-    else if (c == L'?')
-        return 1;    
-return 0;
-}
-
-void tokeniser(vector<wstring> s)
-{
-
-    //std::locale::global(std::locale(""));
-    wstring str,temp=L"";
-    wfstream f1,f2;
-    /*f1.imbue(utf16_locale);
-    f2.imbue(utf16_locale);
-    _setmode(_fileno(stdout), _O_U16TEXT);*/
+    string str,temp= "";
+    fstream f1,f2;
     //FILE *ptr = fopen("read.txt","r");
-    f1.open("read.txt");
-    f2.open("write.txt");
+    f1.open("read.txt", ios::in);
+    f2.open("write.txt", ios::out);
 
     if(!f1 || !f2)
         cout << "File not found!" << endl;
     else
     {
-        while(getline(f1,str))
-        {
-            //getline(f1,str);
-            int j=0;
-            for(int i=0;i<str.size();i++)
+        char ch;
+        int i = 0;
+		
+        string tp;
+        while(getline(f1, tp))
+        { 
+            //read data from file object and put it into string.
+            //int currentIndex = 0;
+
+            string str1 = "৷";
+            int currentIndex = split(tp, ' ');
+
+            for(int i=0; i<=currentIndex;i++)
+            {
+                size_t found = strings[i].find(str1);
+                if (found != string::npos)
                 {
-                    if(isPunctuation(str[i]))
+                    cout << "First occurrence is " << found << endl;
+        
+                    strings[i].replace(found,3,"###");
+                    cout<<strings[i]<<endl;
+                }
+
+                for(int j=0; j<len(strings[i]); j++)
+                {
+                    if (isPunctuation(strings[i][j])/*strings[i][j]=='#' || strings[i][j]=='?'|| strings[i][j]=='-'*/)
                     {
-                    if(temp.size()>0)
-                        {
-                            s.push_back(temp);
-                            temp = L"";
-                        }
+                        cout<<100<<endl;
+                        //f2<<endl;
                     }
+
                     else
                     {
-                    temp.push_back(str[i]);
-                //cout << "Found delimeter\n";
+                        f2<<strings[i][j];
+                        cout<<120<<endl;
                     }
                 }
-            s.push_back(temp);
+
+            strings[i].clear();
+            f2 << endl;
+                
+            }
+  
         }
-        
-    for(int i=0;i<s.size();i++)
-    f2 << s[i] << endl;
+
+      f1.close();
+      f2.close();
     }
-f1.close();
-f2.close();
+    
 }
 
-int main()
-{
-    //setlocale(LC_ALL, "en_US.utf8");
-    std::vector<wstring> store;
-    replaceDari();
-    tokeniser(store);
+int main() {
+    //vector<string> s;
+    tokeniser(); //s
+	
 }
