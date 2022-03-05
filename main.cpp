@@ -2,11 +2,13 @@
 #include <fstream>
 #include<vector>
 #include <cstring> 
-#define max 30
+#define max 300
 
 using namespace std;
 
 string strings[max];
+string stemmedWords[max];
+//int counter = 0;
 
 bool isPunctuation(char c)
 {
@@ -22,6 +24,15 @@ bool isPunctuation(char c)
          return 1;        
 
 return 0;
+}
+
+int lenStringArray(string str[])
+{
+    size_t i = 0;
+    while (!str[i].empty())
+        ++i;
+
+return i;
 }
 
 int len(string str)  
@@ -98,7 +109,7 @@ void tokeniser() //vector<string> s
                     if (isPunctuation(strings[i][j]))
                     {
                         cout<<100<<endl;
-                        strings[i][j] = '\0'; //ALERT!!!
+                        //strings[i][j] = '\0'; //ALERT!!!
                         //f2<<endl;
                     }
 
@@ -106,6 +117,7 @@ void tokeniser() //vector<string> s
                     {
                         f2<<strings[i][j];
                         cout<<120<<endl;
+                        //counter++;
                     }
                 }
 
@@ -125,19 +137,40 @@ void tokeniser() //vector<string> s
 void stopWordRemover()
 {
     string temp;
-    fstream f1;
-    f1.open("stop_words.txt");
+    fstream f1,f2;
+    f1.open("stop_words.txt",ios::in);
+    f2.open("write2.txt",ios::out);
     int n = sizeof(strings)/sizeof(strings[0]);
     while(getline(f1,temp))
     {
-        for(int i=0; i<n; i++)
+        for(long int i=0; i<lenStringArray(strings); i++)
             {
                 if(strings[i] == temp)
                 strings[i].erase();
+                else 
+                f2 << strings[i];
             }
     }
 
     f1.close();
+    f2.close();
+}
+
+bool compareBochon(string alpha)
+{
+
+return 0;
+}
+
+bool compareBivokti(string alpha)
+{
+
+return 0;
+}
+
+void trim(string str, string alpha)
+{
+
 }
 
 //EXPERIMENTAL CODE, PROCEED WITH CAUTION
@@ -146,14 +179,15 @@ void stemmer()
     int n = sizeof(strings)/sizeof(strings[0]);
     for(int i=0;i<n;i++)
     {
-        string alpha = NULL;
+        //string alpha = NULL;
+        string alpha = "aaa";
         int length = len(strings[i]);
 
         for(int j = length-1; j>0; j--)
         {
             alpha = strings[i];
             //if(strcmp(α, NotSteamed_suffix)==0) break; -->ALERT<--
-            if( compareBochon(alpha) )
+            /*if( compareBochon(alpha) )
             {
                 stemmedWords[i] = trim(strings[i],alpha);
                 break;
@@ -169,7 +203,7 @@ void stemmer()
             {
                 stemmedWords[i] = trim(strings[i],alpha);
                 break;
-            }
+            }*/
         }
     }
 }
@@ -178,5 +212,6 @@ int main()
  {
     //vector<string> s;
     tokeniser(); //s
-	
+    stopWordRemover();
+	//printf("counter value %d",counter);
 }
