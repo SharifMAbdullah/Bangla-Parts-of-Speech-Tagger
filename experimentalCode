@@ -1,10 +1,13 @@
-#include <bits/stdc++.h>
+#include <iostream>
 #include <ctype.h>
+#include <string>
+#include <fstream>
 using namespace std;
 #define N 1000
 
 string strings[N];
 string tokenizedWords[N];
+
 
 void storeStrings()
 {
@@ -75,16 +78,22 @@ int split(string str, char seperator)
 void tokeniser() 
 {
 
-    fstream f;
+    fstream f,s;
     f.open("a.txt");
+    s.open("b.txt");
     int k = 0;
 
     for (int i = 0; i < lenStringArray(strings); i++)
     {
          f << "current input: "  << strings[i] << endl;
         char* updatedStr = new char[N];
-        string str1 = "৷";
-        size_t found = strings[i].find(str1);
+        cout<<"ok1\n";
+        string substr = "।";
+        fflush(stdin);
+        int found = strings[i].find(substr);
+        
+        s<<i<<" "<<found<<endl;
+        cout<<"ok2\n";
         
         if(found != string::npos)
         strings[i].replace(found,3,"#");
