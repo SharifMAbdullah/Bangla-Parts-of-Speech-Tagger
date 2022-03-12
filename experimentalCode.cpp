@@ -48,6 +48,7 @@ void tokeniser()
         char* updatedStr = new char[N];
         string subs = "।";
         string DARI1 = "।";
+        string DARI2 = "৷";
 
         int find = strings[i].find(DARI1);
         cout << i <<" " << find << " "  << " "<<strings[i].size() << endl;
@@ -58,6 +59,16 @@ void tokeniser()
                 f2 << strings[i] << endl;
             }
         else cout << "NOT FOUND first dari" << endl;
+
+        int find1 = strings[i].find(DARI2);
+        cout << i <<" " << find1 << " "  << " "<<strings[i].size() << endl;
+        
+        if(find1 != string::npos) 
+            {
+                strings[i].replace(find1,3,"#");
+                f2 << strings[i] << endl;
+            }
+        else cout << "NOT FOUND second dari" << endl;
 
         //looks for punctuations in string, if not punctuation, stores it 
         int id = 0;
