@@ -49,7 +49,7 @@ void stopWordRemover()
 
     for(long int i=0; i<n; i++)
         {
-            for(long int k=0; k<400; k++)
+            for(long int k=0; k<j; k++)
             {
                 if(tokenizedWords[i] == t[k])
                 tokenizedWords[i].erase();
