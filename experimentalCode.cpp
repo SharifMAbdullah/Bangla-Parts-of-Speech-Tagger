@@ -9,6 +9,15 @@ using namespace std;
 string strings[N];
 string tokenizedWords[N];
 
+int lenStringArray(string str[])
+{
+    size_t i = 0;
+    while (!str[i].empty())
+        ++i;
+
+return i;
+}
+
 void storeStrings()
 {
     fstream f;
@@ -24,13 +33,26 @@ void storeStrings()
 f.close();
 }
 
-int lenStringArray(string str[])
+void stopWordRemover()
 {
-    size_t i = 0;
-    while (!str[i].empty())
-        ++i;
+    string temp;
+    fstream f1,f2;
+    f1.open("stop_words.txt");
+    f2.open("a.txt");
+    int n = lenStringArray(tokenizedWords);
+    while(getline(f1,temp))
+    {
+        for(long int i=0; i<n; i++)
+            {
+                if(tokenizedWords[i] == temp)
+                tokenizedWords[i].erase();
+                else 
+                f2 << tokenizedWords[i] << endl;
+            }
+    }
 
-return i;
+    f1.close();
+    f2.close();
 }
 
 void tokeniser() 
@@ -92,4 +114,5 @@ int main()
 {
     storeStrings();
     tokeniser();
+    stopWordRemover();
 }
