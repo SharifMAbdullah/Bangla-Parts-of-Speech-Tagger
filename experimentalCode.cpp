@@ -35,22 +35,28 @@ f.close();
 
 void stopWordRemover()
 {
-    string temp;
+    string temp,t[10000];
     fstream f1,f2;
     f1.open("stop_words.txt");
     f2.open("a.txt");
+    long int j = 0;
     int n = lenStringArray(tokenizedWords);
     while(getline(f1,temp))
     {
-        for(long int i=0; i<n; i++)
+        t[j] = temp;
+        j++;
+    }
+
+    for(long int i=0; i<n; i++)
+        {
+            for(long int k=0; k<400; k++)
             {
-                if(tokenizedWords[i] == temp)
+                if(tokenizedWords[i] == t[k])
                 tokenizedWords[i].erase();
                 else 
                 f2 << tokenizedWords[i] << endl;
-            }
-    }
-
+            }        
+        }    
     f1.close();
     f2.close();
 }
