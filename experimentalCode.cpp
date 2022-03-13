@@ -8,6 +8,20 @@ using namespace std;
 
 string strings[N];
 string tokenizedWords[N];
+NotStemmed_suffix[N];
+Bivokti_suffix[N];
+Bochon_suffix[N];
+Other_suffix[N];
+
+int len(string str)  
+{  
+    int length = 0;  
+    for (int i = 0; str[i] != '\0'; i++)  
+    {  
+        length++;  
+    }  
+    return length;     
+}
 
 int lenStringArray(string str[])
 {
@@ -33,6 +47,44 @@ void storeStrings()
 f.close();
 }
 
+void storeSuffixFromTextFile(int choice)
+{
+    fstream f;
+    string s;
+    int i = 0;
+    
+    if(choice==1)
+        {
+            f.open("Bochon_suffix.txt");
+                while(getline(f,s))
+                {
+                    Bochon_suffix[i] = s;
+                    i++;
+                }
+        }
+    else if(choice == 2)
+        {
+            f.open("Bivokti_suffix.txt");
+            while(getline(f,s))
+                {
+                    Bivokti_suffix[i] = s;
+                    i++;
+                }
+        }
+    else if(choice == 3)
+        {
+            f.open("Other_suffix.txt");
+            while(getline(f,s))
+                {
+                    Other_suffix[i] = s;
+                    i++;
+                }
+        }
+            
+
+f.close();
+}
+
 void stopWordRemover()
 {
     string temp,t[10000];
@@ -52,9 +104,16 @@ void stopWordRemover()
             for(long int k=0; k<j; k++)
             {
                 if(tokenizedWords[i] == t[k])
-                tokenizedWords[i].erase();
+                    {
+                        tokenizedWords[i].erase();
+                        break;
+                    }
+                    
                 else 
-                f2 << tokenizedWords[i] << endl;
+                    {
+                        f2 << tokenizedWords[i] << endl;
+                        break;
+                    }
             }        
         }    
     f1.close();
@@ -74,7 +133,6 @@ void tokeniser()
     for (int i = 0; i < lenStringArray(strings); i++)
     {
         char* updatedStr = new char[N];
-        string subs = "।";
         string DARI1 = "।";
         string DARI2 = "৷";
 
@@ -109,16 +167,54 @@ void tokeniser()
         for(int j = 0; j < id; j++) 
             tokenizedWords[k].push_back(updatedStr[j]);
             
-        f << "tokenized words: "  << tokenizedWords[k] << endl;
         k++;
     }
     
 f.close();
 }
 
+void stemmer()
+{
+    for(int i=0;i<lenStringArray(tokenizedWords);i++)
+    {
+        string alpha = NULL;
+        int l = length(tokenizedWords[i]);
+        
+        for(int j=l-1; j>=0; j++)
+        {
+            alpha = tokenizedWords[i];
+            
+            if(!strcmp(alpha,NotStemmed_suffix))
+                break;
+            
+            else if(!strcmp(alpha,Bivokti_suffix))
+            {
+                stemmedWords[i] = trim(tokenizedWords[i],alpha);
+                break;
+            }
+            
+            else if(!strcmp(alpha,Bochon_suffix))
+            {
+                stemmedWords[i] = trim(tokenizedWords[i],alpha);
+                break;
+            }
+            
+            else if(!strcmp(alpha,Other_suffix))
+            {
+                stemmedWords[i] = trim(tokenizedWords[i],alpha);
+                break;
+            }
+        }
+    }
+}
+
 int main()
 {
     storeStrings();
+    storeSuffixFromTextFile(1);
+    storeSuffixFromTextFile(2);
+    storeSuffixFromTextFile(3);
     tokeniser();
     stopWordRemover();
 }
+
