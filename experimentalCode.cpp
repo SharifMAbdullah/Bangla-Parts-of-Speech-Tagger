@@ -179,29 +179,36 @@ void stemmer()
     {
         string alpha = NULL;
         int l = length(tokenizedWords[i]);
+        int k = 0;
         
         for(int j=l-1; j>=0; j++)
         {
-            alpha = tokenizedWords[i];
+            alpha = tokenizedWords[i][j];
             
-            if(!strcmp(alpha,NotStemmed_suffix))
-                break;
+            if(!strcmp(alpha,NotStemmed_suffix[k]))
+                {
+                    k++;
+                    break;
+                }
             
-            else if(!strcmp(alpha,Bivokti_suffix))
+            else if(!strcmp(alpha,Bivokti_suffix[k]))
             {
                 stemmedWords[i] = trim(tokenizedWords[i],alpha);
+                k++;
                 break;
             }
             
-            else if(!strcmp(alpha,Bochon_suffix))
+            else if(!strcmp(alpha,Bochon_suffix[k]))
             {
                 stemmedWords[i] = trim(tokenizedWords[i],alpha);
+                k++;
                 break;
             }
             
             else if(!strcmp(alpha,Other_suffix))
             {
                 stemmedWords[i] = trim(tokenizedWords[i],alpha);
+                k++;
                 break;
             }
         }
