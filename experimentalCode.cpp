@@ -8,10 +8,11 @@ using namespace std;
 
 string strings[N];
 string tokenizedWords[N];
-NotStemmed_suffix[N];
-Bivokti_suffix[N];
-Bochon_suffix[N];
-Other_suffix[N];
+string stemmedWords[N];
+string NotStemmed_suffix[N];
+string Bivokti_suffix[N];
+string Bochon_suffix[N];
+string Other_suffix[N];
 
 int len(string str)  
 {  
@@ -80,7 +81,15 @@ void storeSuffixFromTextFile(int choice)
                     i++;
                 }
         }
-            
+    else if(choice == 4)
+        {
+            f.open("NotStemmed_suffix.txt");
+            while(getline(f,s))
+                {
+                    NotStemmed_suffix[i] = s;
+                    i++;
+                }
+        }
 
 f.close();
 }
@@ -137,24 +146,16 @@ void tokeniser()
         string DARI2 = "৷";
 
         int find = strings[i].find(DARI1);
-        cout << i <<" " << find << " "  << " "<<strings[i].size() << endl;
-        
         if(find != string::npos) 
             {
                 strings[i].replace(find,3,"#");
-                f2 << strings[i] << endl;
             }
-        else cout << "NOT FOUND first dari" << endl;
 
         int find1 = strings[i].find(DARI2);
-        cout << i <<" " << find1 << " "  << " "<<strings[i].size() << endl;
-        
         if(find1 != string::npos) 
             {
                 strings[i].replace(find1,3,"#");
-                f2 << strings[i] << endl;
             }
-        else cout << "NOT FOUND second dari" << endl;
 
         //looks for punctuations in string, if not punctuation, stores it 
         int id = 0;
@@ -173,42 +174,45 @@ void tokeniser()
 f.close();
 }
 
+string trimmer(string og_string, string to_be_split_string)
+{
+        int find = og_string.find(to_be_split_string);
+        string c = "";
+		c = og_string.substr(0,find);
+		return c;
+}
+
 void stemmer()
 {
     for(int i=0;i<lenStringArray(tokenizedWords);i++)
     {
-        string alpha = NULL;
-        int l = length(tokenizedWords[i]);
-        int k = 0;
+        string alpha = "";
+        int n = len(tokenizedWords[i]);
+        alpha = tokenizedWords[i];
         
-        for(int j=l-1; j>=0; j++)
-        {
-            alpha = tokenizedWords[i][j];
-            
-            if(!strcmp(alpha,NotStemmed_suffix[k]))
-                {
-                    k++;
-                    break;
-                }
-            
-            else if(!strcmp(alpha,Bivokti_suffix[k]))
+	    for (int len = n-1; len >=0; len--)
+		{
+	        string beta = "";
+			beta +=  alpha.substr(len);
+		
+            if(binary_search(NotStemmed_suffix, NotStemmed_suffix+lenStringArray(NotStemmed_suffix), beta))
+                break;
+        
+            else if(binary_search(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix), beta))
             {
-                stemmedWords[i] = trim(tokenizedWords[i],alpha);
-                k++;
+                stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 break;
             }
             
-            else if(!strcmp(alpha,Bochon_suffix[k]))
+            else if(binary_search(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix), beta))
             {
-                stemmedWords[i] = trim(tokenizedWords[i],alpha);
-                k++;
+                stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 break;
             }
             
-            else if(!strcmp(alpha,Other_suffix))
+            else if(binary_search(Other_suffix, Other_suffix+lenStringArray(Other_suffix), beta))
             {
-                stemmedWords[i] = trim(tokenizedWords[i],alpha);
-                k++;
+                stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 break;
             }
         }
@@ -217,11 +221,19 @@ void stemmer()
 
 int main()
 {
+    fstream f;
+    f.open("write.txt");
     storeStrings();
     storeSuffixFromTextFile(1);
     storeSuffixFromTextFile(2);
     storeSuffixFromTextFile(3);
+    storeSuffixFromTextFile(4);
+
     tokeniser();
     stopWordRemover();
+    stemmer();
+    
+    for(int i=0;i<lenStringArray(stemmedWords);i++)
+        f << stemmedWords[i] << endl;
+    f.close();
 }
-
