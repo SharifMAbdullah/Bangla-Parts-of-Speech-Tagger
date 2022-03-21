@@ -62,6 +62,8 @@ void storeSuffixFromTextFile(int choice)
                     Bochon_suffix[i] = s;
                     i++;
                 }
+        cout << "length bochon : " << lenStringArray(Bochon_suffix) << endl;
+        f.close();
         }
     else if(choice == 2)
         {
@@ -71,6 +73,8 @@ void storeSuffixFromTextFile(int choice)
                     Bivokti_suffix[i] = s;
                     i++;
                 }
+        cout << "length bivokti : " << lenStringArray(Bivokti_suffix) << endl;
+        f.close();
         }
     else if(choice == 3)
         {
@@ -80,6 +84,8 @@ void storeSuffixFromTextFile(int choice)
                     Other_suffix[i] = s;
                     i++;
                 }
+        cout << "length other : " << lenStringArray(Other_suffix) << endl;
+        f.close();
         }
     else if(choice == 4)
         {
@@ -89,9 +95,9 @@ void storeSuffixFromTextFile(int choice)
                     NotStemmed_suffix[i] = s;
                     i++;
                 }
+        cout << "length not stemmed : " << lenStringArray(NotStemmed_suffix) << endl;
+        f.close();
         }
-
-f.close();
 }
 
 void stopWordRemover()
@@ -184,6 +190,8 @@ string trimmer(string og_string, string to_be_split_string)
 
 void stemmer()
 {
+    fstream f;
+    f.open("write.txt");
     for(int i=0;i<lenStringArray(tokenizedWords);i++)
     {
         string alpha = "";
@@ -201,28 +209,30 @@ void stemmer()
             else if(binary_search(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
+                f<<stemmedWords[i]<<endl;
                 break;
             }
             
             else if(binary_search(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
+                f<<stemmedWords[i]<<endl;
                 break;
             }
             
             else if(binary_search(Other_suffix, Other_suffix+lenStringArray(Other_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
+                f<<stemmedWords[i]<<endl;
                 break;
             }
         }
     }
+f.close();
 }
 
 int main()
 {
-    fstream f;
-    f.open("write.txt");
     storeStrings();
     storeSuffixFromTextFile(1);
     storeSuffixFromTextFile(2);
@@ -232,8 +242,6 @@ int main()
     tokeniser();
     stopWordRemover();
     stemmer();
-    
-    for(int i=0;i<lenStringArray(stemmedWords);i++)
-        f << stemmedWords[i] << endl;
-    f.close();
+    cout << "length stemmed words : " << lenStringArray(stemmedWords) << endl;
+
 }
