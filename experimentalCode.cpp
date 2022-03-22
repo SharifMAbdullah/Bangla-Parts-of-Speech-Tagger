@@ -204,27 +204,27 @@ void stemmer()
 			beta +=  alpha.substr(len);
 		
             if(binary_search(NotStemmed_suffix, NotStemmed_suffix+lenStringArray(NotStemmed_suffix), beta))
-                break;
+                continue;
         
             else if(binary_search(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 f<<stemmedWords[i]<<endl;
-                break;
+                continue;
             }
             
             else if(binary_search(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 f<<stemmedWords[i]<<endl;
-                break;
+                continue;
             }
             
             else if(binary_search(Other_suffix, Other_suffix+lenStringArray(Other_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 f<<stemmedWords[i]<<endl;
-                break;
+                continue;
             }
         }
     }
