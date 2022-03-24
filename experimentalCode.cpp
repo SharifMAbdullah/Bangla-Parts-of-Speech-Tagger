@@ -59,6 +59,7 @@ void storeSuffixFromTextFile(int choice)
             f.open("Bochon_suffix.txt");
                 while(getline(f,s))
                 {
+                    //cout << "ok bochon" <<endl;
                     Bochon_suffix[i] = s;
                     i++;
                 }
@@ -70,6 +71,7 @@ void storeSuffixFromTextFile(int choice)
             f.open("Bivokti_suffix.txt");
             while(getline(f,s))
                 {
+                    //cout << "ok bivokti" <<endl;
                     Bivokti_suffix[i] = s;
                     i++;
                 }
@@ -81,6 +83,7 @@ void storeSuffixFromTextFile(int choice)
             f.open("Other_suffix.txt");
             while(getline(f,s))
                 {
+                    //cout << "ok other" <<endl;
                     Other_suffix[i] = s;
                     i++;
                 }
@@ -92,6 +95,7 @@ void storeSuffixFromTextFile(int choice)
             f.open("NotStemmed_suffix.txt");
             while(getline(f,s))
                 {
+                    //cout << "ok not stem" <<endl;
                     NotStemmed_suffix[i] = s;
                     i++;
                 }
@@ -195,7 +199,7 @@ void stemmer()
     for(int i=0;i<lenStringArray(tokenizedWords);i++)
     {
         string alpha = "";
-        int n = len(tokenizedWords[i]);
+        int n = tokenizedWords[i].size();
         alpha = tokenizedWords[i];
         
 	    for (int len = n-1; len >=0; len--)
@@ -204,27 +208,27 @@ void stemmer()
 			beta +=  alpha.substr(len);
 		
             if(binary_search(NotStemmed_suffix, NotStemmed_suffix+lenStringArray(NotStemmed_suffix), beta))
-                continue;
+                break;
         
             else if(binary_search(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 f<<stemmedWords[i]<<endl;
-                continue;
+                break;
             }
             
             else if(binary_search(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 f<<stemmedWords[i]<<endl;
-                continue;
+                break;
             }
             
             else if(binary_search(Other_suffix, Other_suffix+lenStringArray(Other_suffix), beta))
             {
                 stemmedWords[i] = trimmer(tokenizedWords[i], beta);
                 f<<stemmedWords[i]<<endl;
-                continue;
+                break;
             }
         }
     }
@@ -238,6 +242,11 @@ int main()
     storeSuffixFromTextFile(2);
     storeSuffixFromTextFile(3);
     storeSuffixFromTextFile(4);
+
+    sort(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix) );
+    sort(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix) );
+    sort(Other_suffix,Other_suffix+lenStringArray(Other_suffix));
+    sort(NotStemmed_suffix,NotStemmed_suffix+lenStringArray(NotStemmed_suffix));
 
     tokeniser();
     stopWordRemover();
