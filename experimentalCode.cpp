@@ -157,15 +157,14 @@ void tokeniser()
         string DARI2 = "৷";
 
         int find = strings[i].find(DARI1);
-        if(find != string::npos) 
-            {
-                strings[i].replace(find,3,"#");
-            }
-
         int find1 = strings[i].find(DARI2);
-        if(find1 != string::npos) 
+        
+        if(find != string::npos || find1 != string::npos) 
             {
-                strings[i].replace(find1,3,"#");
+                if(find!=-1)
+                    strings[i].replace(find,3,"#");
+                else
+                    strings[i].replace(find1,3,"#");
             }
 
         //looks for punctuations in string, if not punctuation, stores it 
