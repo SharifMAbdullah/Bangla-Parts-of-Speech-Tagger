@@ -62,6 +62,7 @@ void storeSuffixFromTextFile(int choice)
                     //cout << "ok bochon" <<endl;
                     Bochon_suffix[i] = s;
                     i++;
+                    //cout << Bochon_suffix[i-1] << endl;
                 }
         cout << "length bochon : " << lenStringArray(Bochon_suffix) << endl;
         f.close();
@@ -181,7 +182,10 @@ void tokeniser()
         k++;
     }
     
+        //for(int i=0;i<lenStringArray(tokenizedWords);i++)
+            //cout << tokenizedWords[i] << endl;
 f.close();
+f2.close();
 }
 
 string trimmer(string og_string, string to_be_split_string)
@@ -194,6 +198,7 @@ string trimmer(string og_string, string to_be_split_string)
 
 void stemmer()
 {
+    int k =0;
     fstream f;
     f.open("write.txt");
     for(int i=0;i<lenStringArray(tokenizedWords);i++)
@@ -207,27 +212,27 @@ void stemmer()
 	        string beta = "";
 			beta +=  alpha.substr(len);
 		
-            if(binary_search(NotStemmed_suffix, NotStemmed_suffix+lenStringArray(NotStemmed_suffix), beta))
+            if(binary_search(NotStemmed_suffix, NotStemmed_suffix+lenStringArray(NotStemmed_suffix), alpha))
                 break;
         
             else if(binary_search(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix), beta))
             {
-                stemmedWords[i] = trimmer(tokenizedWords[i], beta);
-                f<<stemmedWords[i]<<endl;
+                stemmedWords[k++] = trimmer(tokenizedWords[i], beta);
+                f<<stemmedWords[k-1]<<endl;
                 break;
             }
             
             else if(binary_search(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix), beta))
             {
-                stemmedWords[i] = trimmer(tokenizedWords[i], beta);
-                f<<stemmedWords[i]<<endl;
+                stemmedWords[k++] = trimmer(tokenizedWords[i], beta);
+                f<<stemmedWords[k-1]<<endl;
                 break;
             }
             
             else if(binary_search(Other_suffix, Other_suffix+lenStringArray(Other_suffix), beta))
             {
-                stemmedWords[i] = trimmer(tokenizedWords[i], beta);
-                f<<stemmedWords[i]<<endl;
+                stemmedWords[k++] = trimmer(tokenizedWords[i], beta);
+                f<<stemmedWords[k-1]<<endl;
                 break;
             }
         }
