@@ -7,7 +7,7 @@
 using namespace std;
 
 string strings[max];
-string stemmedWords[max];
+string wordWithRoot[max];
 //int counter = 0;
 
 bool isPunctuation(char c)
@@ -189,19 +189,19 @@ void stemmer()
             //if(strcmp(α, NotSteamed_suffix)==0) break; -->ALERT<--
             /*if( compareBochon(alpha) )
             {
-                stemmedWords[i] = trim(strings[i],alpha);
+                wordWithRoot[i] = trim(strings[i],alpha);
                 break;
             }
 
             if( compareBivokti(alpha) )
             {
-                stemmedWords[i] = trim(strings[i],alpha);
+                wordWithRoot[i] = trim(strings[i],alpha);
                 break;
             }
 
             if( compareBochon(alpha) )
             {
-                stemmedWords[i] = trim(strings[i],alpha);
+                wordWithRoot[i] = trim(strings[i],alpha);
                 break;
             }*/
         }

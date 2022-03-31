@@ -8,7 +8,7 @@ using namespace std;
 
 string strings[N];
 string tokenizedWords[N];
-string stemmedWords[N];
+pair<string,string> wordWithRoot[N];
 string NotStemmed_suffix[N];
 string Bivokti_suffix[N];
 string Bochon_suffix[N];
@@ -212,31 +212,50 @@ void stemmer()
 			beta +=  alpha.substr(len);
 		
             if(binary_search(NotStemmed_suffix, NotStemmed_suffix+lenStringArray(NotStemmed_suffix), alpha))
-                break;
+                {
+                    wordWithRoot[k].first = alpha;
+                    wordWithRoot[k].second = "";
+    //------------> f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl; <--------------//
+                    break;
+                }
         
             else if(binary_search(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix), beta))
             {
-                stemmedWords[k++] = trimmer(tokenizedWords[i], beta);
-                f<<stemmedWords[k-1]<<endl;
+                wordWithRoot[k].first = alpha;
+                wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
+                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
                 break;
             }
             
             else if(binary_search(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix), beta))
             {
-                stemmedWords[k++] = trimmer(tokenizedWords[i], beta);
-                f<<stemmedWords[k-1]<<endl;
+                wordWithRoot[k].first = alpha;
+                wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
+                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
                 break;
             }
             
             else if(binary_search(Other_suffix, Other_suffix+lenStringArray(Other_suffix), beta))
+            {                
+                wordWithRoot[k].first = alpha;
+                wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
+                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
+            }
+            else
             {
-                stemmedWords[k++] = trimmer(tokenizedWords[i], beta);
-                f<<stemmedWords[k-1]<<endl;
+                wordWithRoot[k].first = alpha;
+                wordWithRoot[k].second = "ayhay";
+                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
                 break;
             }
         }
     }
 f.close();
+}
+
+void bangla_POS_tagger()
+{
+
 }
 
 int main()
@@ -255,6 +274,4 @@ int main()
     tokeniser();
     stopWordRemover();
     stemmer();
-    cout << "length stemmed words : " << lenStringArray(stemmedWords) << endl;
-
 }
