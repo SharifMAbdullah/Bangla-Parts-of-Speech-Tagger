@@ -105,40 +105,40 @@ void storeSuffixFromTextFile(int choice)
         }
 }
 
-void stopWordRemover()
-{
-    string temp,t[10000];
-    fstream f1,f2;
-    f1.open("stop_words.txt");
-    f2.open("a.txt");
-    long int j = 0;
-    int n = lenStringArray(tokenizedWords);
-    while(getline(f1,temp))
-    {
-        t[j] = temp;
-        j++;
-    }
+// void stopWordRemover()
+// {
+//     string temp,t[10000];
+//     fstream f1,f2;
+//     f1.open("stop_words.txt");
+//     f2.open("a.txt");
+//     long int j = 0;
+//     int n = lenStringArray(tokenizedWords);
+//     while(getline(f1,temp))
+//     {
+//         t[j] = temp;
+//         j++;
+//     }
 
-    for(long int i=0; i<n; i++)
-        {
-            for(long int k=0; k<j; k++)
-            {
-                if(tokenizedWords[i] == t[k])
-                    {
-                        tokenizedWords[i].erase();
-                        break;
-                    }
+//     for(long int i=0; i<n; i++)
+//         {
+//             for(long int k=0; k<j; k++)
+//             {
+//                 if(tokenizedWords[i] == t[k])
+//                     {
+//                         tokenizedWords[i].erase();
+//                         break;
+//                     }
                     
-                else 
-                    {
-                        f2 << tokenizedWords[i] << endl;
-                        break;
-                    }
-            }        
-        }    
-    f1.close();
-    f2.close();
-}
+//                 else 
+//                     {
+//                         f2 << tokenizedWords[i] << endl;
+//                         break;
+//                     }
+//             }        
+//         }    
+//     f1.close();
+//     f2.close();
+// }
 
 void tokeniser() 
 {
@@ -198,59 +198,64 @@ string trimmer(string og_string, string to_be_split_string)
 void stemmer()
 {
     int k =0;
-    fstream f;
+    fstream f,f2;
+    f2.open("test.txt");
     f.open("write.txt");
-    for(int i=0;i<lenStringArray(tokenizedWords);i++)
+    for(int i=0;i<size(tokenizedWords);i++)
     {
         string alpha = "";
         int n = tokenizedWords[i].size();
         alpha = tokenizedWords[i];
         
+        if(binary_search(NotStemmed_suffix, NotStemmed_suffix+380, alpha))
+            {
+                cout << " outer loop" << endl;
+                f2 << "found NotStemmed_suffix where alpha is " << alpha << endl;
+                wordWithRoot[k].first = alpha;
+                wordWithRoot[k].second = "";
+                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl; 
+                continue;
+            }
+                
 	    for (int len = n-1; len >=0; len--)
 		{
 	        string beta = "";
 			beta +=  alpha.substr(len);
-		
-            if(binary_search(NotStemmed_suffix, NotStemmed_suffix+lenStringArray(NotStemmed_suffix), alpha))
-                {
-                    wordWithRoot[k].first = alpha;
-                    wordWithRoot[k].second = "";
-    //------------> f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl; <--------------//
-                    break;
-                }
-        
-            else if(binary_search(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix), beta))
+		    f2 << " beta at " << i <<"th word at position " << len << " is "<<beta << " where alpha " <<alpha<<endl; 
+       
+            if(binary_search(Bochon_suffix, Bochon_suffix+36, beta))
             {
+                f2 << "found Bochon_suffix" << endl;
                 wordWithRoot[k].first = alpha;
                 wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
                 f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
                 break;
             }
             
-            else if(binary_search(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix), beta))
+            else if(binary_search(Bivokti_suffix, Bivokti_suffix+112, beta))
             {
+                f2 << "found Bivokti_suffix which is ->" <<beta << endl;
                 wordWithRoot[k].first = alpha;
                 wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
                 f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
                 break;
             }
-            
-            else if(binary_search(Other_suffix, Other_suffix+lenStringArray(Other_suffix), beta))
+
+            else if(binary_search(Other_suffix, Other_suffix+12, beta))
             {                
                 wordWithRoot[k].first = alpha;
                 wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
                 f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
-            }
-            else
-            {
-                wordWithRoot[k].first = alpha;
-                wordWithRoot[k].second = "ayhay";
-                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
                 break;
-            }
+            } 
         }
+        wordWithRoot[k].first = alpha;
+        wordWithRoot[k].second = alpha;
+        f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
+        //break;
     }
 f.close();
+f2.close();
 }
 
 void bangla_POS_tagger()
@@ -266,12 +271,12 @@ int main()
     storeSuffixFromTextFile(3);
     storeSuffixFromTextFile(4);
 
-    sort(Bochon_suffix, Bochon_suffix+lenStringArray(Bochon_suffix) );
-    sort(Bivokti_suffix, Bivokti_suffix+lenStringArray(Bivokti_suffix) );
-    sort(Other_suffix,Other_suffix+lenStringArray(Other_suffix));
-    sort(NotStemmed_suffix,NotStemmed_suffix+lenStringArray(NotStemmed_suffix));
+    sort(Bochon_suffix, Bochon_suffix+36 );
+    sort(Bivokti_suffix, Bivokti_suffix+112 );
+    sort(Other_suffix,Other_suffix+12);
+    sort(NotStemmed_suffix,NotStemmed_suffix+380);
 
     tokeniser();
-    stopWordRemover();
+    //stopWordRemover();
     stemmer();
 }
