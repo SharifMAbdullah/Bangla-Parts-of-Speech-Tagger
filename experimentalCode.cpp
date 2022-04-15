@@ -234,7 +234,7 @@ void stemmer()
             
             else if(binary_search(Bivokti_suffix, Bivokti_suffix+112, beta))
             {
-                f2 << "found Bivokti_suffix which is ->" <<beta << endl;
+                f2 << "found Bivokti_suffix" << endl;
                 wordWithRoot[k].first = alpha;
                 wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
                 f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
@@ -258,9 +258,40 @@ f.close();
 f2.close();
 }
 
-void bangla_POS_tagger()
+void bangla_POS_tagger(string word, string root)
 {
-
+    string tag = getTagFromRule(root);
+    if(tag == tagList)
+        continue;
+    if(isQuantifierMarker(word,quantifierList))
+        continue;
+    if(word!=root && isQuantifierMarker(word,quantifierList))
+        continue;
+    if(word == dictionary)
+        tag = getTag(word,dictionary);
+    else
+        {
+            if(word!=root)
+            {
+                if(root == dictionary)
+                {
+                    tag = getTag(root,dictionary);
+                    if(tag == "Adjective")
+                        tag = "Noun";
+                    else if(getFromVerbDataSet(word,vset) && !isWrongVerbSuffixes(word))
+                        tag = "Verb";
+                    else
+                        tag = "Noun";
+                }
+                else
+                {
+                    if(getFromVerbDataSet(word,vset))
+                        tag = "Verb";
+                    else
+                        tag = "Noun";
+                }
+            }
+        }
 }
 
 int main()
@@ -279,4 +310,5 @@ int main()
     tokeniser();
     //stopWordRemover();
     stemmer();
+    
 }
