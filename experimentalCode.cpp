@@ -5,14 +5,23 @@
 #include <algorithm>
 using namespace std;
 #define N 1000
+#define M 70000
 
 string strings[N];
 string tokenizedWords[N];
+
 pair<string,string> wordWithRoot[N];
 string NotStemmed_suffix[N];
 string Bivokti_suffix[N];
 string Bochon_suffix[N];
 string Other_suffix[N];
+
+string adverbSuffix[2] = {"ভাবে","ভাবেই"};
+string nounSuffix[11] = {"শীল","োয়ান","োয়ালা","খানা","গিরি","দানি","নবিশ","বন্দি","বাজি","ানো","ায়ন"};
+string adjectiveSuffix[5] = {"জনক","মূলক","ব্যাপী","যোগ্য","কেন্দ্রিক"};
+string Verb[M];
+string dictionary[M];
+
 
 int len(string str)  
 {  
@@ -258,6 +267,10 @@ f.close();
 f2.close();
 }
 
+string getTagFromRule(string root)
+{
+    
+}
 void bangla_POS_tagger(string word, string root)
 {
     string tag = getTagFromRule(root);
