@@ -3,6 +3,7 @@
 #include <string>
 #include <fstream>
 #include <algorithm>
+#include <sstream>
 using namespace std;
 #define N 1000
 #define M 70000
@@ -10,7 +11,7 @@ using namespace std;
 string strings[N];
 string tokenizedWords[N];
 
-pair<string,string> wordWithRoot[N];
+pair <string, pair<string,string>> wordWithRootAndSuffix[N];
 string NotStemmed_suffix[N];
 string Bivokti_suffix[N];
 string Bochon_suffix[N];
@@ -45,15 +46,27 @@ return i;
 void storeStrings()
 {
     fstream f;
+    istringstream iss;
     string s;
     int i = 0;
     
     f.open("read.txt");
-    while(getline(f,s,' '))
-    {
-        strings[i] = s;
-        i++;
-    }
+    string word,line;
+    while(getline(f,line,' '))
+        {
+            if(f.good())
+            {
+                iss.clear();
+                iss.str(line);
+                while(iss.good())
+                {
+                    iss >> word;
+                    strings[i] = word;
+                    i++;
+                }
+            }
+        }
+        
 f.close();
 }
 
@@ -210,19 +223,23 @@ void stemmer()
     fstream f,f2;
     f2.open("test.txt");
     f.open("write.txt");
-    for(int i=0;i<size(tokenizedWords);i++)
+    for(int i=0;i<65;i++) // <---------------------CORRECTION NEEDED
     {
         string alpha = "";
         int n = tokenizedWords[i].size();
         alpha = tokenizedWords[i];
         
-        if(binary_search(NotStemmed_suffix, NotStemmed_suffix+380, alpha))
+        bool is_bochon = false, is_bivokti = false, is_other = false;
+        
+        if(binary_search(NotStemmed_suffix, NotStemmed_suffix+380, alpha)) // <---------------------CORRECTION NEEDED
             {
                 cout << " outer loop" << endl;
                 f2 << "found NotStemmed_suffix where alpha is " << alpha << endl;
-                wordWithRoot[k].first = alpha;
-                wordWithRoot[k].second = "";
-                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl; 
+                wordWithRootAndSuffix[k].first = alpha;
+                wordWithRootAndSuffix[k].second.first = alpha;
+                wordWithRootAndSuffix[k].second.second = "";
+                
+                f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 continue;
             }
                 
@@ -232,80 +249,92 @@ void stemmer()
 			beta +=  alpha.substr(len);
 		    f2 << " beta at " << i <<"th word at position " << len << " is "<<beta << " where alpha " <<alpha<<endl; 
        
-            if(binary_search(Bochon_suffix, Bochon_suffix+36, beta))
+            if(binary_search(Bochon_suffix, Bochon_suffix+36, beta)) // <---------------------CORRECTION NEEDED
             {
+                is_bochon = true;
                 f2 << "found Bochon_suffix" << endl;
-                wordWithRoot[k].first = alpha;
-                wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
-                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
+                wordWithRootAndSuffix[k].first = alpha;
+                wordWithRootAndSuffix[k].second.first = trimmer(tokenizedWords[i], beta);
+                wordWithRootAndSuffix[k].second.second = beta;
+                f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
             }
             
-            else if(binary_search(Bivokti_suffix, Bivokti_suffix+112, beta))
+            else if(binary_search(Bivokti_suffix, Bivokti_suffix+114, beta)) // <---------------------CORRECTION NEEDED
             {
+                is_bivokti = true;
                 f2 << "found Bivokti_suffix" << endl;
-                wordWithRoot[k].first = alpha;
-                wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
-                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
+                wordWithRootAndSuffix[k].first = alpha;
+                wordWithRootAndSuffix[k].second.first = trimmer(tokenizedWords[i], beta);
+                wordWithRootAndSuffix[k].second.second = beta;
+                f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
             }
 
-            else if(binary_search(Other_suffix, Other_suffix+12, beta))
-            {                
-                wordWithRoot[k].first = alpha;
-                wordWithRoot[k].second = trimmer(tokenizedWords[i], beta);
-                f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
+            else if(binary_search(Other_suffix, Other_suffix+13, beta)) // <---------------------CORRECTION NEEDED
+            {   
+                is_other = true;
+                f2 << "found Other_suffix" << endl;
+                wordWithRootAndSuffix[k].first = alpha;
+                wordWithRootAndSuffix[k].second.first = trimmer(tokenizedWords[i], beta);
+                wordWithRootAndSuffix[k].second.second = beta;
+                f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
             } 
         }
-        wordWithRoot[k].first = alpha;
-        wordWithRoot[k].second = alpha;
-        f<<wordWithRoot[k].first << " " << wordWithRoot[k].second<<endl;
+        
+        if(is_other || is_bivokti || is_bochon)
+            continue;
+            
+        wordWithRootAndSuffix[k].first = alpha;
+        wordWithRootAndSuffix[k].second.first = alpha;
+        wordWithRootAndSuffix[k].second.second = "";
+        f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
         //break;
     }
 f.close();
 f2.close();
 }
 
-string getTagFromRule(string root)
-{
+// string getTagFromRule(string root)
+// {
     
-}
-void bangla_POS_tagger(string word, string root)
-{
-    string tag = getTagFromRule(root);
-    if(tag == tagList)
-        continue;
-    if(isQuantifierMarker(word,quantifierList))
-        continue;
-    if(word!=root && isQuantifierMarker(word,quantifierList))
-        continue;
-    if(word == dictionary)
-        tag = getTag(word,dictionary);
-    else
-        {
-            if(word!=root)
-            {
-                if(root == dictionary)
-                {
-                    tag = getTag(root,dictionary);
-                    if(tag == "Adjective")
-                        tag = "Noun";
-                    else if(getFromVerbDataSet(word,vset) && !isWrongVerbSuffixes(word))
-                        tag = "Verb";
-                    else
-                        tag = "Noun";
-                }
-                else
-                {
-                    if(getFromVerbDataSet(word,vset))
-                        tag = "Verb";
-                    else
-                        tag = "Noun";
-                }
-            }
-        }
-}
+// }
+// void bangla_POS_tagger(string word, string root)
+// {
+//     string tag = getTagFromRule(root);
+//     if(tag == tagList)
+//         continue;
+//     if(isQuantifierMarker(word,quantifierList))
+//         continue;
+//     if(word!=root && isQuantifierMarker(word,quantifierList))
+//         continue;
+//     if(word == dictionary)
+//         tag = getTag(word,dictionary);
+//     else
+//         {
+//             if(word!=root)
+//             {
+//                 if(root == dictionary)
+//                 {
+//                     tag = getTag(root,dictionary);
+//                     if(tag == "Adjective")
+//                         tag = "Noun";
+//                     else if(getFromVerbDataSet(word,vset) && !isWrongVerbSuffixes(word))
+//                         tag = "Verb";
+//                     else
+//                         tag = "Noun";
+//                 }
+//                 else
+//                 {
+//                     if(getFromVerbDataSet(word,vset))
+//                         tag = "Verb";
+//                     else
+//                         tag = "Noun";
+//                 }
+//             }
+//         }
+// }
 
 int main()
 {
@@ -315,11 +344,13 @@ int main()
     storeSuffixFromTextFile(3);
     storeSuffixFromTextFile(4);
 
-    sort(Bochon_suffix, Bochon_suffix+36 );
-    sort(Bivokti_suffix, Bivokti_suffix+112 );
-    sort(Other_suffix,Other_suffix+12);
-    sort(NotStemmed_suffix,NotStemmed_suffix+380);
-
+    //---------------------CORRECTION NEEDED----------
+    sort(Bochon_suffix, Bochon_suffix+36 );         //
+    sort(Bivokti_suffix, Bivokti_suffix+114 );      //
+    sort(Other_suffix,Other_suffix+13);             //
+    sort(NotStemmed_suffix,NotStemmed_suffix+380);  //
+    //---------------------CORRECTION NEEDED---------
+    
     tokeniser();
     //stopWordRemover();
     stemmer();
