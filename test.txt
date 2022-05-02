@@ -4,7 +4,13 @@ found NotStemmed_suffix where alpha is ক্লাস
  beta at 3th word at position 38 is � where alpha পাকিস্তানিদের
  beta at 3th word at position 37 is �� where alpha পাকিস্তানিদের
  beta at 3th word at position 36 is র where alpha পাকিস্তানিদের
-found Bivokti_suffix
+ beta at 3th word at position 35 is �র where alpha পাকিস্তানিদের
+ beta at 3th word at position 34 is ��র where alpha পাকিস্তানিদের
+ beta at 3th word at position 33 is ের where alpha পাকিস্তানিদের
+ beta at 3th word at position 32 is �ের where alpha পাকিস্তানিদের
+ beta at 3th word at position 31 is ��ের where alpha পাকিস্তানিদের
+ beta at 3th word at position 30 is দের where alpha পাকিস্তানিদের
+found Bochon_suffix
 found NotStemmed_suffix where alpha is করায়
 found NotStemmed_suffix where alpha is অবশ্য
  beta at 6th word at position 14 is � where alpha উনিশশ
@@ -83,7 +89,24 @@ found Bivokti_suffix
  beta at 10th word at position 20 is � where alpha সৃষ্টির
  beta at 10th word at position 19 is �� where alpha সৃষ্টির
  beta at 10th word at position 18 is র where alpha সৃষ্টির
-found Bivokti_suffix
+ beta at 10th word at position 17 is �র where alpha সৃষ্টির
+ beta at 10th word at position 16 is ��র where alpha সৃষ্টির
+ beta at 10th word at position 15 is ির where alpha সৃষ্টির
+ beta at 10th word at position 14 is �ির where alpha সৃষ্টির
+ beta at 10th word at position 13 is ��ির where alpha সৃষ্টির
+ beta at 10th word at position 12 is টির where alpha সৃষ্টির
+ beta at 10th word at position 11 is �টির where alpha সৃষ্টির
+ beta at 10th word at position 10 is ��টির where alpha সৃষ্টির
+ beta at 10th word at position 9 is ্টির where alpha সৃষ্টির
+ beta at 10th word at position 8 is �্টির where alpha সৃষ্টির
+ beta at 10th word at position 7 is ��্টির where alpha সৃষ্টির
+ beta at 10th word at position 6 is ষ্টির where alpha সৃষ্টির
+ beta at 10th word at position 5 is �ষ্টির where alpha সৃষ্টির
+ beta at 10th word at position 4 is ��ষ্টির where alpha সৃষ্টির
+ beta at 10th word at position 3 is ৃষ্টির where alpha সৃষ্টির
+ beta at 10th word at position 2 is �ৃষ্টির where alpha সৃষ্টির
+ beta at 10th word at position 1 is ��ৃষ্টির where alpha সৃষ্টির
+ beta at 10th word at position 0 is সৃষ্টির where alpha সৃষ্টির
  beta at 11th word at position 14 is � where alpha পরপরই
  beta at 11th word at position 13 is �� where alpha পরপরই
  beta at 11th word at position 12 is ই where alpha পরপরই
@@ -102,7 +125,21 @@ found Bivokti_suffix
  beta at 12th word at position 17 is � where alpha দেশটির
  beta at 12th word at position 16 is �� where alpha দেশটির
  beta at 12th word at position 15 is র where alpha দেশটির
-found Bivokti_suffix
+ beta at 12th word at position 14 is �র where alpha দেশটির
+ beta at 12th word at position 13 is ��র where alpha দেশটির
+ beta at 12th word at position 12 is ির where alpha দেশটির
+ beta at 12th word at position 11 is �ির where alpha দেশটির
+ beta at 12th word at position 10 is ��ির where alpha দেশটির
+ beta at 12th word at position 9 is টির where alpha দেশটির
+ beta at 12th word at position 8 is �টির where alpha দেশটির
+ beta at 12th word at position 7 is ��টির where alpha দেশটির
+ beta at 12th word at position 6 is শটির where alpha দেশটির
+ beta at 12th word at position 5 is �শটির where alpha দেশটির
+ beta at 12th word at position 4 is ��শটির where alpha দেশটির
+ beta at 12th word at position 3 is েশটির where alpha দেশটির
+ beta at 12th word at position 2 is �েশটির where alpha দেশটির
+ beta at 12th word at position 1 is ��েশটির where alpha দেশটির
+ beta at 12th word at position 0 is দেশটির where alpha দেশটির
  beta at 13th word at position 32 is � where alpha রাষ্ট্রভাষা
  beta at 13th word at position 31 is �� where alpha রাষ্ট্রভাষা
  beta at 13th word at position 30 is া where alpha রাষ্ট্রভাষা
@@ -151,7 +188,18 @@ found Bivokti_suffix
  beta at 17th word at position 14 is � where alpha দেবার
  beta at 17th word at position 13 is �� where alpha দেবার
  beta at 17th word at position 12 is র where alpha দেবার
-found Bivokti_suffix
+ beta at 17th word at position 11 is �র where alpha দেবার
+ beta at 17th word at position 10 is ��র where alpha দেবার
+ beta at 17th word at position 9 is ার where alpha দেবার
+ beta at 17th word at position 8 is �ার where alpha দেবার
+ beta at 17th word at position 7 is ��ার where alpha দেবার
+ beta at 17th word at position 6 is বার where alpha দেবার
+ beta at 17th word at position 5 is �বার where alpha দেবার
+ beta at 17th word at position 4 is ��বার where alpha দেবার
+ beta at 17th word at position 3 is েবার where alpha দেবার
+ beta at 17th word at position 2 is �েবার where alpha দেবার
+ beta at 17th word at position 1 is ��েবার where alpha দেবার
+ beta at 17th word at position 0 is দেবার where alpha দেবার
  beta at 18th word at position 17 is � where alpha তৎপরতা
  beta at 18th word at position 16 is �� where alpha তৎপরতা
  beta at 18th word at position 15 is া where alpha তৎপরতা
@@ -250,11 +298,25 @@ found Bivokti_suffix
  beta at 26th word at position 14 is � where alpha লেখার
  beta at 26th word at position 13 is �� where alpha লেখার
  beta at 26th word at position 12 is র where alpha লেখার
-found Bivokti_suffix
+ beta at 26th word at position 11 is �র where alpha লেখার
+ beta at 26th word at position 10 is ��র where alpha লেখার
+ beta at 26th word at position 9 is ার where alpha লেখার
+ beta at 26th word at position 8 is �ার where alpha লেখার
+ beta at 26th word at position 7 is ��ার where alpha লেখার
+ beta at 26th word at position 6 is খার where alpha লেখার
+ beta at 26th word at position 5 is �খার where alpha লেখার
+ beta at 26th word at position 4 is ��খার where alpha লেখার
+ beta at 26th word at position 3 is েখার where alpha লেখার
+ beta at 26th word at position 2 is �েখার where alpha লেখার
+ beta at 26th word at position 1 is ��েখার where alpha লেখার
+ beta at 26th word at position 0 is লেখার where alpha লেখার
  beta at 27th word at position 29 is � where alpha পরিকল্পনাও
  beta at 27th word at position 28 is �� where alpha পরিকল্পনাও
  beta at 27th word at position 27 is ও where alpha পরিকল্পনাও
-found Other_suffix
+ beta at 27th word at position 26 is �ও where alpha পরিকল্পনাও
+ beta at 27th word at position 25 is ��ও where alpha পরিকল্পনাও
+ beta at 27th word at position 24 is াও where alpha পরিকল্পনাও
+found Bivokti_suffix
  beta at 28th word at position 11 is � where alpha চালু
  beta at 28th word at position 10 is �� where alpha চালু
  beta at 28th word at position 9 is ু where alpha চালু
@@ -308,7 +370,24 @@ found Bivokti_suffix
  beta at 32th word at position 20 is � where alpha সরকারের
  beta at 32th word at position 19 is �� where alpha সরকারের
  beta at 32th word at position 18 is র where alpha সরকারের
-found Bivokti_suffix
+ beta at 32th word at position 17 is �র where alpha সরকারের
+ beta at 32th word at position 16 is ��র where alpha সরকারের
+ beta at 32th word at position 15 is ের where alpha সরকারের
+ beta at 32th word at position 14 is �ের where alpha সরকারের
+ beta at 32th word at position 13 is ��ের where alpha সরকারের
+ beta at 32th word at position 12 is রের where alpha সরকারের
+ beta at 32th word at position 11 is �রের where alpha সরকারের
+ beta at 32th word at position 10 is ��রের where alpha সরকারের
+ beta at 32th word at position 9 is ারের where alpha সরকারের
+ beta at 32th word at position 8 is �ারের where alpha সরকারের
+ beta at 32th word at position 7 is ��ারের where alpha সরকারের
+ beta at 32th word at position 6 is কারের where alpha সরকারের
+ beta at 32th word at position 5 is �কারের where alpha সরকারের
+ beta at 32th word at position 4 is ��কারের where alpha সরকারের
+ beta at 32th word at position 3 is রকারের where alpha সরকারের
+ beta at 32th word at position 2 is �রকারের where alpha সরকারের
+ beta at 32th word at position 1 is ��রকারের where alpha সরকারের
+ beta at 32th word at position 0 is সরকারের where alpha সরকারের
 found NotStemmed_suffix where alpha is মধ্যে
  beta at 34th word at position 26 is � where alpha আগাগোড়াই
  beta at 34th word at position 25 is �� where alpha আগাগোড়াই
@@ -431,7 +510,13 @@ found NotStemmed_suffix where alpha is ছিল
  beta at 41th word at position 35 is � where alpha ইতিহাসবিদদের
  beta at 41th word at position 34 is �� where alpha ইতিহাসবিদদের
  beta at 41th word at position 33 is র where alpha ইতিহাসবিদদের
-found Bivokti_suffix
+ beta at 41th word at position 32 is �র where alpha ইতিহাসবিদদের
+ beta at 41th word at position 31 is ��র where alpha ইতিহাসবিদদের
+ beta at 41th word at position 30 is ের where alpha ইতিহাসবিদদের
+ beta at 41th word at position 29 is �ের where alpha ইতিহাসবিদদের
+ beta at 41th word at position 28 is ��ের where alpha ইতিহাসবিদদের
+ beta at 41th word at position 27 is দের where alpha ইতিহাসবিদদের
+found Bochon_suffix
  beta at 42th word at position 8 is � where alpha মতে
  beta at 42th word at position 7 is �� where alpha মতে
  beta at 42th word at position 6 is ে where alpha মতে
@@ -612,111 +697,33 @@ found Bivokti_suffix
  beta at 57th word at position 29 is � where alpha প্রবর্তনের
  beta at 57th word at position 28 is �� where alpha প্রবর্তনের
  beta at 57th word at position 27 is র where alpha প্রবর্তনের
-found Bivokti_suffix
- beta at 58th word at position 17 is � where alpha উদ্যোগ
- beta at 58th word at position 16 is �� where alpha উদ্যোগ
- beta at 58th word at position 15 is গ where alpha উদ্যোগ
- beta at 58th word at position 14 is �গ where alpha উদ্যোগ
- beta at 58th word at position 13 is ��গ where alpha উদ্যোগ
- beta at 58th word at position 12 is োগ where alpha উদ্যোগ
- beta at 58th word at position 11 is �োগ where alpha উদ্যোগ
- beta at 58th word at position 10 is ��োগ where alpha উদ্যোগ
- beta at 58th word at position 9 is যোগ where alpha উদ্যোগ
- beta at 58th word at position 8 is �যোগ where alpha উদ্যোগ
- beta at 58th word at position 7 is ��যোগ where alpha উদ্যোগ
- beta at 58th word at position 6 is ্যোগ where alpha উদ্যোগ
- beta at 58th word at position 5 is �্যোগ where alpha উদ্যোগ
- beta at 58th word at position 4 is ��্যোগ where alpha উদ্যোগ
- beta at 58th word at position 3 is দ্যোগ where alpha উদ্যোগ
- beta at 58th word at position 2 is �দ্যোগ where alpha উদ্যোগ
- beta at 58th word at position 1 is ��দ্যোগ where alpha উদ্যোগ
- beta at 58th word at position 0 is উদ্যোগ where alpha উদ্যোগ
- beta at 59th word at position 14 is � where alpha নেয়া
- beta at 59th word at position 13 is �� where alpha নেয়া
- beta at 59th word at position 12 is া where alpha নেয়া
- beta at 59th word at position 11 is �া where alpha নেয়া
- beta at 59th word at position 10 is ��া where alpha নেয়া
- beta at 59th word at position 9 is ়া where alpha নেয়া
- beta at 59th word at position 8 is �়া where alpha নেয়া
- beta at 59th word at position 7 is ��়া where alpha নেয়া
- beta at 59th word at position 6 is য়া where alpha নেয়া
- beta at 59th word at position 5 is �য়া where alpha নেয়া
- beta at 59th word at position 4 is ��য়া where alpha নেয়া
- beta at 59th word at position 3 is েয়া where alpha নেয়া
- beta at 59th word at position 2 is �েয়া where alpha নেয়া
- beta at 59th word at position 1 is ��েয়া where alpha নেয়া
- beta at 59th word at position 0 is নেয়া where alpha নেয়া
- beta at 60th word at position 8 is � where alpha হয়
- beta at 60th word at position 7 is �� where alpha হয়
- beta at 60th word at position 6 is ় where alpha হয়
- beta at 60th word at position 5 is �় where alpha হয়
- beta at 60th word at position 4 is ��় where alpha হয়
- beta at 60th word at position 3 is য় where alpha হয়
- beta at 60th word at position 2 is �য় where alpha হয়
- beta at 60th word at position 1 is ��য় where alpha হয়
- beta at 60th word at position 0 is হয় where alpha হয়
-found NotStemmed_suffix where alpha is যার
- beta at 62th word at position 23 is � where alpha সূত্রপাত
- beta at 62th word at position 22 is �� where alpha সূত্রপাত
- beta at 62th word at position 21 is ত where alpha সূত্রপাত
- beta at 62th word at position 20 is �ত where alpha সূত্রপাত
- beta at 62th word at position 19 is ��ত where alpha সূত্রপাত
- beta at 62th word at position 18 is াত where alpha সূত্রপাত
- beta at 62th word at position 17 is �াত where alpha সূত্রপাত
- beta at 62th word at position 16 is ��াত where alpha সূত্রপাত
- beta at 62th word at position 15 is পাত where alpha সূত্রপাত
- beta at 62th word at position 14 is �পাত where alpha সূত্রপাত
- beta at 62th word at position 13 is ��পাত where alpha সূত্রপাত
- beta at 62th word at position 12 is রপাত where alpha সূত্রপাত
- beta at 62th word at position 11 is �রপাত where alpha সূত্রপাত
- beta at 62th word at position 10 is ��রপাত where alpha সূত্রপাত
- beta at 62th word at position 9 is ্রপাত where alpha সূত্রপাত
- beta at 62th word at position 8 is �্রপাত where alpha সূত্রপাত
- beta at 62th word at position 7 is ��্রপাত where alpha সূত্রপাত
- beta at 62th word at position 6 is ত্রপাত where alpha সূত্রপাত
- beta at 62th word at position 5 is �ত্রপাত where alpha সূত্রপাত
- beta at 62th word at position 4 is ��ত্রপাত where alpha সূত্রপাত
- beta at 62th word at position 3 is ূত্রপাত where alpha সূত্রপাত
- beta at 62th word at position 2 is �ূত্রপাত where alpha সূত্রপাত
- beta at 62th word at position 1 is ��ূত্রপাত where alpha সূত্রপাত
- beta at 62th word at position 0 is সূত্রপাত where alpha সূত্রপাত
- beta at 63th word at position 20 is � where alpha হয়েছিল
- beta at 63th word at position 19 is �� where alpha হয়েছিল
- beta at 63th word at position 18 is ল where alpha হয়েছিল
- beta at 63th word at position 17 is �ল where alpha হয়েছিল
- beta at 63th word at position 16 is ��ল where alpha হয়েছিল
- beta at 63th word at position 15 is িল where alpha হয়েছিল
- beta at 63th word at position 14 is �িল where alpha হয়েছিল
- beta at 63th word at position 13 is ��িল where alpha হয়েছিল
- beta at 63th word at position 12 is ছিল where alpha হয়েছিল
-found Bivokti_suffix
- beta at 64th word at position 11 is � where alpha ১৯৪৭
- beta at 64th word at position 10 is �� where alpha ১৯৪৭
- beta at 64th word at position 9 is ৭ where alpha ১৯৪৭
- beta at 64th word at position 8 is �৭ where alpha ১৯৪৭
- beta at 64th word at position 7 is ��৭ where alpha ১৯৪৭
- beta at 64th word at position 6 is ৪৭ where alpha ১৯৪৭
- beta at 64th word at position 5 is �৪৭ where alpha ১৯৪৭
- beta at 64th word at position 4 is ��৪৭ where alpha ১৯৪৭
- beta at 64th word at position 3 is ৯৪৭ where alpha ১৯৪৭
- beta at 64th word at position 2 is �৯৪৭ where alpha ১৯৪৭
- beta at 64th word at position 1 is ��৯৪৭ where alpha ১৯৪৭
- beta at 64th word at position 0 is ১৯৪৭ where alpha ১৯৪৭
-ি
- beta at 55th word at position 0 is আরবি where alpha আরবি
- beta at 56th word at position 8 is � where alpha হরফ
- beta at 56th word at position 7 is �� where alpha হরফ
- beta at 56th word at position 6 is ফ where alpha হরফ
- beta at 56th word at position 5 is �ফ where alpha হরফ
- beta at 56th word at position 4 is ��ফ where alpha হরফ
- beta at 56th word at position 3 is রফ where alpha হরফ
- beta at 56th word at position 2 is �রফ where alpha হরফ
- beta at 56th word at position 1 is ��রফ where alpha হরফ
- beta at 56th word at position 0 is হরফ where alpha হরফ
- beta at 57th word at position 29 is � where alpha প্রবর্তনের
- beta at 57th word at position 28 is �� where alpha প্রবর্তনের
- beta at 57th word at position 27 is র where alpha প্রবর্তনের
-found Bivokti_suffix
+ beta at 57th word at position 26 is �র where alpha প্রবর্তনের
+ beta at 57th word at position 25 is ��র where alpha প্রবর্তনের
+ beta at 57th word at position 24 is ের where alpha প্রবর্তনের
+ beta at 57th word at position 23 is �ের where alpha প্রবর্তনের
+ beta at 57th word at position 22 is ��ের where alpha প্রবর্তনের
+ beta at 57th word at position 21 is নের where alpha প্রবর্তনের
+ beta at 57th word at position 20 is �নের where alpha প্রবর্তনের
+ beta at 57th word at position 19 is ��নের where alpha প্রবর্তনের
+ beta at 57th word at position 18 is তনের where alpha প্রবর্তনের
+ beta at 57th word at position 17 is �তনের where alpha প্রবর্তনের
+ beta at 57th word at position 16 is ��তনের where alpha প্রবর্তনের
+ beta at 57th word at position 15 is ্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 14 is �্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 13 is ��্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 12 is র্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 11 is �র্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 10 is ��র্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 9 is বর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 8 is �বর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 7 is ��বর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 6 is রবর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 5 is �রবর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 4 is ��রবর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 3 is ্রবর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 2 is �্রবর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 1 is ��্রবর্তনের where alpha প্রবর্তনের
+ beta at 57th word at position 0 is প্রবর্তনের where alpha প্রবর্তনের
  beta at 58th word at position 17 is � where alpha উদ্যোগ
  beta at 58th word at position 16 is �� where alpha উদ্যোগ
  beta at 58th word at position 15 is গ where alpha উদ্যোগ

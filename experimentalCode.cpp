@@ -14,15 +14,17 @@ string tokenizedWords[N];
 pair <string, pair<string,string>> wordWithRootAndSuffix[N];
 string NotStemmed_suffix[N];
 string Bivokti_suffix[N];
-string Bochon_suffix[N];
+string Bochon_suffix[] = {"ইতেছি","ও","টাই","টার","তে","তেই","দের","বার","লেম","ের","েরই","য়ে"};
 string Other_suffix[N];
 
 string adverbSuffix[2] = {"ভাবে","ভাবেই"};
 string nounSuffix[11] = {"শীল","োয়ান","োয়ালা","খানা","গিরি","দানি","নবিশ","বন্দি","বাজি","ানো","ায়ন"};
 string adjectiveSuffix[5] = {"জনক","মূলক","ব্যাপী","যোগ্য","কেন্দ্রিক"};
+string quantifierList[N];
 string Verb[M];
 string dictionary[M];
 
+string tags[N];
 
 int len(string str)  
 {  
@@ -103,14 +105,14 @@ void storeSuffixFromTextFile(int choice)
         }
     else if(choice == 3)
         {
-            f.open("Other_suffix.txt");
+            f.open("Quantifiers.txt");
             while(getline(f,s))
                 {
                     //cout << "ok other" <<endl;
-                    Other_suffix[i] = s;
+                    quantifierList[i] = s;
                     i++;
                 }
-        cout << "length other : " << lenStringArray(Other_suffix) << endl;
+        cout << "length quantifiers : " << lenStringArray(quantifierList) << endl;
         f.close();
         }
     else if(choice == 4)
@@ -217,6 +219,21 @@ string trimmer(string og_string, string to_be_split_string)
 		return c;
 }
 
+void storeIntoWordsWithRoots(string alpha, string beta, bool *is_true, int index)
+{
+    *is_true = true;
+    wordWithRootAndSuffix[index].first = alpha;
+    wordWithRootAndSuffix[index].second.first = trimmer(alpha, beta);
+    wordWithRootAndSuffix[index].second.second = beta;
+}
+
+void storeIntoWordsWithRoots(string alpha, string beta, int index)
+{
+    wordWithRootAndSuffix[index].first = alpha;
+    wordWithRootAndSuffix[index].second.first = beta;
+    wordWithRootAndSuffix[index].second.second = "";
+}
+
 void stemmer()
 {
     int k =0;
@@ -233,11 +250,9 @@ void stemmer()
         
         if(binary_search(NotStemmed_suffix, NotStemmed_suffix+380, alpha)) // <---------------------CORRECTION NEEDED
             {
-                cout << " outer loop" << endl;
+                //cout << " outer loop" << endl;
                 f2 << "found NotStemmed_suffix where alpha is " << alpha << endl;
-                wordWithRootAndSuffix[k].first = alpha;
-                wordWithRootAndSuffix[k].second.first = alpha;
-                wordWithRootAndSuffix[k].second.second = "";
+                storeIntoWordsWithRoots(alpha,alpha,k);
                 
                 f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 continue;
@@ -251,33 +266,24 @@ void stemmer()
        
             if(binary_search(Bochon_suffix, Bochon_suffix+36, beta)) // <---------------------CORRECTION NEEDED
             {
-                is_bochon = true;
                 f2 << "found Bochon_suffix" << endl;
-                wordWithRootAndSuffix[k].first = alpha;
-                wordWithRootAndSuffix[k].second.first = trimmer(tokenizedWords[i], beta);
-                wordWithRootAndSuffix[k].second.second = beta;
+                storeIntoWordsWithRoots(alpha, beta, &is_bochon, k);
                 f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
             }
             
-            else if(binary_search(Bivokti_suffix, Bivokti_suffix+114, beta)) // <---------------------CORRECTION NEEDED
+            else if(binary_search(Bivokti_suffix, Bivokti_suffix+112, beta)) // <---------------------CORRECTION NEEDED
             {
-                is_bivokti = true;
                 f2 << "found Bivokti_suffix" << endl;
-                wordWithRootAndSuffix[k].first = alpha;
-                wordWithRootAndSuffix[k].second.first = trimmer(tokenizedWords[i], beta);
-                wordWithRootAndSuffix[k].second.second = beta;
+                storeIntoWordsWithRoots(alpha, beta, &is_bivokti, k);
                 f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
             }
 
             else if(binary_search(Other_suffix, Other_suffix+13, beta)) // <---------------------CORRECTION NEEDED
             {   
-                is_other = true;
                 f2 << "found Other_suffix" << endl;
-                wordWithRootAndSuffix[k].first = alpha;
-                wordWithRootAndSuffix[k].second.first = trimmer(tokenizedWords[i], beta);
-                wordWithRootAndSuffix[k].second.second = beta;
+                storeIntoWordsWithRoots(alpha, beta, &is_other, k);
                 f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
             } 
@@ -286,55 +292,99 @@ void stemmer()
         if(is_other || is_bivokti || is_bochon)
             continue;
             
-        wordWithRootAndSuffix[k].first = alpha;
-        wordWithRootAndSuffix[k].second.first = alpha;
-        wordWithRootAndSuffix[k].second.second = "";
+        storeIntoWordsWithRoots(alpha, alpha, k);
         f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
-        //break;
     }
 f.close();
 f2.close();
 }
 
-// string getTagFromRule(string root)
-// {
-    
-// }
-// void bangla_POS_tagger(string word, string root)
-// {
-//     string tag = getTagFromRule(root);
-//     if(tag == tagList)
-//         continue;
-//     if(isQuantifierMarker(word,quantifierList))
-//         continue;
-//     if(word!=root && isQuantifierMarker(word,quantifierList))
-//         continue;
-//     if(word == dictionary)
-//         tag = getTag(word,dictionary);
-//     else
-//         {
-//             if(word!=root)
-//             {
-//                 if(root == dictionary)
-//                 {
-//                     tag = getTag(root,dictionary);
-//                     if(tag == "Adjective")
-//                         tag = "Noun";
-//                     else if(getFromVerbDataSet(word,vset) && !isWrongVerbSuffixes(word))
-//                         tag = "Verb";
-//                     else
-//                         tag = "Noun";
-//                 }
-//                 else
-//                 {
-//                     if(getFromVerbDataSet(word,vset))
-//                         tag = "Verb";
-//                     else
-//                         tag = "Noun";
-//                 }
-//             }
-//         }
-// }
+string getTagFromRule(string suffix)
+{
+    for(int i=0;i<2;i++)
+        {
+            if(adverbSuffix[i] == suffix)
+                return "adverb";
+        }
+        
+    for(int i=0;i<11;i++)
+        {
+            if(nounSuffix[i] == suffix)
+                return "noun";
+        }
+        
+    for(int i=0;i<5;i++)
+        {
+            if(adjectiveSuffix[i] == suffix)
+                return "adjective";
+        }
+return "unknown";
+}
+
+string isQuantifierMarker(string word, string *temp)
+{
+    if(binary_search(quantifierList, quantifierList+36, word) 
+        {
+            *temp = "noun"
+            return true;
+        }
+        
+    else return false;
+}
+
+void bangla_POS_tagger(int index, string word, string root, string suffix)
+{
+    string tags[index] = getTagFromRule(suffix); //detects noun,adj,adv
+    if(tags[index] != "unknown")
+        continue;    
+
+    string temp;
+    if(isQuantifierMarker(word, &temp)) //detects quantifiers as nouns
+        tags[index] = temp; 
+    else 
+        tags[index] = "unknown";
+
+    if(tags[index] != "unknown")    //checks if a word is noun then whether it's predecessors are adjective or not
+        {
+            tags[index-1] = "adjective";
+            if(tags[index-2] == "adjective")
+                tags[index-1] = "noun";
+
+            continue;
+        }
+
+    if(word!=root && isQuantifierMarker(root))  //if a word is not found in quantifier list, checks if it's root word exists in the list
+        {
+            tags[index] = isQuantifierMarker(root);
+            continue;
+        }
+
+    if(word == dictionary)
+        tag = getTag(word,dictionary);
+    else
+        {
+            if(word!=root)
+            {
+                if(root == dictionary)
+                {
+                    tag = getTag(root,dictionary);
+                    if(tag == "Adjective")
+                        tag = "Noun";
+                    else if(getFromVerbDataSet(word,vset) && !isWrongVerbSuffixes(word))
+                        tag = "Verb";
+                    else
+                        tag = "Noun";
+                }
+                else
+                {
+                    if(getFromVerbDataSet(word,vset))
+                        tag = "Verb";
+                    else
+                        tag = "Noun";
+                }
+            }
+        }
+}
 
 int main()
 {
@@ -346,8 +396,8 @@ int main()
 
     //---------------------CORRECTION NEEDED----------
     sort(Bochon_suffix, Bochon_suffix+36 );         //
-    sort(Bivokti_suffix, Bivokti_suffix+114 );      //
-    sort(Other_suffix,Other_suffix+13);             //
+    sort(Bivokti_suffix, Bivokti_suffix+112 );      //
+    sort(quantifierList, quantifierList+34);        //
     sort(NotStemmed_suffix,NotStemmed_suffix+380);  //
     //---------------------CORRECTION NEEDED---------
     
