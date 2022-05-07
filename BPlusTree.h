@@ -1,6 +1,7 @@
 #ifndef BPLUSTREE_H
 #define BPLUSTREE_H
-#include<bits/stdc++.h>
+#include<algorithm>
+#include<string>
 using namespace std;
 int MAX = 3;
 

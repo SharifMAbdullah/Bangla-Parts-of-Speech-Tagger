@@ -332,6 +332,24 @@ string isQuantifierMarker(string word, string *temp)
     else return false;
 }
 
+//--------------->NEEDS CORRECTION<-----------------
+void placeHolder()
+{
+    BPTree node;
+	string english,bangla;
+    ifstream ifile;
+    ofstream f;
+    ifile.open("input.txt");
+    if(!ifile) return 0;
+    while(getline(ifile,english))
+    {
+        bangla = english.substr(english.find(",") + 1);
+        english = english.substr(0, english.find(","));
+    	node.insert(english,bangla);
+    }
+}
+//-----------------------------------------------------
+
 void bangla_POS_tagger(int index, string word, string root, string suffix)
 {
     string tags[index] = getTagFromRule(suffix); //detects noun,adj,adv
