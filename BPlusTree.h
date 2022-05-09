@@ -24,7 +24,7 @@ class BPTree {
 
 public:
     BPTree();
-    void search(string);
+    string search(string);
     void insert(string, string);
     void display(Node*);
     Node* getRoot();
@@ -43,7 +43,7 @@ BPTree::BPTree()
     root = NULL;
 }
 
-void BPTree::search(string x)
+string BPTree::search(string x)
 {
     if (root == NULL)
     {
@@ -78,11 +78,12 @@ void BPTree::search(string x)
 			//cout << x << " " << cursor->key[i] << " " << cursor->value[i] << "\n";
             if (cursor->key[i] == x)
             {
-                cout << cursor->key[i] << " " << cursor->value[i] << "\n";
-                return;
+                //cout << cursor->key[i] << " " << cursor->value[i] << "\n";
+                return cursor->value[i];
             }
         }
-        cout << "Not found\n";
+        //cout << "Not found\n";
+        return "unknown";
     }
 }
 
