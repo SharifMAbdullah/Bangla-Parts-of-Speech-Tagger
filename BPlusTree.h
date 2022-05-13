@@ -1,5 +1,6 @@
 #ifndef BPLUSTREE_H
 #define BPLUSTREE_H
+#include<iostream>
 #include<algorithm>
 #include<string>
 using namespace std;
@@ -25,6 +26,7 @@ class BPTree {
 public:
     BPTree();
     string search(string);
+    bool is_found(string);
     void insert(string, string);
     void display(Node*);
     Node* getRoot();
@@ -47,13 +49,12 @@ string BPTree::search(string x)
 {
     if (root == NULL)
     {
-        cout << "Tree is empty\n";
+        return "unknown";
     }
 
     else
     {
         Node* cursor = root;
-
         while (cursor->IS_LEAF == false)
         {
             for (int i = 0;i<cursor->size;i++)
@@ -78,12 +79,52 @@ string BPTree::search(string x)
 			//cout << x << " " << cursor->key[i] << " " << cursor->value[i] << "\n";
             if (cursor->key[i] == x)
             {
-                //cout << cursor->key[i] << " " << cursor->value[i] << "\n";
+                cout << cursor->key[i] << " " << cursor->value[i] << "\n";
                 return cursor->value[i];
             }
         }
         //cout << "Not found\n";
         return "unknown";
+    }
+}
+
+bool BPTree::is_found(string x)
+{
+    if (root == NULL)
+    {
+        return false;
+    }
+
+    else
+    {
+        Node* cursor = root;
+
+        while (cursor->IS_LEAF == false)
+        {
+            for (int i = 0;i<cursor->size;i++)
+			{
+                if (x < cursor->key[i])
+                {
+                    cursor = cursor->ptr[i];
+                    break;
+                }
+
+                if (i == cursor->size - 1)
+                {
+                    cursor = cursor->ptr[i + 1];
+                    break;
+                }
+            }
+        }
+
+        for (int i=0;i<cursor->size;i++)
+		{
+            if (cursor->key[i] == x)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
 

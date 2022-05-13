@@ -59,7 +59,7 @@ void storeNonVerbsInBPlusTree()
     {
         word = pos.substr(pos.find(",") + 1);
         pos = pos.substr(0, pos.find(","));
-    	nodeNonVerb.insert(word, pos);
+    	nodeNonVerb.insert(pos, word);
     }
 
     ifile.close();
@@ -76,7 +76,7 @@ void storeVerbsInBPlusTree()
     {
         word = pos.substr(pos.find(",") + 1);
         pos = pos.substr(0, pos.find(","));
-    	nodeVerb.insert(word, pos);
+    	nodeVerb.insert(pos, word);
     }
 
     ifile.close();
@@ -274,9 +274,8 @@ void storeIntoWordsWithRoots(string alpha, string beta, int index)
 void stemmer()
 {
     int k =0;
-    //fstream f,f2;
-    //f2.open("test.txt");
-    //f.open("write.txt");
+    fstream f;
+    f.open("test.txt");
     for(int i=0;i<65;i++) // <---------------------CORRECTION NEEDED
     {
         string alpha = "";
@@ -284,26 +283,47 @@ void stemmer()
         alpha = tokenizedWords[i];
         
         bool is_bochon = false, is_bivokti = false, is_other = false;
-        
+        bool is_noun = false, is_adj = false, is_adv = false;
+
         if(binary_search(NotStemmed_suffix, NotStemmed_suffix+380, alpha)) // <---------------------CORRECTION NEEDED
             {
-                //cout << " outer loop" << endl;
-                //f2 << "found NotStemmed_suffix where alpha is " << alpha << endl;
+                f << "found NotStemmed_suffix where alpha is " << alpha << endl;
                 storeIntoWordsWithRoots(alpha,alpha,k);
-                
-                //f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
-                continue;
+                f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl;
             }
                 
 	    for (int len = n-1; len >=0; len--)
 		{
 	        string beta = "";
 			beta +=  alpha.substr(len);
-		    //f2 << " beta at " << i <<"th word at position " << len << " is "<<beta << " where alpha " <<alpha<<endl; 
-       
-            if(binary_search(Bochon_suffix, Bochon_suffix+36, beta)) // <---------------------CORRECTION NEEDED
+            f << " beta at " << i <<"th word at position " << len << " is "<<beta << " where alpha " <<alpha<<endl;
+            if(binary_search(nounSuffix, nounSuffix+36, beta)) // <---------------------CORRECTION NEEDED
             {
-                //f2 << "found Bochon_suffix" << endl;
+                f << "found noun suffix" << endl;
+                storeIntoWordsWithRoots(alpha, beta, &is_noun, k);
+                //f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
+                break;
+            }
+
+            else if(binary_search(adverbSuffix, adverbSuffix+2, beta)) // <---------------------CORRECTION NEEDED
+            {
+                f << "found adverb suffix" << endl;
+                storeIntoWordsWithRoots(alpha, beta, &is_adv, k);
+                //f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
+                break;
+            }
+
+            else if(binary_search(adjectiveSuffix ,adjectiveSuffix+36, beta)) // <---------------------CORRECTION NEEDED
+            {
+                f << "found adjective suffix" << endl;
+                storeIntoWordsWithRoots(alpha, beta, &is_adj, k);
+                //f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
+                break;
+            }
+
+            else if(binary_search(Bochon_suffix, Bochon_suffix+36, beta)) // <---------------------CORRECTION NEEDED
+            {
+                f << "found bochon suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_bochon, k);
                 //f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
@@ -311,7 +331,7 @@ void stemmer()
             
             else if(binary_search(Bivokti_suffix, Bivokti_suffix+112, beta)) // <---------------------CORRECTION NEEDED
             {
-                //f2 << "found Bivokti_suffix" << endl;
+                f << "found bivokti suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_bivokti, k);
                 //f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
@@ -319,21 +339,19 @@ void stemmer()
 
             else if(binary_search(Other_suffix, Other_suffix+13, beta)) // <---------------------CORRECTION NEEDED
             {   
-                //f2 << "found Other_suffix" << endl;
+                f << "found other suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_other, k);
                 //f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
                 break;
             } 
         }
         
-        if(is_other || is_bivokti || is_bochon)
+        if(is_other || is_bivokti || is_bochon || is_adj || is_adv || is_noun)
             continue;
             
         storeIntoWordsWithRoots(alpha, alpha, k);
-        //f<<wordWithRootAndSuffix[k].first << " = " << wordWithRootAndSuffix[k].second.first <<" + " << wordWithRootAndSuffix[k].second.second<<endl; 
+        k++;
     }
-//f.close();
-//f2.close();
 }
 
 string getTagFromRule(string suffix)
@@ -373,7 +391,11 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
 {
     tags[index] = getTagFromRule(suffix); //detects noun,adj,adv
     if(tags[index] != "unknown")
-        return;    
+        {
+            cout << tags[index] << endl;
+            return;
+        }
+            
 
     string temp;
     if(isQuantifierMarker(word, &temp)) //detects quantifiers as nouns
@@ -389,6 +411,7 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
                     if(tags[index-2] == "adjective")
                     tags[index-1] = "noun";
                 }
+            cout << tags[index] << endl;
             return;
         }
 
@@ -396,12 +419,16 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
     if(word!=root && isQuantifierMarker(root,&temp))  //if a word is not found in quantifier list, checks if it's root word exists in the list
         {
             tags[index] = temp;
+            cout << tags[index] << endl;
             return;
         }
 
     temp = nodeNonVerb.search(word);
     if(temp != "unknown")
-        tags[index] = nodeNonVerb.search(word);
+        {
+            tags[index] = nodeNonVerb.search(word);
+            cout << tags[index] << endl;
+        }
     else
         {
             temp = "";
@@ -419,6 +446,7 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
                         tags[index] = "Verb";
                     else
                         tags[index] = "Noun";
+                    cout << tags[index] << endl;
                 }
                 else
                 {
@@ -427,6 +455,7 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
                         tags[index] = "Verb";
                     else
                         tags[index] = "Noun";
+                    cout << tags[index] << endl;
                 }
             }
         }
@@ -434,6 +463,7 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
 
 int main()
 {
+    cout<<"পাকিস্তানিদের"<<endl;
     storeStrings();
     storeSuffixFromTextFile(1);
     storeSuffixFromTextFile(2);
