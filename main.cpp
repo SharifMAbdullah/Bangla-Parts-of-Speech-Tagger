@@ -185,11 +185,7 @@ void storeSuffixFromTextFile(int choice)
 
 void tokeniser() 
 {
-
-    char ch;
-    string tp;
     fstream f,f2;
-    f.open("a.txt");
     f2.open("write.txt");
     int k = 0;
 
@@ -226,9 +222,6 @@ void tokeniser()
         k++;
     }
     
-        //for(int i=0;i<lenStringArray(tokenizedWords);i++)
-            //cout << tokenizedWords[i] << endl;
-f.close();
 f2.close();
 }
 
@@ -253,8 +246,7 @@ void stemmer()
     fstream f;
     f.open("test.txt");
     int n = lenStringArray(strings);
-    cout << "ekhetre stemmer e " << n << endl;
-    for(int i=0;i<34;i++) 
+    for(int i=0;i<n;i++) 
     {
         string alpha = "";
         int n = tokenizedWords[i].size();
@@ -276,7 +268,7 @@ void stemmer()
 	        string beta = "";
 			beta +=  alpha.substr(len);
             f << " beta at " << i <<"th word at position " << len << " is "<<beta << " where alpha " <<alpha<<endl;
-            if(binary_search(nounSuffix, nounSuffix+36, beta)) // <---------------------CORRECTION NEEDED
+            if(binary_search(nounSuffix, nounSuffix+36, beta)) 
             {
                 f << "found noun suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_noun, k);
@@ -284,7 +276,7 @@ void stemmer()
                 break;
             }
 
-            else if(binary_search(adverbSuffix, adverbSuffix+2, beta)) // <---------------------CORRECTION NEEDED
+            else if(binary_search(adverbSuffix, adverbSuffix+2, beta)) 
             {
                 f << "found adverb suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_adv, k);
@@ -292,7 +284,7 @@ void stemmer()
                 break;
             }
 
-            else if(binary_search(adjectiveSuffix ,adjectiveSuffix+36, beta)) // <---------------------CORRECTION NEEDED
+            else if(binary_search(adjectiveSuffix ,adjectiveSuffix+36, beta)) 
             {
                 f << "found adjective suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_adj, k);
@@ -300,7 +292,7 @@ void stemmer()
                 break;
             }
 
-            else if(binary_search(Bochon_suffix, Bochon_suffix+36, beta)) // <---------------------CORRECTION NEEDED
+            else if(binary_search(Bochon_suffix, Bochon_suffix+36, beta)) 
             {
                 f << "found bochon suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_bochon, k);
@@ -308,7 +300,7 @@ void stemmer()
                 break;
             }
             
-            else if(binary_search(Bivokti_suffix, Bivokti_suffix+112, beta)) // <---------------------CORRECTION NEEDED
+            else if(binary_search(Bivokti_suffix, Bivokti_suffix+112, beta)) 
             {
                 f << "found bivokti suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_bivokti, k);
@@ -316,7 +308,7 @@ void stemmer()
                 break;
             }
 
-            else if(binary_search(Other_suffix, Other_suffix+13, beta)) // <---------------------CORRECTION NEEDED
+            else if(binary_search(Other_suffix, Other_suffix+13, beta)) 
             {   
                 f << "found other suffix" << endl;
                 storeIntoWordsWithRoots(alpha, beta, &is_other, k);
@@ -383,7 +375,7 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
     if(isQuantifierMarker(word, &temp)) //detects quantifiers as nouns
         tags[index] = temp; 
 
-    if(tags[index] == "noun")    //checks if a word is noun then whether it's predecessors are adjective or not
+    if(tags[index] == "noun") //checks if a word is noun then whether it's predecessors are adjective or not
         {
             tags[index-1] = "adjective";
             if(index>1)
@@ -450,7 +442,6 @@ void reCheck()
     //     {
     //         if(wordWithRootAndSuffix[i].first==wordWithRootAndSuffix[i+1].first)
     //         {
-    //             f << "kire "<< wordWithRootAndSuffix[i].first << " "<< wordWithRootAndSuffix[i+1].first<< " " << i << " ";
     //             tags[i] = "adjective";
     //             tags[i+1] = "adjective";
     //         }
@@ -487,14 +478,14 @@ int main()
     stemmer();
     int n = lenStringArray(strings);
     cout << "ekhetre main e " << n << endl;
-    for(int i=0;i<34;i++)
+    for(int i=0;i<n;i++)
         bangla_POS_tagger(i,wordWithRootAndSuffix[i].first, wordWithRootAndSuffix[i].second.first, 
                         wordWithRootAndSuffix[i].second.second);
     reCheck();
 
     fstream f;
     f.open("write.txt");
-    for(int i=0;i<34;i++)
+    for(int i=0;i<n;i++)
         f << tokenizedWords[i] + "_" + tags[i] << endl;
     f.close();
 }
