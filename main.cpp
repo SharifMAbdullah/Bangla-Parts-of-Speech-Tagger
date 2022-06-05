@@ -1,5 +1,4 @@
 #include <iostream>
-#include <ctype.h>
 #include <string>
 #include <fstream>
 #include <algorithm>
@@ -42,7 +41,7 @@ void storeNonVerbsInBPlusTree()
         cout << "gese?" <<endl;
         banglaWord = tag.substr(banglaWord.find(",")+1);
     	tag = tag.substr(0,tag.find(","));
-    	insertLeaf(tag,banglaWord,1);
+    	insertLeaf(tag,banglaWord);
     }
     cout<< "storing er sheshe" <<endl;
     ifile.close();
@@ -63,7 +62,7 @@ void storeVerbsInBPlusTree()
         banglaWord = tag.substr(banglaWord.find(",")+1);
     	tag = tag.substr(0,tag.find(","));
         cout << tag << " " << banglaWord << endl;
-    	insertLeaf(tag,banglaWord,2);
+    	insertLeaf(tag,banglaWord);
     }
 
     ifile.close();
@@ -398,7 +397,7 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
             cout << tags[index] << endl;
             return;
         }
-    temp = searchInTree(word,1);
+    temp = searchInTree(word);
     if(temp != "unknown")
         {
             tags[index] = temp;
@@ -409,29 +408,26 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
             temp = "";
             if(word!=root)
             {
-                temp = searchInTree(root,1);
+                temp = searchInTree(root);
                 if(temp != "unknown")
                 {
-                    //temp = nodeNonVerb.search(root);
-                    string temp2 = searchInTree(root,2);
                     tags[index] = temp;
                     if(tags[index] == "adjective")
                         tags[index] = "noun";
 
-                    else if( temp == temp2)
-                        tags[index] = temp2;
+                    else if( temp == "verb")
+                        tags[index] = temp;
                     else
                         tags[index] = "noun";
                     cout << tags[index] << endl;
                 }
                 else
                 {
-                    temp = searchInTree(root,2);
+                    temp = searchInTree(root);
                     if(temp != "unknown")
                         tags[index] = "verb";
                     else
                         tags[index] = "noun";
-                    cout << tags[index] << endl;
                 }
             }
         }
@@ -450,6 +446,16 @@ void reCheck()
     //             tags[i+1] = "adjective";
     //         }
     //     }
+    for(int i=0;i<n;i++)
+    {
+        if(tokenizedWords[i]=="সে" || !(tokenizedWords[i].rfind("এমনি",0)) ||!(tokenizedWords[i].rfind("এই",0)) 
+            || !(tokenizedWords[i].rfind("সেট",0)) || !(tokenizedWords[i].rfind("এত",0)))
+            tags[i] = "pronoun";
+        if(tokenizedWords[i]=="কিন্তু" || tokenizedWords[i] == "এবং" || tokenizedWords[i] == "তবে")
+            tags[i] = "conjunction";
+        if( !(tokenizedWords[i].rfind("যাওয়া",0)) || !(tokenizedWords[i].rfind("বল",0)) || tokenizedWords[i]=="যায়" )
+            tags[i] = "verb";        
+    }
     for(int i=0;i<n;i++)
     {
         if(tags[i]== "unknown")
@@ -480,11 +486,7 @@ int main()
     //stopWordRemover();
     stemmer();
     int n = lenStringArray(strings);
-<<<<<<< HEAD
     cout << n;
-=======
-    cout << "ekhetre main e " << n << endl;
->>>>>>> e7898533cc6b2e8ff3f51646c3bd9e09fd4eec57
     for(int i=0;i<n;i++)
         bangla_POS_tagger(i,wordWithRootAndSuffix[i].first, wordWithRootAndSuffix[i].second.first, 
                         wordWithRootAndSuffix[i].second.second);
