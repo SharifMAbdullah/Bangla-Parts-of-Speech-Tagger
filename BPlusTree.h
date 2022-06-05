@@ -1,409 +1,262 @@
-#ifndef BPLUSTREE_H
-#define BPLUSTREE_H
 #include<iostream>
-#include<algorithm>
-#include<string>
 using namespace std;
-int MAX = 3;
-
-class Node {
-    bool IS_LEAF;
-    string *key;
-    string *value;
-    int size;
-    Node** ptr;
-    friend class BPTree;
-
-public:
-    Node();
-};
-
-class BPTree {
-    Node* root;
-    void insertInternal(string, string, Node*, Node*);
-    Node* findParent(Node*, Node*);
-
-public:
-    BPTree();
-    string search(string);
-    bool is_found(string);
-    void insert(string, string);
-    void display(Node*);
-    Node* getRoot();
-};
-
-Node::Node()
+int n,mx; //number of child;
+struct mystruct
 {
-    key = new string[MAX];
-    ptr = new Node*[MAX + 1];
-    value = new string[MAX];
+    int currentNode;
+    mystruct *parent,*next;
+    string *english,*bangla;
+    bool lf;
+    mystruct **point;
+} ;
+mystruct *rootNonVerb,*rootVerb,*firstLeaf;
+
+mystruct* createNode()
+{
+    mystruct *m=new mystruct();
+
+
+    m->point = new mystruct *[n+1];
+    m->english=new string[n];
+    m->bangla=new string[n];
+
+    m->currentNode = 0;
+    m->parent = NULL;
+    m->next = NULL;
+    m->lf = true;
+    return m;
+}
+mystruct *findLeaf(mystruct *tempRt,string english)
+{
+
+    cout << "Address of root in findleaf : " << *tempRt <<endl;
+    while(tempRt->lf==false)
+    {
+        int i;
+        for(i=0; i<tempRt->currentNode; i++) if(english<tempRt->english[i]) break;
+        tempRt = tempRt->point[i];
+    }
+    return tempRt;
+
 }
 
-
-BPTree::BPTree()
+void insertValueAndPoint(mystruct *parent,string value,mystruct *right)
 {
-    root = NULL;
-}
-
-string /*void*/ BPTree::search(string x)
-{
-    if (root == NULL)
+    int i=parent->currentNode-1;
+    for(;i>=0; i--)
     {
-        return "unknown";
-    }
-
-    else
-    {
-        Node* cursor = root;
-        while (cursor->IS_LEAF == false)
-        {
-            for (int i = 0;i<cursor->size;i++)
-			{
-				//cout << x << " " << cursor->key[i] << "\n";
-                if (x < cursor->key[i])
-                {
-                    cursor = cursor->ptr[i];
-                    break;
-                }
-
-                if (i == cursor->size - 1)
-                {
-                    cursor = cursor->ptr[i + 1];
-                    break;
-                }
-            }
-        }
-
-        bool is_true = false;
-        int temp;
-        for (int i=0;i<cursor->size;i++)
-		{
-			//cout << x << " " << cursor->key[i] << " " << cursor->value[i] << "\n";
-            if (cursor->key[i] == x)
-            {
-                cout << cursor->key[i] << " " << cursor->value[i] << "\n";
-                is_true = true;
-                temp = i;
-                break;
-                //return cursor->value[i];
-            }
-        }
-        if(is_true) return cursor->value[temp];
-        else return "unknown";
-        //cout << "Not found\n";
-    }
-}
-
-
-bool BPTree::is_found(string x)
-{
-    if (root == NULL)
-    {
-        return false;
-    }
-
-    else
-    {
-        Node* cursor = root;
-
-        while (cursor->IS_LEAF == false)
-        {
-            for (int i = 0;i<cursor->size;i++)
-			{
-                if (x < cursor->key[i])
-                {
-                    cursor = cursor->ptr[i];
-                    break;
-                }
-
-                if (i == cursor->size - 1)
-                {
-                    cursor = cursor->ptr[i + 1];
-                    break;
-                }
-            }
-        }
-
-        for (int i=0;i<cursor->size;i++)
-		{
-            if (cursor->key[i] == x)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
-}
-
-void BPTree::insert(string x, string y)
-{
-    if (root == NULL)
-    {
-        root = new Node;
-        root->key[0] = x;
-        root->value[0]=y;
-        root->IS_LEAF = true;
-        root->size = 1;
-    }
-
-    else
-    {
-        Node* cursor = root;
-        Node* parent;
-
-        while (cursor->IS_LEAF==false)
-        {
-            parent = cursor;
-            for (int i=0;i<cursor->size;i++)
-            {
-                if (x<cursor->key[i])
-                {
-                    cursor=cursor->ptr[i];
-                    break;
-                }
-
-                if (i==cursor->size - 1)
-                {
-                    cursor=cursor->ptr[i + 1];
-                    break;
-                }
-            }
-        }
-
-        if (cursor->size<MAX)
-        {
-            int i = 0;
-            while (x>cursor->key[i] && i<cursor->size)
-            {
-                i++;
-            }
-
-            for (int j=cursor->size;j > i; j--)
-            {
-                cursor->key[j]= cursor->key[j-1];
-                cursor->value[j]=cursor->value[j-1];
-            }
-
-            cursor->key[i] = x;
-            cursor->value[i]=y;
-            //cout << x << " " << y << " " << cursor->key[i] << " "
-            //<< cursor->value[i] << " " << i << "\n";
-            cursor->size++;
-
-            cursor->ptr[cursor->size]= cursor->ptr[cursor->size - 1];
-            cursor->ptr[cursor->size-1] = NULL;
-        }
-
+        if(parent->english[i]<=value) break;
         else
         {
-            Node* newLeaf = new Node;
-
-            string virtualNode[MAX + 1];
-            string virtualValue[MAX+1];
-
-            for (int i=0;i< MAX;i++)
-            {
-                virtualNode[i]=cursor->key[i];
-                virtualValue[i]=cursor->value[i];
-            }
-            int i = 0, j;
-
-            // Traverse to find where the new
-            // node is to be inserted
-            while (x>virtualNode[i] && i<MAX)
-            {
-                i++;
-            }
-
-            for (int j=MAX;j>i;j--)
-            {
-                virtualNode[j]=virtualNode[j-1];
-                virtualValue[j]=virtualValue[j-1];
-            }
-
-            virtualNode[i]=x;
-            virtualValue[i]=y;
-            newLeaf->IS_LEAF=true;
-
-            cursor->size = (MAX+1)/2;
-            newLeaf->size=MAX+1-(MAX + 1)/2;
-
-            cursor->ptr[cursor->size]=newLeaf;
-
-            newLeaf->ptr[newLeaf->size]=cursor->ptr[MAX];
-
-            cursor->ptr[MAX]=NULL;
-
-            for (i = 0;i<cursor->size;i++)
-            {
-                cursor->key[i]=virtualNode[i];
-                cursor->value[i]=virtualValue[i];
-            }
-
-            for (i=0,j=cursor->size;i<newLeaf->size;i++,j++)
-            {
-                newLeaf->key[i]=virtualNode[j];
-                newLeaf->value[i]=virtualValue[j];
-            }
-
-            if (cursor==root)
-            {
-                Node* newRoot = new Node;
-                newRoot->key[0] = newLeaf->key[0];
-                newRoot->value[0]=newLeaf->value[0];
-                newRoot->ptr[0] = cursor;
-                newRoot->ptr[1] = newLeaf;
-                newRoot->IS_LEAF = false;
-                newRoot->size = 1;
-                root = newRoot;
-            }
-            else
-            {
-                insertInternal(newLeaf->key[0], newLeaf->value[0] ,parent,newLeaf);
-            }
+            parent->english[i+1] = parent->english[i];
+            parent->point[i+2] = parent->point[i+1];
         }
     }
+    parent->english[i+1] = value;
+    parent->point[i+2] = right;
+    parent->currentNode++;
 }
 
-
-void BPTree::insertInternal(string x, string y,Node* cursor,Node* child)
+void insertMiddle(mystruct *parent,string value,mystruct *left,mystruct *right,int c)
 {
-	//cout << x << " " << y << endl;
-    if (cursor->size<MAX)
+    if(parent==NULL)
     {
-        int i=0;
-
-        while (x>cursor->key[i] && i<cursor->size)
+        parent = createNode();
+        parent->english[0] = value;
+        parent->point[0] = left;
+        parent->point[1] = right;
+        parent->currentNode++;
+        parent->lf = false;
+        if(c==1) rootNonVerb = parent;
+        else rootVerb = parent;
+        left->parent = parent;
+        right->parent = parent;
+        return;
+    }
+    right->parent = parent;
+    insertValueAndPoint(parent,value,right);
+    if(parent->currentNode==mx)
+    {
+        mystruct *splitNode = createNode();
+        splitNode->lf = false;
+        int j=0;
+        for(int i=parent->currentNode-(n-1)/2;i<mx; i++)
         {
-            i++;
+            splitNode->english[j] = parent->english[i];
+            if(j==0)
+            {
+                splitNode->point[0] = parent->point[i];
+                splitNode->point[0]->parent = splitNode;
+            }
+            splitNode->point[j+1] = parent->point[i+1];
+            splitNode->point[j+1]->parent = splitNode;
+            j++;
         }
-
-        for (int j=cursor->size;j>i;j--)
-        {
-            cursor->key[j]=cursor->key[j-1];
-            cursor->value[j]=cursor->value[j-1];
-        }
-
-        for (int j=cursor->size+1;j>i+1;j--)
-        {
-            cursor->ptr[j]=cursor->ptr[j - 1];
-        }
-        cursor->key[i]=x;
-        cursor->value[i]=y;
-        cursor->size++;
-        cursor->ptr[i+1]=child;
+        parent->currentNode-=(n-1)/2+1;
+        splitNode->currentNode = (n-1)/2;
+        insertMiddle(parent->parent,parent->english[parent->currentNode],parent,splitNode,c);
     }
 
+}
+
+void insertLeaf(string english,string bangla,int choice)
+{
+    if(choice==1)
+    {
+        mystruct *leaf= findLeaf(rootNonVerb,english);
+        //cout <<"k";
+        int i = leaf->currentNode-1;
+        if(i>-1) 
+        {
+            for(; i>=0; i--)
+            {
+    	        if(english<leaf->english[i])
+    	        {
+    		        leaf->english[i+1] = leaf->english[i];
+    		        leaf->bangla[i+1] = leaf->bangla[i];
+    	        }
+    	        else break;
+            }
+        }
+        
+        leaf->english[i+1] = english;
+        leaf->bangla[i+1] = bangla;
+        leaf->currentNode++;
+
+        if(leaf->currentNode==mx)
+        {
+            mystruct *splitNode = createNode();
+            int j=0;
+            for(int i=leaf->currentNode-n/2;i<mx; i++)
+            {
+                splitNode->english[j] = leaf->english[i];
+                splitNode->bangla[j] = leaf->bangla[i];
+                j++;
+            }
+            
+            leaf->currentNode -= n/2;
+            splitNode->currentNode = n/2;
+            splitNode->next = leaf->next;
+            leaf->next = splitNode;
+            insertMiddle(leaf->parent,splitNode->english[0],leaf,splitNode,choice);
+        }
+    }
     else
     {
-        Node* newInternal = new Node;
-        string virtualKey[MAX + 1];
-        string virtualValue[MAX+1];
-        Node* virtualPtr[MAX + 2];
-
-        for (int i=0;i<MAX;i++)
+        mystruct *leaf= findLeaf(rootVerb,english);
+        //cout <<"k";
+        int i = leaf->currentNode-1;
+        if(i>-1) 
         {
-            virtualKey[i]=cursor->key[i];
-            virtualValue[i]=cursor->value[i];
+            for(; i>=0; i--)
+            {
+    	        if(english<leaf->english[i])
+    	        {
+    		        leaf->english[i+1] = leaf->english[i];
+    		        leaf->bangla[i+1] = leaf->bangla[i];
+    	        }
+    	        else break;
+            }
         }
+        
+        leaf->english[i+1] = english;
+        leaf->bangla[i+1] = bangla;
+        leaf->currentNode++;
 
-        for (int i=0;i<MAX+1; i++)
+        if(leaf->currentNode==mx)
         {
-            virtualPtr[i] = cursor->ptr[i];
-        }
-
-        int i = 0, j;
-
-        while (x>virtualKey[i] && i<MAX)
-        {
-            i++;
-        }
-
-        for (int j=MAX;j>i; j--)
-        {
-            virtualKey[j]=virtualKey[j-1];
-            virtualValue[j]=virtualValue[j-1];
-        }
-
-        virtualKey[i]=x;
-        virtualValue[i]=y;
-
-        for (int j=MAX+1;j>i+1;j--)
-        {
-            virtualPtr[j]=virtualPtr[j - 1];
-        }
-
-        virtualPtr[i+1]=child;
-        newInternal->IS_LEAF = false;
-
-        cursor->size=(MAX + 1)/2;
-
-        newInternal->size=MAX+1-(MAX + 1)/2;
-
-        for (i=0,j=cursor->size;i<newInternal->size;i++,j++)
-        {
-            newInternal->key[i]=virtualKey[j];
-            newInternal->value[i]=virtualValue[j];
-        }
-
-        for (i=0,j=cursor->size;i<newInternal->size+1;i++,j++)
-        {
-            newInternal->ptr[i]=virtualPtr[j];
-        }
-
-        if (cursor==root)
-        {
-            Node* newRoot=new Node;
-
-            newRoot->key[0]=cursor->key[cursor->size];
-            newRoot->value[0]=cursor->value[cursor->size];
-            newRoot->ptr[0] = cursor;
-            newRoot->ptr[1] = newInternal;
-            newRoot->IS_LEAF = false;
-            newRoot->size = 1;
-            root = newRoot;
-        }
-
-        else
-        {
-            insertInternal(cursor->key[cursor->size], cursor->value[cursor->size],
-            findParent(root,cursor), newInternal);
+            mystruct *splitNode = createNode();
+            int j=0;
+            for(int i=leaf->currentNode-n/2;i<mx; i++)
+            {
+                splitNode->english[j] = leaf->english[i];
+                splitNode->bangla[j] = leaf->bangla[i];
+                j++;
+            }
+            
+            leaf->currentNode-=n/2;
+            splitNode->currentNode = n/2;
+            splitNode->next = leaf->next;
+            leaf->next = splitNode;
+            insertMiddle(leaf->parent,splitNode->english[0],leaf,splitNode,choice);
         }
     }
 }
 
-
-Node* BPTree::findParent(Node* cursor, Node* child)
+string searchInTree(string searchEnglish, int choice)
 {
-    Node* parent;
+	n =3;
+	mx=n;
+    if(choice == 1)
+        rootNonVerb = createNode();
+        cout << "address of root : " << &rootNonVerb << endl;
+    else 
+        rootVerb = createNode();
+    mystruct *leaf;
+    int i=0;
+    string english,bangla;
+    ifstream ifile;
 
-    if (cursor->IS_LEAF || (cursor->ptr[0])->IS_LEAF)
+    if(choice==1)
     {
-        return NULL;
-    }
+        ifile.open("NonVerbDataset.csv");
+        if(!ifile) 
+            return "problem";
 
-    for(int i=0;i<cursor->size+1;i++)
+        while(getline(ifile,english))
+        {
+            cout << i <<endl;
+            istringstream iss;
+            iss.clear();
+            iss.str(english);
+            while(iss.good())
+            {
+                iss>>english;
+                bangla = english.substr(english.find(",")+1);
+    	        english = english.substr(0,english.find(","));
+    	        insertLeaf(english,bangla,1);
+            }
+        }
+    ifile.close();
+    }
+    
+    else
     {
-        if (cursor->ptr[i] == child)
-        {
-            parent = cursor;
-            return parent;
-        }
+        ifile.open("VerbDataset.csv");
+        if(!ifile) 
+            return "problem";
 
-        else
+        while(getline(ifile,english))
         {
-            parent=findParent(cursor->ptr[i], child);
-
-            if (parent!=NULL) return parent;
+            cout << i <<endl;
+            istringstream iss;
+            iss.clear();
+            iss.str(english);
+            while(iss.good())
+            {
+                iss>>english;
+                bangla = english.substr(english.find(",")+1);
+    	        english = english.substr(0,english.find(","));
+    	        insertLeaf(english,bangla,1);
+            }
         }
+    ifile.close();
+        
     }
-
-    return parent;
+    
+    	if(choice==1) 
+    	    leaf = findLeaf(rootNonVerb,searchEnglish);
+    	else 
+    	    leaf= findLeaf(rootVerb,searchEnglish);
+    	    
+    	for(i=0; i<leaf->currentNode; i++) 
+    	    {
+    	        if(searchEnglish==leaf->english[i]) 
+    	        break;
+    	    }
+    	    
+    	if(i==leaf->currentNode) 
+    	    return "unknown";
+    	else 
+    	    return leaf->bangla[i];
 }
-
-Node* BPTree::getRoot()
-{
-    return root;
-}
-
-#endif

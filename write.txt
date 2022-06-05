@@ -1,4 +1,4 @@
-চলতি_noun
+চলতি_adverb
 বছরের_noun
 মে_noun
 মাসের_noun
@@ -11,19 +11,19 @@
 ঝরেছে_adverb
 কোথাও_adverb
 কোথাও_noun
-একই_verb
+একই_noun
 সময়ে_noun
 বয়ে_noun
-গেছে_noun
+গেছে_adverb
 দাবদাহ_adjective
 মেঘবৃষ্টিগরম_noun
 মিলেমিশে_noun
 মে_noun
-মাস_noun
+মাস_adverb
 কেটে_noun
 যেতে_noun
 না_noun
-যেতে_noun
+যেতে_adverb
 বাংলাদেশে_noun
 দ্রুত_noun
 এগিয়ে_noun
@@ -31,7 +31,3 @@
 শুরু_noun
 করেছে_noun
 এবারের_noun
-_noun
-��_adjective
-এবারের_adjective
-_adjective

@@ -1,199 +1,199 @@
- beta at 0th word at position 11 is � where alpha চলতি
- beta at 0th word at position 10 is �� where alpha চলতি
+ beta at 0th word at position 11 is � where alpha চলতি
+ beta at 0th word at position 10 is �� where alpha চলতি
  beta at 0th word at position 9 is ি where alpha চলতি
- beta at 0th word at position 8 is �ি where alpha চলতি
- beta at 0th word at position 7 is ��ি where alpha চলতি
+ beta at 0th word at position 8 is �ি where alpha চলতি
+ beta at 0th word at position 7 is ��ি where alpha চলতি
  beta at 0th word at position 6 is তি where alpha চলতি
- beta at 0th word at position 5 is �তি where alpha চলতি
- beta at 0th word at position 4 is ��তি where alpha চলতি
+ beta at 0th word at position 5 is �তি where alpha চলতি
+ beta at 0th word at position 4 is ��তি where alpha চলতি
  beta at 0th word at position 3 is লতি where alpha চলতি
- beta at 0th word at position 2 is �লতি where alpha চলতি
- beta at 0th word at position 1 is ��লতি where alpha চলতি
+ beta at 0th word at position 2 is �লতি where alpha চলতি
+ beta at 0th word at position 1 is ��লতি where alpha চলতি
  beta at 0th word at position 0 is চলতি where alpha চলতি
- beta at 1th word at position 14 is � where alpha বছরের
- beta at 1th word at position 13 is �� where alpha বছরের
+ beta at 1th word at position 14 is � where alpha বছরের
+ beta at 1th word at position 13 is �� where alpha বছরের
  beta at 1th word at position 12 is র where alpha বছরের
- beta at 1th word at position 11 is �র where alpha বছরের
- beta at 1th word at position 10 is ��র where alpha বছরের
+ beta at 1th word at position 11 is �র where alpha বছরের
+ beta at 1th word at position 10 is ��র where alpha বছরের
  beta at 1th word at position 9 is ের where alpha বছরের
- beta at 1th word at position 8 is �ের where alpha বছরের
- beta at 1th word at position 7 is ��ের where alpha বছরের
+ beta at 1th word at position 8 is �ের where alpha বছরের
+ beta at 1th word at position 7 is ��ের where alpha বছরের
  beta at 1th word at position 6 is রের where alpha বছরের
- beta at 1th word at position 5 is �রের where alpha বছরের
- beta at 1th word at position 4 is ��রের where alpha বছরের
+ beta at 1th word at position 5 is �রের where alpha বছরের
+ beta at 1th word at position 4 is ��রের where alpha বছরের
  beta at 1th word at position 3 is ছরের where alpha বছরের
- beta at 1th word at position 2 is �ছরের where alpha বছরের
- beta at 1th word at position 1 is ��ছরের where alpha বছরের
+ beta at 1th word at position 2 is �ছরের where alpha বছরের
+ beta at 1th word at position 1 is ��ছরের where alpha বছরের
  beta at 1th word at position 0 is বছরের where alpha বছরের
- beta at 2th word at position 5 is � where alpha মে
- beta at 2th word at position 4 is �� where alpha মে
+ beta at 2th word at position 5 is � where alpha মে
+ beta at 2th word at position 4 is �� where alpha মে
  beta at 2th word at position 3 is ে where alpha মে
 found bivokti suffix
 মে = ম + ে
- beta at 3th word at position 14 is � where alpha মাসের
- beta at 3th word at position 13 is �� where alpha মাসের
+ beta at 3th word at position 14 is � where alpha মাসের
+ beta at 3th word at position 13 is �� where alpha মাসের
  beta at 3th word at position 12 is র where alpha মাসের
- beta at 3th word at position 11 is �র where alpha মাসের
- beta at 3th word at position 10 is ��র where alpha মাসের
+ beta at 3th word at position 11 is �র where alpha মাসের
+ beta at 3th word at position 10 is ��র where alpha মাসের
  beta at 3th word at position 9 is ের where alpha মাসের
- beta at 3th word at position 8 is �ের where alpha মাসের
- beta at 3th word at position 7 is ��ের where alpha মাসের
+ beta at 3th word at position 8 is �ের where alpha মাসের
+ beta at 3th word at position 7 is ��ের where alpha মাসের
  beta at 3th word at position 6 is সের where alpha মাসের
- beta at 3th word at position 5 is �সের where alpha মাসের
- beta at 3th word at position 4 is ��সের where alpha মাসের
+ beta at 3th word at position 5 is �সের where alpha মাসের
+ beta at 3th word at position 4 is ��সের where alpha মাসের
  beta at 3th word at position 3 is াসের where alpha মাসের
- beta at 3th word at position 2 is �াসের where alpha মাসের
- beta at 3th word at position 1 is ��াসের where alpha মাসের
+ beta at 3th word at position 2 is �াসের where alpha মাসের
+ beta at 3th word at position 1 is ��াসের where alpha মাসের
  beta at 3th word at position 0 is মাসের where alpha মাসের
 found NotStemmed_suffix where alpha is প্রায়
 প্রায় = প্রায় + 
- beta at 5th word at position 11 is � where alpha পুরো
- beta at 5th word at position 10 is �� where alpha পুরো
+ beta at 5th word at position 11 is � where alpha পুরো
+ beta at 5th word at position 10 is �� where alpha পুরো
  beta at 5th word at position 9 is ো where alpha পুরো
- beta at 5th word at position 8 is �ো where alpha পুরো
- beta at 5th word at position 7 is ��ো where alpha পুরো
+ beta at 5th word at position 8 is �ো where alpha পুরো
+ beta at 5th word at position 7 is ��ো where alpha পুরো
  beta at 5th word at position 6 is রো where alpha পুরো
- beta at 5th word at position 5 is �রো where alpha পুরো
- beta at 5th word at position 4 is ��রো where alpha পুরো
+ beta at 5th word at position 5 is �রো where alpha পুরো
+ beta at 5th word at position 4 is ��রো where alpha পুরো
  beta at 5th word at position 3 is ুরো where alpha পুরো
- beta at 5th word at position 2 is �ুরো where alpha পুরো
- beta at 5th word at position 1 is ��ুরো where alpha পুরো
+ beta at 5th word at position 2 is �ুরো where alpha পুরো
+ beta at 5th word at position 1 is ��ুরো where alpha পুরো
  beta at 5th word at position 0 is পুরো where alpha পুরো
- beta at 6th word at position 20 is � where alpha সময়জুড়ে
- beta at 6th word at position 19 is �� where alpha সময়জুড়ে
+ beta at 6th word at position 20 is � where alpha সময়জুড়ে
+ beta at 6th word at position 19 is �� where alpha সময়জুড়ে
  beta at 6th word at position 18 is ে where alpha সময়জুড়ে
 found bivokti suffix
 সময়জুড়ে = সময়জুড় + ে
- beta at 7th word at position 11 is � where alpha থেমে
- beta at 7th word at position 10 is �� where alpha থেমে
+ beta at 7th word at position 11 is � where alpha থেমে
+ beta at 7th word at position 10 is �� where alpha থেমে
  beta at 7th word at position 9 is ে where alpha থেমে
 found bivokti suffix
 থেমে = থেম + ে
- beta at 8th word at position 11 is � where alpha থেমে
- beta at 8th word at position 10 is �� where alpha থেমে
+ beta at 8th word at position 11 is � where alpha থেমে
+ beta at 8th word at position 10 is �� where alpha থেমে
  beta at 8th word at position 9 is ে where alpha থেমে
 found bivokti suffix
 থেমে = থেম + ে
- beta at 9th word at position 17 is � where alpha বৃষ্টি
- beta at 9th word at position 16 is �� where alpha বৃষ্টি
+ beta at 9th word at position 17 is � where alpha বৃষ্টি
+ beta at 9th word at position 16 is �� where alpha বৃষ্টি
  beta at 9th word at position 15 is ি where alpha বৃষ্টি
- beta at 9th word at position 14 is �ি where alpha বৃষ্টি
- beta at 9th word at position 13 is ��ি where alpha বৃষ্টি
+ beta at 9th word at position 14 is �ি where alpha বৃষ্টি
+ beta at 9th word at position 13 is ��ি where alpha বৃষ্টি
  beta at 9th word at position 12 is টি where alpha বৃষ্টি
 found bochon suffix
 বৃষ্টি = বৃষ্ + টি
- beta at 10th word at position 14 is � where alpha ঝরেছে
- beta at 10th word at position 13 is �� where alpha ঝরেছে
+ beta at 10th word at position 14 is � where alpha ঝরেছে
+ beta at 10th word at position 13 is �� where alpha ঝরেছে
  beta at 10th word at position 12 is ে where alpha ঝরেছে
 found bivokti suffix
 ঝরেছে = ঝরেছ + ে
- beta at 11th word at position 14 is � where alpha কোথাও
- beta at 11th word at position 13 is �� where alpha কোথাও
+ beta at 11th word at position 14 is � where alpha কোথাও
+ beta at 11th word at position 13 is �� where alpha কোথাও
  beta at 11th word at position 12 is ও where alpha কোথাও
- beta at 11th word at position 11 is �ও where alpha কোথাও
- beta at 11th word at position 10 is ��ও where alpha কোথাও
+ beta at 11th word at position 11 is �ও where alpha কোথাও
+ beta at 11th word at position 10 is ��ও where alpha কোথাও
  beta at 11th word at position 9 is াও where alpha কোথাও
 found bivokti suffix
 কোথাও = কোথ + াও
- beta at 12th word at position 14 is � where alpha কোথাও
- beta at 12th word at position 13 is �� where alpha কোথাও
+ beta at 12th word at position 14 is � where alpha কোথাও
+ beta at 12th word at position 13 is �� where alpha কোথাও
  beta at 12th word at position 12 is ও where alpha কোথাও
- beta at 12th word at position 11 is �ও where alpha কোথাও
- beta at 12th word at position 10 is ��ও where alpha কোথাও
+ beta at 12th word at position 11 is �ও where alpha কোথাও
+ beta at 12th word at position 10 is ��ও where alpha কোথাও
  beta at 12th word at position 9 is াও where alpha কোথাও
 found bivokti suffix
 কোথাও = কোথ + াও
 found NotStemmed_suffix where alpha is একই
 একই = একই + 
- beta at 14th word at position 11 is � where alpha সময়ে
- beta at 14th word at position 10 is �� where alpha সময়ে
+ beta at 14th word at position 11 is � where alpha সময়ে
+ beta at 14th word at position 10 is �� where alpha সময়ে
  beta at 14th word at position 9 is ে where alpha সময়ে
 found bivokti suffix
 সময়ে = সময় + ে
- beta at 15th word at position 8 is � where alpha বয়ে
- beta at 15th word at position 7 is �� where alpha বয়ে
+ beta at 15th word at position 8 is � where alpha বয়ে
+ beta at 15th word at position 7 is �� where alpha বয়ে
  beta at 15th word at position 6 is ে where alpha বয়ে
 found bivokti suffix
 বয়ে = বয় + ে
 found NotStemmed_suffix where alpha is গেছে
 গেছে = গেছে + 
- beta at 17th word at position 17 is � where alpha দাবদাহ
- beta at 17th word at position 16 is �� where alpha দাবদাহ
+ beta at 17th word at position 17 is � where alpha দাবদাহ
+ beta at 17th word at position 16 is �� where alpha দাবদাহ
  beta at 17th word at position 15 is হ where alpha দাবদাহ
- beta at 17th word at position 14 is �হ where alpha দাবদাহ
- beta at 17th word at position 13 is ��হ where alpha দাবদাহ
+ beta at 17th word at position 14 is �হ where alpha দাবদাহ
+ beta at 17th word at position 13 is ��হ where alpha দাবদাহ
  beta at 17th word at position 12 is াহ where alpha দাবদাহ
- beta at 17th word at position 11 is �াহ where alpha দাবদাহ
- beta at 17th word at position 10 is ��াহ where alpha দাবদাহ
+ beta at 17th word at position 11 is �াহ where alpha দাবদাহ
+ beta at 17th word at position 10 is ��াহ where alpha দাবদাহ
  beta at 17th word at position 9 is দাহ where alpha দাবদাহ
- beta at 17th word at position 8 is �দাহ where alpha দাবদাহ
- beta at 17th word at position 7 is ��দাহ where alpha দাবদাহ
+ beta at 17th word at position 8 is �দাহ where alpha দাবদাহ
+ beta at 17th word at position 7 is ��দাহ where alpha দাবদাহ
  beta at 17th word at position 6 is বদাহ where alpha দাবদাহ
- beta at 17th word at position 5 is �বদাহ where alpha দাবদাহ
- beta at 17th word at position 4 is ��বদাহ where alpha দাবদাহ
+ beta at 17th word at position 5 is �বদাহ where alpha দাবদাহ
+ beta at 17th word at position 4 is ��বদাহ where alpha দাবদাহ
  beta at 17th word at position 3 is াবদাহ where alpha দাবদাহ
- beta at 17th word at position 2 is �াবদাহ where alpha দাবদাহ
- beta at 17th word at position 1 is ��াবদাহ where alpha দাবদাহ
+ beta at 17th word at position 2 is �াবদাহ where alpha দাবদাহ
+ beta at 17th word at position 1 is ��াবদাহ where alpha দাবদাহ
  beta at 17th word at position 0 is দাবদাহ where alpha দাবদাহ
- beta at 18th word at position 35 is � where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 34 is �� where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 35 is � where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 34 is �� where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 33 is ম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 32 is �ম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 31 is ��ম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 32 is �ম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 31 is ��ম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 30 is রম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 29 is �রম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 28 is ��রম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 29 is �রম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 28 is ��রম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 27 is গরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 26 is �গরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 25 is ��গরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 26 is �গরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 25 is ��গরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 24 is িগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 23 is �িগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 22 is ��িগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 23 is �িগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 22 is ��িগরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 21 is টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 20 is �টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 19 is ��টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 20 is �টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 19 is ��টিগরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 18 is ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 17 is �্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 16 is ��্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 17 is �্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 16 is ��্টিগরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 15 is ষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 14 is �ষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 13 is ��ষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 14 is �ষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 13 is ��ষ্টিগরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 12 is ৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 11 is �ৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 10 is ��ৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 11 is �ৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 10 is ��ৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 9 is বৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 8 is �বৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 7 is ��বৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 8 is �বৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 7 is ��বৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 6 is ঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 5 is �ঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 4 is ��ঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 5 is �ঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 4 is ��ঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 3 is েঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 2 is �েঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 18th word at position 1 is ��েঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 2 is �েঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
+ beta at 18th word at position 1 is ��েঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
  beta at 18th word at position 0 is মেঘবৃষ্টিগরম where alpha মেঘবৃষ্টিগরম
- beta at 19th word at position 23 is � where alpha মিলেমিশে
- beta at 19th word at position 22 is �� where alpha মিলেমিশে
+ beta at 19th word at position 23 is � where alpha মিলেমিশে
+ beta at 19th word at position 22 is �� where alpha মিলেমিশে
  beta at 19th word at position 21 is ে where alpha মিলেমিশে
 found bivokti suffix
 মিলেমিশে = মিলেমিশ + ে
- beta at 20th word at position 5 is � where alpha মে
- beta at 20th word at position 4 is �� where alpha মে
+ beta at 20th word at position 5 is � where alpha মে
+ beta at 20th word at position 4 is �� where alpha মে
  beta at 20th word at position 3 is ে where alpha মে
 found bivokti suffix
 মে = ম + ে
- beta at 21th word at position 8 is � where alpha মাস
- beta at 21th word at position 7 is �� where alpha মাস
+ beta at 21th word at position 8 is � where alpha মাস
+ beta at 21th word at position 7 is �� where alpha মাস
  beta at 21th word at position 6 is স where alpha মাস
- beta at 21th word at position 5 is �স where alpha মাস
- beta at 21th word at position 4 is ��স where alpha মাস
+ beta at 21th word at position 5 is �স where alpha মাস
+ beta at 21th word at position 4 is ��স where alpha মাস
  beta at 21th word at position 3 is াস where alpha মাস
- beta at 21th word at position 2 is �াস where alpha মাস
- beta at 21th word at position 1 is ��াস where alpha মাস
+ beta at 21th word at position 2 is �াস where alpha মাস
+ beta at 21th word at position 1 is ��াস where alpha মাস
  beta at 21th word at position 0 is মাস where alpha মাস
 found noun suffix
 মাস =  + মাস
- beta at 22th word at position 11 is � where alpha কেটে
- beta at 22th word at position 10 is �� where alpha কেটে
+ beta at 22th word at position 11 is � where alpha কেটে
+ beta at 22th word at position 10 is �� where alpha কেটে
  beta at 22th word at position 9 is ে where alpha কেটে
 found bivokti suffix
 কেটে = কেট + ে
@@ -203,65 +203,65 @@ found NotStemmed_suffix where alpha is না
 না = না + 
 found NotStemmed_suffix where alpha is যেতে
 যেতে = যেতে + 
- beta at 26th word at position 26 is � where alpha বাংলাদেশে
- beta at 26th word at position 25 is �� where alpha বাংলাদেশে
+ beta at 26th word at position 26 is � where alpha বাংলাদেশে
+ beta at 26th word at position 25 is �� where alpha বাংলাদেশে
  beta at 26th word at position 24 is ে where alpha বাংলাদেশে
 found bivokti suffix
 বাংলাদেশে = বাংলাদেশ + ে
- beta at 27th word at position 14 is � where alpha দ্রুত
- beta at 27th word at position 13 is �� where alpha দ্রুত
+ beta at 27th word at position 14 is � where alpha দ্রুত
+ beta at 27th word at position 13 is �� where alpha দ্রুত
  beta at 27th word at position 12 is ত where alpha দ্রুত
- beta at 27th word at position 11 is �ত where alpha দ্রুত
- beta at 27th word at position 10 is ��ত where alpha দ্রুত
+ beta at 27th word at position 11 is �ত where alpha দ্রুত
+ beta at 27th word at position 10 is ��ত where alpha দ্রুত
  beta at 27th word at position 9 is ুত where alpha দ্রুত
- beta at 27th word at position 8 is �ুত where alpha দ্রুত
- beta at 27th word at position 7 is ��ুত where alpha দ্রুত
+ beta at 27th word at position 8 is �ুত where alpha দ্রুত
+ beta at 27th word at position 7 is ��ুত where alpha দ্রুত
  beta at 27th word at position 6 is রুত where alpha দ্রুত
- beta at 27th word at position 5 is �রুত where alpha দ্রুত
- beta at 27th word at position 4 is ��রুত where alpha দ্রুত
+ beta at 27th word at position 5 is �রুত where alpha দ্রুত
+ beta at 27th word at position 4 is ��রুত where alpha দ্রুত
  beta at 27th word at position 3 is ্রুত where alpha দ্রুত
- beta at 27th word at position 2 is �্রুত where alpha দ্রুত
- beta at 27th word at position 1 is ��্রুত where alpha দ্রুত
+ beta at 27th word at position 2 is �্রুত where alpha দ্রুত
+ beta at 27th word at position 1 is ��্রুত where alpha দ্রুত
  beta at 27th word at position 0 is দ্রুত where alpha দ্রুত
- beta at 28th word at position 14 is � where alpha এগিয়ে
- beta at 28th word at position 13 is �� where alpha এগিয়ে
+ beta at 28th word at position 14 is � where alpha এগিয়ে
+ beta at 28th word at position 13 is �� where alpha এগিয়ে
  beta at 28th word at position 12 is ে where alpha এগিয়ে
 found bivokti suffix
 এগিয়ে = এগিয় + ে
- beta at 29th word at position 11 is � where alpha আসতে
- beta at 29th word at position 10 is �� where alpha আসতে
+ beta at 29th word at position 11 is � where alpha আসতে
+ beta at 29th word at position 10 is �� where alpha আসতে
  beta at 29th word at position 9 is ে where alpha আসতে
 found bivokti suffix
 আসতে = আসত + ে
- beta at 30th word at position 11 is � where alpha শুরু
- beta at 30th word at position 10 is �� where alpha শুরু
+ beta at 30th word at position 11 is � where alpha শুরু
+ beta at 30th word at position 10 is �� where alpha শুরু
  beta at 30th word at position 9 is ু where alpha শুরু
- beta at 30th word at position 8 is �ু where alpha শুরু
- beta at 30th word at position 7 is ��ু where alpha শুরু
+ beta at 30th word at position 8 is �ু where alpha শুরু
+ beta at 30th word at position 7 is ��ু where alpha শুরু
  beta at 30th word at position 6 is রু where alpha শুরু
- beta at 30th word at position 5 is �রু where alpha শুরু
- beta at 30th word at position 4 is ��রু where alpha শুরু
+ beta at 30th word at position 5 is �রু where alpha শুরু
+ beta at 30th word at position 4 is ��রু where alpha শুরু
  beta at 30th word at position 3 is ুরু where alpha শুরু
- beta at 30th word at position 2 is �ুরু where alpha শুরু
- beta at 30th word at position 1 is ��ুরু where alpha শুরু
+ beta at 30th word at position 2 is �ুরু where alpha শুরু
+ beta at 30th word at position 1 is ��ুরু where alpha শুরু
  beta at 30th word at position 0 is শুরু where alpha শুরু
 found NotStemmed_suffix where alpha is করেছে
 করেছে = করেছে + 
- beta at 32th word at position 17 is � where alpha এবারের
- beta at 32th word at position 16 is �� where alpha এবারের
+ beta at 32th word at position 17 is � where alpha এবারের
+ beta at 32th word at position 16 is �� where alpha এবারের
  beta at 32th word at position 15 is র where alpha এবারের
- beta at 32th word at position 14 is �র where alpha এবারের
- beta at 32th word at position 13 is ��র where alpha এবারের
+ beta at 32th word at position 14 is �র where alpha এবারের
+ beta at 32th word at position 13 is ��র where alpha এবারের
  beta at 32th word at position 12 is ের where alpha এবারের
- beta at 32th word at position 11 is �ের where alpha এবারের
- beta at 32th word at position 10 is ��ের where alpha এবারের
+ beta at 32th word at position 11 is �ের where alpha এবারের
+ beta at 32th word at position 10 is ��ের where alpha এবারের
  beta at 32th word at position 9 is রের where alpha এবারের
- beta at 32th word at position 8 is �রের where alpha এবারের
- beta at 32th word at position 7 is ��রের where alpha এবারের
+ beta at 32th word at position 8 is �রের where alpha এবারের
+ beta at 32th word at position 7 is ��রের where alpha এবারের
  beta at 32th word at position 6 is ারের where alpha এবারের
- beta at 32th word at position 5 is �ারের where alpha এবারের
- beta at 32th word at position 4 is ��ারের where alpha এবারের
+ beta at 32th word at position 5 is �ারের where alpha এবারের
+ beta at 32th word at position 4 is ��ারের where alpha এবারের
  beta at 32th word at position 3 is বারের where alpha এবারের
- beta at 32th word at position 2 is �বারের where alpha এবারের
- beta at 32th word at position 1 is ��বারের where alpha এবারের
+ beta at 32th word at position 2 is �বারের where alpha এবারের
+ beta at 32th word at position 1 is ��বারের where alpha এবারের
  beta at 32th word at position 0 is এবারের where alpha এবারের

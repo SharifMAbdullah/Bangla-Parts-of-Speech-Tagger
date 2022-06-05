@@ -27,38 +27,43 @@ string Verb[M];
 string dictionary[M];
 
 string tags[N];
-BPTree nodeNonVerb;
-BPTree nodeVerb;
 
 void storeNonVerbsInBPlusTree()
 {
-	string pos,word;
+    string banglaWord,tag;
     ifstream ifile;
     ifile.open("NonVerbDataset.csv");
     if(!ifile) 
-        return;
-    while(getline(ifile,pos))
+        {
+            cout<< "File not found!" << endl;
+        }
+    while(getline(ifile,tag))
     {
-        word = pos.substr(pos.find(",") + 1);
-        pos = pos.substr(0, pos.find(","));
-    	nodeNonVerb.insert(pos, word);
+        cout << "gese?" <<endl;
+        banglaWord = tag.substr(banglaWord.find(",")+1);
+    	tag = tag.substr(0,tag.find(","));
+    	insertLeaf(tag,banglaWord,1);
     }
-
+    cout<< "storing er sheshe" <<endl;
     ifile.close();
 }
 
 void storeVerbsInBPlusTree()
 {
-	string pos,word;
+    string banglaWord,tag;
     ifstream ifile;
     ifile.open("VerbDataset.csv");
     if(!ifile) 
-        return;
-    while(getline(ifile,pos))
+        {
+            cout<< "File not found!" << endl;
+            //return;
+        }
+    while(getline(ifile,tag))
     {
-        word = pos.substr(pos.find(",") + 1);
-        pos = pos.substr(0, pos.find(","));
-    	nodeVerb.insert(pos, word);
+        banglaWord = tag.substr(banglaWord.find(",")+1);
+    	tag = tag.substr(0,tag.find(","));
+        cout << tag << " " << banglaWord << endl;
+    	insertLeaf(tag,banglaWord,2);
     }
 
     ifile.close();
@@ -194,7 +199,6 @@ void tokeniser()
     int k = 0;
 
     int n = lenStringArray(strings);
-    cout << "ekhetre tokeniser e " << n <<endl;
     for (int i = 0; i < lenStringArray(strings); i++)
     {
         char* updatedStr = new char[N];
@@ -253,8 +257,7 @@ void stemmer()
     fstream f;
     f.open("test.txt");
     int n = lenStringArray(strings);
-    cout << "ekhetre stemmer e " << n << endl;
-    for(int i=0;i<34;i++) 
+    for(int i=0;i<n;i++) 
     {
         string alpha = "";
         int n = tokenizedWords[i].size();
@@ -402,11 +405,10 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
             cout << tags[index] << endl;
             return;
         }
-
-    temp = nodeNonVerb.search(word);
+    temp = searchInTree(word,1);
     if(temp != "unknown")
         {
-            tags[index] = nodeNonVerb.search(word);
+            tags[index] = temp;
             cout << tags[index] << endl;
         }
     else
@@ -414,23 +416,24 @@ void bangla_POS_tagger(int index, string word, string root, string suffix)
             temp = "";
             if(word!=root)
             {
-                temp = nodeNonVerb.search(root);
+                temp = searchInTree(root,1);
                 if(temp != "unknown")
                 {
                     //temp = nodeNonVerb.search(root);
+                    string temp2 = searchInTree(root,2);
                     tags[index] = temp;
-                    if(tags[index] == "Adjective")
+                    if(tags[index] == "adjective")
                         tags[index] = "noun";
 
-                    else if( temp == nodeVerb.search(root))
-                        tags[index] = "verb";
+                    else if( temp == temp2)
+                        tags[index] = temp2;
                     else
                         tags[index] = "noun";
                     cout << tags[index] << endl;
                 }
                 else
                 {
-                    temp = nodeVerb.search(root);
+                    temp = searchInTree(root,2);
                     if(temp != "unknown")
                         tags[index] = "verb";
                     else
@@ -470,9 +473,8 @@ int main()
     storeSuffixFromTextFile(2);
     storeSuffixFromTextFile(3);
     storeSuffixFromTextFile(4);
-
-    storeNonVerbsInBPlusTree();
-    storeVerbsInBPlusTree();
+    //storeNonVerbsInBPlusTree();
+    //storeVerbsInBPlusTree();
 
     sort(Bochon_suffix, Bochon_suffix+36 );         
     sort(Bivokti_suffix, Bivokti_suffix+112 );      
@@ -486,15 +488,15 @@ int main()
     //stopWordRemover();
     stemmer();
     int n = lenStringArray(strings);
-    cout << "ekhetre main e " << n << endl;
-    for(int i=0;i<34;i++)
+    cout << n;
+    for(int i=0;i<n;i++)
         bangla_POS_tagger(i,wordWithRootAndSuffix[i].first, wordWithRootAndSuffix[i].second.first, 
                         wordWithRootAndSuffix[i].second.second);
     reCheck();
 
     fstream f;
     f.open("write.txt");
-    for(int i=0;i<34;i++)
+    for(int i=0;i<n;i++)
         f << tokenizedWords[i] + "_" + tags[i] << endl;
     f.close();
 }
