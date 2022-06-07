@@ -4,25 +4,25 @@
 #include<string>
 #include<algorithm>
 using namespace std;
-int n=3,mx=n; //number of child;
-struct mystruct
+int n=3,MAX=n; //number of child;
+struct BPTnode
 {
     int currentNode;
-    mystruct *parent,*next;
-    string *english,*bangla;
+    BPTnode *parent,*next;
+    string *word,*part_of_speech;
     bool lf;
-    mystruct **point;
+    BPTnode **point;
 } ;
-mystruct *root,*firstLeaf;
+BPTnode *root,*firstLeaf;
 
-mystruct* createNode()
+BPTnode* createNode()
 {
-    mystruct *m=new mystruct();
+    BPTnode *m=new BPTnode();
 
 
-    m->point = new mystruct *[n+1];
-    m->english=new string[n];
-    m->bangla=new string[n];
+    m->point = new BPTnode *[n+1];
+    m->word=new string[n];
+    m->part_of_speech=new string[n];
 
     m->currentNode = 0;
     m->parent = NULL;
@@ -30,42 +30,45 @@ mystruct* createNode()
     m->lf = true;
     return m;
 }
-mystruct *findLeaf(mystruct *tempRt,string english)
+BPTnode *findLeaf(BPTnode *tempRt,string word)
 {
 
     while(tempRt->lf==false)
     {
         int i;
-        for(i=0; i<tempRt->currentNode; i++) if(english<tempRt->english[i]) break;
+        for(i=0; i<tempRt->currentNode; i++) 
+            if(word<tempRt->word[i]) 
+                break;
         tempRt = tempRt->point[i];
     }
     return tempRt;
 
 }
 
-void insertValueAndPoint(mystruct *parent,string value,mystruct *right)
+void insertValueAndPoint(BPTnode *parent,string value,BPTnode *right)
 {
     int i=parent->currentNode-1;
     for(;i>=0; i--)
     {
-        if(parent->english[i]<=value) break;
+        if(parent->word[i]<=value)
+            break;
         else
         {
-            parent->english[i+1] = parent->english[i];
+            parent->word[i+1] = parent->word[i];
             parent->point[i+2] = parent->point[i+1];
         }
     }
-    parent->english[i+1] = value;
+    parent->word[i+1] = value;
     parent->point[i+2] = right;
     parent->currentNode++;
 }
 
-void insertMiddle(mystruct *parent,string value,mystruct *left,mystruct *right)
+void insertMiddle(BPTnode *parent,string value,BPTnode *left,BPTnode *right)
 {
     if(parent==NULL)
     {
         parent = createNode();
-        parent->english[0] = value;
+        parent->word[0] = value;
         parent->point[0] = left;
         parent->point[1] = right;
         parent->currentNode++;
@@ -77,14 +80,14 @@ void insertMiddle(mystruct *parent,string value,mystruct *left,mystruct *right)
     }
     right->parent = parent;
     insertValueAndPoint(parent,value,right);
-    if(parent->currentNode==mx)
+    if(parent->currentNode==MAX)
     {
-        mystruct *splitNode = createNode();
+        BPTnode *splitNode = createNode();
         splitNode->lf = false;
         int j=0;
-        for(int i=parent->currentNode-(n-1)/2;i<mx; i++)
+        for(int i=parent->currentNode-(n-1)/2;i<MAX; i++)
         {
-            splitNode->english[j] = parent->english[i];
+            splitNode->word[j] = parent->word[i];
             if(j==0)
             {
                 splitNode->point[0] = parent->point[i];
@@ -96,68 +99,76 @@ void insertMiddle(mystruct *parent,string value,mystruct *left,mystruct *right)
         }
         parent->currentNode-=(n-1)/2+1;
         splitNode->currentNode = (n-1)/2;
-        insertMiddle(parent->parent,parent->english[parent->currentNode],parent,splitNode);
+        insertMiddle(parent->parent,parent->word[parent->currentNode],parent,splitNode);
     }
 
 }
 
-void insertLeaf(string english,string bangla)
+void insertLeaf(string word,string part_of_speech)
 {
-    mystruct *leaf = findLeaf(root,english);
+    BPTnode *leaf = findLeaf(root,word);
     int i= leaf->currentNode-1;
-    if(i>-1) {
-    for(; i>=0; i--)
+    if(i>-1) 
     {
-    	if(english<leaf->english[i])
-    	{
-    		leaf->english[i+1] = leaf->english[i];
-    		leaf->bangla[i+1] = leaf->bangla[i];
-    	}
-    	else break;
+        for(; i>=0; i--)
+        {
+    	    if(word<leaf->word[i])
+    	    {
+    		    leaf->word[i+1] = leaf->word[i];
+    		    leaf->part_of_speech[i+1] = leaf->part_of_speech[i];
+    	    }
+    	    else break;
+        }
     }
-    }
-    leaf->english[i+1] = english;
-    leaf->bangla[i+1] = bangla;
+    leaf->word[i+1] = word;
+    leaf->part_of_speech[i+1] = part_of_speech;
     leaf->currentNode++;
 
-    if(leaf->currentNode==mx)
+    if(leaf->currentNode==MAX)
     {
-        mystruct *splitNode = createNode();
+        BPTnode *splitNode = createNode();
         int j=0;
-        for(int i=leaf->currentNode-n/2;i<mx; i++)
+        for(int i=leaf->currentNode-n/2;i<MAX; i++)
         {
-            splitNode->english[j] = leaf->english[i];
-            splitNode->bangla[j] = leaf->bangla[i];
+            splitNode->word[j] = leaf->word[i];
+            splitNode->part_of_speech[j] = leaf->part_of_speech[i];
             j++;
         }
         leaf->currentNode-=n/2;
         splitNode->currentNode = n/2;
         splitNode->next = leaf->next;
         leaf->next = splitNode;
-        insertMiddle(leaf->parent,splitNode->english[0],leaf,splitNode);
+        insertMiddle(leaf->parent,splitNode->word[0],leaf,splitNode);
     }
 }
 
 string searchInTree(string searchEnglish)
 {
     root = createNode();
-    mystruct *leaf;
+    BPTnode *leaf;
     int i=0;
-    string english,bangla;
+    string word,part_of_speech;
     ifstream ifile;
     ifile.open("postags.txt");
-    if(!ifile) return "problem";
-    while(ifile>>english)
+    if(!ifile) 
+        return "problem";
+
+    while(ifile>>word)
     {
-    	getline(ifile,bangla);
-    	insertLeaf(english,bangla);
+    	getline(ifile,part_of_speech);
+    	insertLeaf(word,part_of_speech);
     }
     
     leaf= findLeaf(root,searchEnglish);
-    for(i=0; i<leaf->currentNode; i++) if(searchEnglish==leaf->english[i]) break;
-    if(i==leaf->currentNode) return "unknown";
-    return leaf->bangla[i];
-    
+    for(i=0; i<leaf->currentNode; i++) 
+        if(searchEnglish==leaf->word[i]) 
+            break;
+
+    if(i==leaf->currentNode) 
+        return "unknown";
+
+ifile.close();
+return leaf->part_of_speech[i];
 }
 
 #endif

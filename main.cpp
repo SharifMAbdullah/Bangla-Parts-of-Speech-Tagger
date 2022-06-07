@@ -35,10 +35,10 @@ void storeNonVerbsInBPlusTree()
     if(!ifile) 
         {
             cout<< "File not found!" << endl;
+            return;
         }
     while(getline(ifile,tag))
     {
-        cout << "gese?" <<endl;
         banglaWord = tag.substr(banglaWord.find(",")+1);
     	tag = tag.substr(0,tag.find(","));
     	insertLeaf(tag,banglaWord);
@@ -55,7 +55,7 @@ void storeVerbsInBPlusTree()
     if(!ifile) 
         {
             cout<< "File not found!" << endl;
-            //return;
+            return;
         }
     while(getline(ifile,tag))
     {
@@ -152,40 +152,40 @@ void storeSuffixFromTextFile(int choice)
         }
 }
 
-// void stopWordRemover()
-// {
-//     string temp,t[10000];
-//     fstream f1,f2;
-//     f1.open("stop_words.txt");
-//     f2.open("a.txt");
-//     long int j = 0;
-//     int n = lenStringArray(tokenizedWords);
-//     while(getline(f1,temp))
-//     {
-//         t[j] = temp;
-//         j++;
-//     }
+void stopWordRemover()
+{
+    string temp,t[10000];
+    fstream f1,f2;
+    f1.open("stop_words.txt");
+    f2.open("a.txt");
+    long int j = 0;
+    int n = lenStringArray(tokenizedWords);
+    while(getline(f1,temp))
+    {
+        t[j] = temp;
+        j++;
+    }
 
-//     for(long int i=0; i<n; i++)
-//         {
-//             for(long int k=0; k<j; k++)
-//             {
-//                 if(tokenizedWords[i] == t[k])
-//                     {
-//                         tokenizedWords[i].erase();
-//                         break;
-//                     }
+    for(long int i=0; i<n; i++)
+        {
+            for(long int k=0; k<j; k++)
+            {
+                if(tokenizedWords[i] == t[k])
+                    {
+                        tokenizedWords[i].erase();
+                        break;
+                    }
                     
-//                 else 
-//                     {
-//                         f2 << tokenizedWords[i] << endl;
-//                         break;
-//                     }
-//             }        
-//         }    
-//     f1.close();
-//     f2.close();
-// }
+                else 
+                    {
+                        f2 << tokenizedWords[i] << endl;
+                        break;
+                    }
+            }        
+        }    
+    f1.close();
+    f2.close();
+}
 
 void tokeniser() 
 {
