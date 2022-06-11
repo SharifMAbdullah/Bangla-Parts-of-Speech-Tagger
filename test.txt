@@ -1,887 +1,857 @@
-found NotStemmed_suffix where alpha is আমি
-আমি = আমি + 
- beta at 1th word at position 38 is � where alpha মোহাম্মাদপুরে
- beta at 1th word at position 37 is �� where alpha মোহাম্মাদপুরে
- beta at 1th word at position 36 is ে where alpha মোহাম্মাদপুরে
+ beta at 0th word at position 11 is � where alpha চলতি
+ beta at 0th word at position 10 is �� where alpha চলতি
+ beta at 0th word at position 9 is ি where alpha চলতি
+ beta at 0th word at position 8 is �ি where alpha চলতি
+ beta at 0th word at position 7 is ��ি where alpha চলতি
+ beta at 0th word at position 6 is তি where alpha চলতি
+ beta at 0th word at position 5 is �তি where alpha চলতি
+ beta at 0th word at position 4 is ��তি where alpha চলতি
+ beta at 0th word at position 3 is লতি where alpha চলতি
+ beta at 0th word at position 2 is �লতি where alpha চলতি
+ beta at 0th word at position 1 is ��লতি where alpha চলতি
+ beta at 0th word at position 0 is চলতি where alpha চলতি
+ beta at 1th word at position 14 is � where alpha বছরের
+ beta at 1th word at position 13 is �� where alpha বছরের
+ beta at 1th word at position 12 is র where alpha বছরের
+ beta at 1th word at position 11 is �র where alpha বছরের
+ beta at 1th word at position 10 is ��র where alpha বছরের
+ beta at 1th word at position 9 is ের where alpha বছরের
+ beta at 1th word at position 8 is �ের where alpha বছরের
+ beta at 1th word at position 7 is ��ের where alpha বছরের
+ beta at 1th word at position 6 is রের where alpha বছরের
+ beta at 1th word at position 5 is �রের where alpha বছরের
+ beta at 1th word at position 4 is ��রের where alpha বছরের
+ beta at 1th word at position 3 is ছরের where alpha বছরের
+ beta at 1th word at position 2 is �ছরের where alpha বছরের
+ beta at 1th word at position 1 is ��ছরের where alpha বছরের
+ beta at 1th word at position 0 is বছরের where alpha বছরের
+ beta at 2th word at position 14 is � where alpha প্রথম
+ beta at 2th word at position 13 is �� where alpha প্রথম
+ beta at 2th word at position 12 is ম where alpha প্রথম
+ beta at 2th word at position 11 is �ম where alpha প্রথম
+ beta at 2th word at position 10 is ��ম where alpha প্রথম
+ beta at 2th word at position 9 is থম where alpha প্রথম
+ beta at 2th word at position 8 is �থম where alpha প্রথম
+ beta at 2th word at position 7 is ��থম where alpha প্রথম
+ beta at 2th word at position 6 is রথম where alpha প্রথম
+ beta at 2th word at position 5 is �রথম where alpha প্রথম
+ beta at 2th word at position 4 is ��রথম where alpha প্রথম
+ beta at 2th word at position 3 is ্রথম where alpha প্রথম
+ beta at 2th word at position 2 is �্রথম where alpha প্রথম
+ beta at 2th word at position 1 is ��্রথম where alpha প্রথম
+ beta at 2th word at position 0 is প্রথম where alpha প্রথম
+ beta at 3th word at position 32 is � where alpha ত্রৈমাসিকের
+ beta at 3th word at position 31 is �� where alpha ত্রৈমাসিকের
+ beta at 3th word at position 30 is র where alpha ত্রৈমাসিকের
+ beta at 3th word at position 29 is �র where alpha ত্রৈমাসিকের
+ beta at 3th word at position 28 is ��র where alpha ত্রৈমাসিকের
+ beta at 3th word at position 27 is ের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 26 is �ের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 25 is ��ের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 24 is কের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 23 is �কের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 22 is ��কের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 21 is িকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 20 is �িকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 19 is ��িকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 18 is সিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 17 is �সিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 16 is ��সিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 15 is াসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 14 is �াসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 13 is ��াসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 12 is মাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 11 is �মাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 10 is ��মাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 9 is ৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 8 is �ৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 7 is ��ৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 6 is রৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 5 is �রৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 4 is ��রৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 3 is ্রৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 2 is �্রৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 1 is ��্রৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 3th word at position 0 is ত্রৈমাসিকের where alpha ত্রৈমাসিকের
+ beta at 4th word at position 26 is � where alpha অর্থনৈতিক
+ beta at 4th word at position 25 is �� where alpha অর্থনৈতিক
+ beta at 4th word at position 24 is ক where alpha অর্থনৈতিক
+ beta at 4th word at position 23 is �ক where alpha অর্থনৈতিক
+ beta at 4th word at position 22 is ��ক where alpha অর্থনৈতিক
+ beta at 4th word at position 21 is িক where alpha অর্থনৈতিক
+ beta at 4th word at position 20 is �িক where alpha অর্থনৈতিক
+ beta at 4th word at position 19 is ��িক where alpha অর্থনৈতিক
+ beta at 4th word at position 18 is তিক where alpha অর্থনৈতিক
+ beta at 4th word at position 17 is �তিক where alpha অর্থনৈতিক
+ beta at 4th word at position 16 is ��তিক where alpha অর্থনৈতিক
+ beta at 4th word at position 15 is ৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 14 is �ৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 13 is ��ৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 12 is নৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 11 is �নৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 10 is ��নৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 9 is থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 8 is �থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 7 is ��থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 6 is ্থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 5 is �্থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 4 is ��্থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 3 is র্থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 2 is �র্থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 1 is ��র্থনৈতিক where alpha অর্থনৈতিক
+ beta at 4th word at position 0 is অর্থনৈতিক where alpha অর্থনৈতিক
+ beta at 5th word at position 29 is � where alpha পরিস্থিতির
+ beta at 5th word at position 28 is �� where alpha পরিস্থিতির
+ beta at 5th word at position 27 is র where alpha পরিস্থিতির
+ beta at 5th word at position 26 is �র where alpha পরিস্থিতির
+ beta at 5th word at position 25 is ��র where alpha পরিস্থিতির
+ beta at 5th word at position 24 is ির where alpha পরিস্থিতির
+ beta at 5th word at position 23 is �ির where alpha পরিস্থিতির
+ beta at 5th word at position 22 is ��ির where alpha পরিস্থিতির
+ beta at 5th word at position 21 is তির where alpha পরিস্থিতির
+ beta at 5th word at position 20 is �তির where alpha পরিস্থিতির
+ beta at 5th word at position 19 is ��তির where alpha পরিস্থিতির
+ beta at 5th word at position 18 is িতির where alpha পরিস্থিতির
+ beta at 5th word at position 17 is �িতির where alpha পরিস্থিতির
+ beta at 5th word at position 16 is ��িতির where alpha পরিস্থিতির
+ beta at 5th word at position 15 is থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 14 is �থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 13 is ��থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 12 is ্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 11 is �্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 10 is ��্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 9 is স্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 8 is �স্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 7 is ��স্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 6 is িস্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 5 is �িস্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 4 is ��িস্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 3 is রিস্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 2 is �রিস্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 1 is ��রিস্থিতির where alpha পরিস্থিতির
+ beta at 5th word at position 0 is পরিস্থিতির where alpha পরিস্থিতির
+ beta at 6th word at position 32 is � where alpha পর্যালোচনায়
+ beta at 6th word at position 31 is �� where alpha পর্যালোচনায়
+ beta at 6th word at position 30 is য় where alpha পর্যালোচনায়
+ beta at 6th word at position 29 is �য় where alpha পর্যালোচনায়
+ beta at 6th word at position 28 is ��য় where alpha পর্যালোচনায়
+ beta at 6th word at position 27 is ায় where alpha পর্যালোচনায়
 found bivokti suffix
-মোহাম্মাদপুরে = মোহাম্মাদপুর + ে
- beta at 2th word at position 11 is � where alpha থাকি
- beta at 2th word at position 10 is �� where alpha থাকি
- beta at 2th word at position 9 is ি where alpha থাকি
- beta at 2th word at position 8 is �ি where alpha থাকি
- beta at 2th word at position 7 is ��ি where alpha থাকি
- beta at 2th word at position 6 is কি where alpha থাকি
- beta at 2th word at position 5 is �কি where alpha থাকি
- beta at 2th word at position 4 is ��কি where alpha থাকি
- beta at 2th word at position 3 is াকি where alpha থাকি
- beta at 2th word at position 2 is �াকি where alpha থাকি
- beta at 2th word at position 1 is ��াকি where alpha থাকি
- beta at 2th word at position 0 is থাকি where alpha থাকি
-found NotStemmed_suffix where alpha is আমার
-আমার = আমার + 
- beta at 4th word at position 11 is � where alpha বাসা
- beta at 4th word at position 10 is �� where alpha বাসা
- beta at 4th word at position 9 is া where alpha বাসা
- beta at 4th word at position 8 is �া where alpha বাসা
- beta at 4th word at position 7 is ��া where alpha বাসা
- beta at 4th word at position 6 is সা where alpha বাসা
- beta at 4th word at position 5 is �সা where alpha বাসা
- beta at 4th word at position 4 is ��সা where alpha বাসা
- beta at 4th word at position 3 is াসা where alpha বাসা
- beta at 4th word at position 2 is �াসা where alpha বাসা
- beta at 4th word at position 1 is ��াসা where alpha বাসা
- beta at 4th word at position 0 is বাসা where alpha বাসা
-found NotStemmed_suffix where alpha is থেকে
-থেকে = থেকে + 
- beta at 6th word at position 35 is � where alpha ইউনিভার্সিটি
- beta at 6th word at position 34 is �� where alpha ইউনিভার্সিটি
- beta at 6th word at position 33 is ি where alpha ইউনিভার্সিটি
- beta at 6th word at position 32 is �ি where alpha ইউনিভার্সিটি
- beta at 6th word at position 31 is ��ি where alpha ইউনিভার্সিটি
- beta at 6th word at position 30 is টি where alpha ইউনিভার্সিটি
-found bochon suffix
-ইউনিভার্সিটি = ইউনিভার্সি + টি
- beta at 7th word at position 11 is � where alpha আসতে
- beta at 7th word at position 10 is �� where alpha আসতে
- beta at 7th word at position 9 is ে where alpha আসতে
-found bivokti suffix
-আসতে = আসত + ে
- beta at 8th word at position 8 is � where alpha আধা
- beta at 8th word at position 7 is �� where alpha আধা
- beta at 8th word at position 6 is া where alpha আধা
- beta at 8th word at position 5 is �া where alpha আধা
- beta at 8th word at position 4 is ��া where alpha আধা
- beta at 8th word at position 3 is ধা where alpha আধা
- beta at 8th word at position 2 is �ধা where alpha আধা
- beta at 8th word at position 1 is ��ধা where alpha আধা
- beta at 8th word at position 0 is আধা where alpha আধা
- beta at 9th word at position 14 is � where alpha ঘণ্টা
- beta at 9th word at position 13 is �� where alpha ঘণ্টা
- beta at 9th word at position 12 is া where alpha ঘণ্টা
- beta at 9th word at position 11 is �া where alpha ঘণ্টা
- beta at 9th word at position 10 is ��া where alpha ঘণ্টা
- beta at 9th word at position 9 is টা where alpha ঘণ্টা
-found bochon suffix
-ঘণ্টা = ঘণ্ + টা
- beta at 10th word at position 11 is � where alpha লাগে
- beta at 10th word at position 10 is �� where alpha লাগে
- beta at 10th word at position 9 is ে where alpha লাগে
-found bivokti suffix
-লাগে = লাগ + ে
- beta at 8th word at position 10 is ��স where alpha ক্রুস
- beta at 8th word at position 9 is ুস where alpha ক্রুস
- beta at 8th word at position 8 is �ুস where alpha ক্রুস
- beta at 8th word at position 7 is ��ুস where alpha ক্রুস
- beta at 8th word at position 6 is রুস where alpha ক্রুস
- beta at 8th word at position 5 is �রুস where alpha ক্রুস
- beta at 8th word at position 4 is ��রুস where alpha ক্রুস
- beta at 8th word at position 3 is ্রুস where alpha ক্রুস
- beta at 8th word at position 2 is �্রুস where alpha ক্রুস
- beta at 8th word at position 1 is ��্রুস where alpha ক্রুস
- beta at 8th word at position 0 is ক্রুস where alpha ক্রুস
-found NotStemmed_suffix where alpha is শুধু
-শুধু = শুধু + 
- beta at 10th word at position 29 is � where alpha আনচেলত্তিই
- beta at 10th word at position 28 is �� where alpha আনচেলত্তিই
- beta at 10th word at position 27 is ই where alpha আনচেলত্তিই
- beta at 10th word at position 26 is �ই where alpha আনচেলত্তিই
- beta at 10th word at position 25 is ��ই where alpha আনচেলত্তিই
- beta at 10th word at position 24 is িই where alpha আনচেলত্তিই
- beta at 10th word at position 23 is �িই where alpha আনচেলত্তিই
- beta at 10th word at position 22 is ��িই where alpha আনচেলত্তিই
- beta at 10th word at position 21 is তিই where alpha আনচেলত্তিই
- beta at 10th word at position 20 is �তিই where alpha আনচেলত্তিই
- beta at 10th word at position 19 is ��তিই where alpha আনচেলত্তিই
- beta at 10th word at position 18 is ্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 17 is �্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 16 is ��্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 15 is ত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 14 is �ত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 13 is ��ত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 12 is লত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 11 is �লত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 10 is ��লত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 9 is েলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 8 is �েলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 7 is ��েলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 6 is চেলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 5 is �চেলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 4 is ��চেলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 3 is নচেলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 2 is �নচেলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 1 is ��নচেলত্তিই where alpha আনচেলত্তিই
- beta at 10th word at position 0 is আনচেলত্তিই where alpha আনচেলত্তিই
-found NotStemmed_suffix where alpha is নয়
-নয় = নয় + 
-found NotStemmed_suffix where alpha is নিজের
-নিজের = নিজের + 
- beta at 13th word at position 14 is � where alpha সাবেক
- beta at 13th word at position 13 is �� where alpha সাবেক
- beta at 13th word at position 12 is ক where alpha সাবেক
- beta at 13th word at position 11 is �ক where alpha সাবেক
- beta at 13th word at position 10 is ��ক where alpha সাবেক
- beta at 13th word at position 9 is েক where alpha সাবেক
- beta at 13th word at position 8 is �েক where alpha সাবেক
- beta at 13th word at position 7 is ��েক where alpha সাবেক
- beta at 13th word at position 6 is বেক where alpha সাবেক
- beta at 13th word at position 5 is �বেক where alpha সাবেক
- beta at 13th word at position 4 is ��বেক where alpha সাবেক
- beta at 13th word at position 3 is াবেক where alpha সাবেক
- beta at 13th word at position 2 is �াবেক where alpha সাবেক
- beta at 13th word at position 1 is ��াবেক where alpha সাবেক
- beta at 13th word at position 0 is সাবেক where alpha সাবেক
- beta at 14th word at position 8 is � where alpha কোচ
- beta at 14th word at position 7 is �� where alpha কোচ
- beta at 14th word at position 6 is চ where alpha কোচ
- beta at 14th word at position 5 is �চ where alpha কোচ
- beta at 14th word at position 4 is ��চ where alpha কোচ
- beta at 14th word at position 3 is োচ where alpha কোচ
- beta at 14th word at position 2 is �োচ where alpha কোচ
- beta at 14th word at position 1 is ��োচ where alpha কোচ
- beta at 14th word at position 0 is কোচ where alpha কোচ
- beta at 15th word at position 11 is � where alpha ইয়ুপ
- beta at 15th word at position 10 is �� where alpha ইয়ুপ
- beta at 15th word at position 9 is প where alpha ইয়ুপ
- beta at 15th word at position 8 is �প where alpha ইয়ুপ
- beta at 15th word at position 7 is ��প where alpha ইয়ুপ
- beta at 15th word at position 6 is ুপ where alpha ইয়ুপ
- beta at 15th word at position 5 is �ুপ where alpha ইয়ুপ
- beta at 15th word at position 4 is ��ুপ where alpha ইয়ুপ
- beta at 15th word at position 3 is য়ুপ where alpha ইয়ুপ
- beta at 15th word at position 2 is �য়ুপ where alpha ইয়ুপ
- beta at 15th word at position 1 is ��য়ুপ where alpha ইয়ুপ
- beta at 15th word at position 0 is ইয়ুপ where alpha ইয়ুপ
- beta at 16th word at position 29 is � where alpha হেইঙ্কেসের
- beta at 16th word at position 28 is �� where alpha হেইঙ্কেসের
- beta at 16th word at position 27 is র where alpha হেইঙ্কেসের
- beta at 16th word at position 26 is �র where alpha হেইঙ্কেসের
- beta at 16th word at position 25 is ��র where alpha হেইঙ্কেসের
- beta at 16th word at position 24 is ের where alpha হেইঙ্কেসের
- beta at 16th word at position 23 is �ের where alpha হেইঙ্কেসের
- beta at 16th word at position 22 is ��ের where alpha হেইঙ্কেসের
- beta at 16th word at position 21 is সের where alpha হেইঙ্কেসের
- beta at 16th word at position 20 is �সের where alpha হেইঙ্কেসের
- beta at 16th word at position 19 is ��সের where alpha হেইঙ্কেসের
- beta at 16th word at position 18 is েসের where alpha হেইঙ্কেসের
- beta at 16th word at position 17 is �েসের where alpha হেইঙ্কেসের
- beta at 16th word at position 16 is ��েসের where alpha হেইঙ্কেসের
- beta at 16th word at position 15 is কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 14 is �কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 13 is ��কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 12 is ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 11 is �্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 10 is ��্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 9 is ঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 8 is �ঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 7 is ��ঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 6 is ইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 5 is �ইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 4 is ��ইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 3 is েইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 2 is �েইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 1 is ��েইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 16th word at position 0 is হেইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 17th word at position 17 is � where alpha জন্যেও
- beta at 17th word at position 16 is �� where alpha জন্যেও
- beta at 17th word at position 15 is ও where alpha জন্যেও
- beta at 17th word at position 14 is �ও where alpha জন্যেও
- beta at 17th word at position 13 is ��ও where alpha জন্যেও
- beta at 17th word at position 12 is েও where alpha জন্যেও
- beta at 17th word at position 11 is �েও where alpha জন্যেও
- beta at 17th word at position 10 is ��েও where alpha জন্যেও
- beta at 17th word at position 9 is যেও where alpha জন্যেও
- beta at 17th word at position 8 is �যেও where alpha জন্যেও
- beta at 17th word at position 7 is ��যেও where alpha জন্যেও
- beta at 17th word at position 6 is ্যেও where alpha জন্যেও
- beta at 17th word at position 5 is �্যেও where alpha জন্যেও
- beta at 17th word at position 4 is ��্যেও where alpha জন্যেও
- beta at 17th word at position 3 is ন্যেও where alpha জন্যেও
- beta at 17th word at position 2 is �ন্যেও where alpha জন্যেও
- beta at 17th word at position 1 is ��ন্যেও where alpha জন্যেও
- beta at 17th word at position 0 is জন্যেও where alpha জন্যেও
- beta at 18th word at position 26 is � where alpha সহমর্মিতা
- beta at 18th word at position 25 is �� where alpha সহমর্মিতা
- beta at 18th word at position 24 is া where alpha সহমর্মিতা
- beta at 18th word at position 23 is �া where alpha সহমর্মিতা
- beta at 18th word at position 22 is ��া where alpha সহমর্মিতা
- beta at 18th word at position 21 is তা where alpha সহমর্মিতা
- beta at 18th word at position 20 is �তা where alpha সহমর্মিতা
- beta at 18th word at position 19 is ��তা where alpha সহমর্মিতা
- beta at 18th word at position 18 is িতা where alpha সহমর্মিতা
- beta at 18th word at position 17 is �িতা where alpha সহমর্মিতা
- beta at 18th word at position 16 is ��িতা where alpha সহমর্মিতা
- beta at 18th word at position 15 is মিতা where alpha সহমর্মিতা
- beta at 18th word at position 14 is �মিতা where alpha সহমর্মিতা
- beta at 18th word at position 13 is ��মিতা where alpha সহমর্মিতা
- beta at 18th word at position 12 is ্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 11 is �্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 10 is ��্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 9 is র্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 8 is �র্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 7 is ��র্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 6 is মর্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 5 is �মর্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 4 is ��মর্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 3 is হমর্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 2 is �হমর্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 1 is ��হমর্মিতা where alpha সহমর্মিতা
- beta at 18th word at position 0 is সহমর্মিতা where alpha সহমর্মিতা
- beta at 19th word at position 14 is � where alpha ঝরেছে
- beta at 19th word at position 13 is �� where alpha ঝরেছে
- beta at 19th word at position 12 is ে where alpha ঝরেছে
-found bivokti suffix
-ঝরেছে = ঝরেছ + ে
- beta at 20th word at position 20 is � where alpha ক্রুসের
- beta at 20th word at position 19 is �� where alpha ক্রুসের
- beta at 20th word at position 18 is র where alpha ক্রুসের
- beta at 20th word at position 17 is �র where alpha ক্রুসের
- beta at 20th word at position 16 is ��র where alpha ক্রুসের
- beta at 20th word at position 15 is ের where alpha ক্রুসের
- beta at 20th word at position 14 is �ের where alpha ক্রুসের
- beta at 20th word at position 13 is ��ের where alpha ক্রুসের
- beta at 20th word at position 12 is সের where alpha ক্রুসের
- beta at 20th word at position 11 is �সের where alpha ক্রুসের
- beta at 20th word at position 10 is ��সের where alpha ক্রুসের
- beta at 20th word at position 9 is ুসের where alpha ক্রুসের
- beta at 20th word at position 8 is �ুসের where alpha ক্রুসের
- beta at 20th word at position 7 is ��ুসের where alpha ক্রুসের
- beta at 20th word at position 6 is রুসের where alpha ক্রুসের
- beta at 20th word at position 5 is �রুসের where alpha ক্রুসের
- beta at 20th word at position 4 is ��রুসের where alpha ক্রুসের
- beta at 20th word at position 3 is ্রুসের where alpha ক্রুসের
- beta at 20th word at position 2 is �্রুসের where alpha ক্রুসের
- beta at 20th word at position 1 is ��্রুসের where alpha ক্রুসের
- beta at 20th word at position 0 is ক্রুসের where alpha ক্রুসের
- beta at 21th word at position 11 is � where alpha কণ্ঠ
- beta at 21th word at position 10 is �� where alpha কণ্ঠ
- beta at 21th word at position 9 is ঠ where alpha কণ্ঠ
- beta at 21th word at position 8 is �ঠ where alpha কণ্ঠ
- beta at 21th word at position 7 is ��ঠ where alpha কণ্ঠ
- beta at 21th word at position 6 is ্ঠ where alpha কণ্ঠ
- beta at 21th word at position 5 is �্ঠ where alpha কণ্ঠ
- beta at 21th word at position 4 is ��্ঠ where alpha কণ্ঠ
- beta at 21th word at position 3 is ণ্ঠ where alpha কণ্ঠ
- beta at 21th word at position 2 is �ণ্ঠ where alpha কণ্ঠ
- beta at 21th word at position 1 is ��ণ্ঠ where alpha কণ্ঠ
- beta at 21th word at position 0 is কণ্ঠ where alpha কণ্ঠ
-found NotStemmed_suffix where alpha is থেকে
-থেকে = থেকে + 
- beta at 23th word at position 29 is � where alpha ‘ব্যাপারটা
- beta at 23th word at position 28 is �� where alpha ‘ব্যাপারটা
- beta at 23th word at position 27 is া where alpha ‘ব্যাপারটা
- beta at 23th word at position 26 is �া where alpha ‘ব্যাপারটা
- beta at 23th word at position 25 is ��া where alpha ‘ব্যাপারটা
- beta at 23th word at position 24 is টা where alpha ‘ব্যাপারটা
-found bochon suffix
-‘ব্যাপারটা = ‘ব্যাপার + টা
- beta at 24th word at position 17 is � where alpha হতাশায়
- beta at 24th word at position 16 is �� where alpha হতাশায়
- beta at 24th word at position 15 is য় where alpha হতাশায়
- beta at 24th word at position 14 is �য় where alpha হতাশায়
- beta at 24th word at position 13 is ��য় where alpha হতাশায়
- beta at 24th word at position 12 is ায় where alpha হতাশায়
-found bivokti suffix
-হতাশায় = হতাশ + ায়
-found NotStemmed_suffix where alpha is যে
-যে = যে + 
- beta at 26th word at position 26 is � where alpha আনচেলত্তি
- beta at 26th word at position 25 is �� where alpha আনচেলত্তি
- beta at 26th word at position 24 is ি where alpha আনচেলত্তি
- beta at 26th word at position 23 is �ি where alpha আনচেলত্তি
- beta at 26th word at position 22 is ��ি where alpha আনচেলত্তি
- beta at 26th word at position 21 is তি where alpha আনচেলত্তি
- beta at 26th word at position 20 is �তি where alpha আনচেলত্তি
- beta at 26th word at position 19 is ��তি where alpha আনচেলত্তি
- beta at 26th word at position 18 is ্তি where alpha আনচেলত্তি
- beta at 26th word at position 17 is �্তি where alpha আনচেলত্তি
- beta at 26th word at position 16 is ��্তি where alpha আনচেলত্তি
- beta at 26th word at position 15 is ত্তি where alpha আনচেলত্তি
- beta at 26th word at position 14 is �ত্তি where alpha আনচেলত্তি
- beta at 26th word at position 13 is ��ত্তি where alpha আনচেলত্তি
- beta at 26th word at position 12 is লত্তি where alpha আনচেলত্তি
- beta at 26th word at position 11 is �লত্তি where alpha আনচেলত্তি
- beta at 26th word at position 10 is ��লত্তি where alpha আনচেলত্তি
- beta at 26th word at position 9 is েলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 8 is �েলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 7 is ��েলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 6 is চেলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 5 is �চেলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 4 is ��চেলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 3 is নচেলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 2 is �নচেলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 1 is ��নচেলত্তি where alpha আনচেলত্তি
- beta at 26th word at position 0 is আনচেলত্তি where alpha আনচেলত্তি
-found NotStemmed_suffix where alpha is আর
-আর = আর + 
- beta at 28th word at position 29 is � where alpha হেইঙ্কেসের
- beta at 28th word at position 28 is �� where alpha হেইঙ্কেসের
- beta at 28th word at position 27 is র where alpha হেইঙ্কেসের
- beta at 28th word at position 26 is �র where alpha হেইঙ্কেসের
- beta at 28th word at position 25 is ��র where alpha হেইঙ্কেসের
- beta at 28th word at position 24 is ের where alpha হেইঙ্কেসের
- beta at 28th word at position 23 is �ের where alpha হেইঙ্কেসের
- beta at 28th word at position 22 is ��ের where alpha হেইঙ্কেসের
- beta at 28th word at position 21 is সের where alpha হেইঙ্কেসের
- beta at 28th word at position 20 is �সের where alpha হেইঙ্কেসের
- beta at 28th word at position 19 is ��সের where alpha হেইঙ্কেসের
- beta at 28th word at position 18 is েসের where alpha হেইঙ্কেসের
- beta at 28th word at position 17 is �েসের where alpha হেইঙ্কেসের
- beta at 28th word at position 16 is ��েসের where alpha হেইঙ্কেসের
- beta at 28th word at position 15 is কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 14 is �কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 13 is ��কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 12 is ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 11 is �্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 10 is ��্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 9 is ঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 8 is �ঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 7 is ��ঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 6 is ইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 5 is �ইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 4 is ��ইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 3 is েইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 2 is �েইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 1 is ��েইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 28th word at position 0 is হেইঙ্কেসের where alpha হেইঙ্কেসের
- beta at 29th word at position 29 is � where alpha ড্রেসিংরুম
- beta at 29th word at position 28 is �� where alpha ড্রেসিংরুম
- beta at 29th word at position 27 is ম where alpha ড্রেসিংরুম
- beta at 29th word at position 26 is �ম where alpha ড্রেসিংরুম
- beta at 29th word at position 25 is ��ম where alpha ড্রেসিংরুম
- beta at 29th word at position 24 is ুম where alpha ড্রেসিংরুম
- beta at 29th word at position 23 is �ুম where alpha ড্রেসিংরুম
- beta at 29th word at position 22 is ��ুম where alpha ড্রেসিংরুম
- beta at 29th word at position 21 is রুম where alpha ড্রেসিংরুম
- beta at 29th word at position 20 is �রুম where alpha ড্রেসিংরুম
- beta at 29th word at position 19 is ��রুম where alpha ড্রেসিংরুম
- beta at 29th word at position 18 is ংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 17 is �ংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 16 is ��ংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 15 is িংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 14 is �িংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 13 is ��িংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 12 is সিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 11 is �সিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 10 is ��সিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 9 is েসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 8 is �েসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 7 is ��েসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 6 is রেসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 5 is �রেসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 4 is ��রেসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 3 is ্রেসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 2 is �্রেসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 1 is ��্রেসিংরুম where alpha ড্রেসিংরুম
- beta at 29th word at position 0 is ড্রেসিংরুম where alpha ড্রেসিংরুম
- beta at 30th word at position 14 is � where alpha সামলে
- beta at 30th word at position 13 is �� where alpha সামলে
- beta at 30th word at position 12 is ে where alpha সামলে
-found bivokti suffix
-সামলে = সামল + ে
- beta at 31th word at position 14 is � where alpha রাখার
- beta at 31th word at position 13 is �� where alpha রাখার
- beta at 31th word at position 12 is র where alpha রাখার
- beta at 31th word at position 11 is �র where alpha রাখার
- beta at 31th word at position 10 is ��র where alpha রাখার
- beta at 31th word at position 9 is ার where alpha রাখার
- beta at 31th word at position 8 is �ার where alpha রাখার
- beta at 31th word at position 7 is ��ার where alpha রাখার
- beta at 31th word at position 6 is খার where alpha রাখার
- beta at 31th word at position 5 is �খার where alpha রাখার
- beta at 31th word at position 4 is ��খার where alpha রাখার
- beta at 31th word at position 3 is াখার where alpha রাখার
- beta at 31th word at position 2 is �াখার where alpha রাখার
- beta at 31th word at position 1 is ��াখার where alpha রাখার
- beta at 31th word at position 0 is রাখার where alpha রাখার
- beta at 32th word at position 32 is � where alpha ক্ষমতাটাকেই
- beta at 32th word at position 31 is �� where alpha ক্ষমতাটাকেই
- beta at 32th word at position 30 is ই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 29 is �ই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 28 is ��ই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 27 is েই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 26 is �েই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 25 is ��েই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 24 is কেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 23 is �কেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 22 is ��কেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 21 is াকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 20 is �াকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 19 is ��াকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 18 is টাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 17 is �টাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 16 is ��টাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 15 is াটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 14 is �াটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 13 is ��াটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 12 is তাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 11 is �তাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 10 is ��তাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 9 is মতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 8 is �মতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 7 is ��মতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 6 is ষমতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 5 is �ষমতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 4 is ��ষমতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 3 is ্ষমতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 2 is �্ষমতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 1 is ��্ষমতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 32th word at position 0 is ক্ষমতাটাকেই where alpha ক্ষমতাটাকেই
- beta at 33th word at position 17 is � where alpha সবচেয়ে
- beta at 33th word at position 16 is �� where alpha সবচেয়ে
- beta at 33th word at position 15 is ে where alpha সবচেয়ে
-found bivokti suffix
-সবচেয়ে = সবচেয় + ে
- beta at 34th word at position 11 is � where alpha বেশি
- beta at 34th word at position 10 is �� where alpha বেশি
- beta at 34th word at position 9 is ি where alpha বেশি
- beta at 34th word at position 8 is �ি where alpha বেশি
- beta at 34th word at position 7 is ��ি where alpha বেশি
- beta at 34th word at position 6 is শি where alpha বেশি
- beta at 34th word at position 5 is �শি where alpha বেশি
- beta at 34th word at position 4 is ��শি where alpha বেশি
- beta at 34th word at position 3 is েশি where alpha বেশি
- beta at 34th word at position 2 is �েশি where alpha বেশি
- beta at 34th word at position 1 is ��েশি where alpha বেশি
- beta at 34th word at position 0 is বেশি where alpha বেশি
- beta at 35th word at position 14 is � where alpha মূল্য
- beta at 35th word at position 13 is �� where alpha মূল্য
- beta at 35th word at position 12 is য where alpha মূল্য
- beta at 35th word at position 11 is �য where alpha মূল্য
- beta at 35th word at position 10 is ��য where alpha মূল্য
- beta at 35th word at position 9 is ্য where alpha মূল্য
- beta at 35th word at position 8 is �্য where alpha মূল্য
- beta at 35th word at position 7 is ��্য where alpha মূল্য
- beta at 35th word at position 6 is ল্য where alpha মূল্য
- beta at 35th word at position 5 is �ল্য where alpha মূল্য
- beta at 35th word at position 4 is ��ল্য where alpha মূল্য
- beta at 35th word at position 3 is ূল্য where alpha মূল্য
- beta at 35th word at position 2 is �ূল্য where alpha মূল্য
- beta at 35th word at position 1 is ��ূল্য where alpha মূল্য
- beta at 35th word at position 0 is মূল্য where alpha মূল্য
-found NotStemmed_suffix where alpha is দেওয়া
-দেওয়া = দেওয়া + 
-found NotStemmed_suffix where alpha is হয়
-হয় = হয় + 
-found NotStemmed_suffix where alpha is আমার
-আমার = আমার + 
- beta at 39th word at position 8 is � where alpha মনে
- beta at 39th word at position 7 is �� where alpha মনে
- beta at 39th word at position 6 is ে where alpha মনে
-found bivokti suffix
-মনে = মন + ে
-found NotStemmed_suffix where alpha is হয়
-হয় = হয় + 
-found NotStemmed_suffix where alpha is না
-না = না + 
- beta at 42th word at position 14 is � where alpha এমনটা
- beta at 42th word at position 13 is �� where alpha এমনটা
- beta at 42th word at position 12 is া where alpha এমনটা
- beta at 42th word at position 11 is �া where alpha এমনটা
- beta at 42th word at position 10 is ��া where alpha এমনটা
- beta at 42th word at position 9 is টা where alpha এমনটা
-found bochon suffix
-এমনটা = এমন + টা
-found NotStemmed_suffix where alpha is করা
-করা = করা + 
-found NotStemmed_suffix where alpha is উচিত
-উচিত = উচিত + 
- beta at 45th word at position 14 is � where alpha শুনলে
- beta at 45th word at position 13 is �� where alpha শুনলে
- beta at 45th word at position 12 is ে where alpha শুনলে
-found bivokti suffix
-শুনলে = শুনল + ে
- beta at 46th word at position 8 is � where alpha মনে
- beta at 46th word at position 7 is �� where alpha মনে
- beta at 46th word at position 6 is ে where alpha মনে
-found bivokti suffix
-মনে = মন + ে
-found NotStemmed_suffix where alpha is হয়
-হয় = হয় + 
-found NotStemmed_suffix where alpha is তাঁরা
-তাঁরা = তাঁরা + 
- beta at 49th word at position 20 is � where alpha ফুটবলের
- beta at 49th word at position 19 is �� where alpha ফুটবলের
- beta at 49th word at position 18 is র where alpha ফুটবলের
- beta at 49th word at position 17 is �র where alpha ফুটবলের
- beta at 49th word at position 16 is ��র where alpha ফুটবলের
- beta at 49th word at position 15 is ের where alpha ফুটবলের
- beta at 49th word at position 14 is �ের where alpha ফুটবলের
- beta at 49th word at position 13 is ��ের where alpha ফুটবলের
- beta at 49th word at position 12 is লের where alpha ফুটবলের
- beta at 49th word at position 11 is �লের where alpha ফুটবলের
- beta at 49th word at position 10 is ��লের where alpha ফুটবলের
- beta at 49th word at position 9 is বলের where alpha ফুটবলের
- beta at 49th word at position 8 is �বলের where alpha ফুটবলের
- beta at 49th word at position 7 is ��বলের where alpha ফুটবলের
- beta at 49th word at position 6 is টবলের where alpha ফুটবলের
- beta at 49th word at position 5 is �টবলের where alpha ফুটবলের
- beta at 49th word at position 4 is ��টবলের where alpha ফুটবলের
- beta at 49th word at position 3 is ুটবলের where alpha ফুটবলের
- beta at 49th word at position 2 is �ুটবলের where alpha ফুটবলের
- beta at 49th word at position 1 is ��ুটবলের where alpha ফুটবলের
- beta at 49th word at position 0 is ফুটবলের where alpha ফুটবলের
- beta at 50th word at position 11 is � where alpha কৌশল
- beta at 50th word at position 10 is �� where alpha কৌশল
- beta at 50th word at position 9 is ল where alpha কৌশল
- beta at 50th word at position 8 is �ল where alpha কৌশল
- beta at 50th word at position 7 is ��ল where alpha কৌশল
- beta at 50th word at position 6 is শল where alpha কৌশল
- beta at 50th word at position 5 is �শল where alpha কৌশল
- beta at 50th word at position 4 is ��শল where alpha কৌশল
- beta at 50th word at position 3 is ৌশল where alpha কৌশল
- beta at 50th word at position 2 is �ৌশল where alpha কৌশল
- beta at 50th word at position 1 is ��ৌশল where alpha কৌশল
- beta at 50th word at position 0 is কৌশল where alpha কৌশল
- beta at 51th word at position 23 is � where alpha সম্পর্কে
- beta at 51th word at position 22 is �� where alpha সম্পর্কে
- beta at 51th word at position 21 is ে where alpha সম্পর্কে
-found bivokti suffix
-সম্পর্কে = সম্পর্ক + ে
-found NotStemmed_suffix where alpha is কিছুই
-কিছুই = কিছুই + 
- beta at 53th word at position 14 is � where alpha জানেন
- beta at 53th word at position 13 is �� where alpha জানেন
- beta at 53th word at position 12 is ন where alpha জানেন
- beta at 53th word at position 11 is �ন where alpha জানেন
- beta at 53th word at position 10 is ��ন where alpha জানেন
- beta at 53th word at position 9 is েন where alpha জানেন
- beta at 53th word at position 8 is �েন where alpha জানেন
- beta at 53th word at position 7 is ��েন where alpha জানেন
- beta at 53th word at position 6 is নেন where alpha জানেন
- beta at 53th word at position 5 is �নেন where alpha জানেন
- beta at 53th word at position 4 is ��নেন where alpha জানেন
- beta at 53th word at position 3 is ানেন where alpha জানেন
- beta at 53th word at position 2 is �ানেন where alpha জানেন
- beta at 53th word at position 1 is ��ানেন where alpha জানেন
- beta at 53th word at position 0 is জানেন where alpha জানেন
-found NotStemmed_suffix where alpha is না
-না = না + 
-found NotStemmed_suffix where alpha is না
-না = না + 
-found NotStemmed_suffix where alpha is হয়তো
-হয়তো = হয়তো + 
-found NotStemmed_suffix where alpha is তাঁরা
-তাঁরা = তাঁরা + 
- beta at 58th word at position 5 is � where alpha অত
- beta at 58th word at position 4 is �� where alpha অত
- beta at 58th word at position 3 is ত where alpha অত
- beta at 58th word at position 2 is �ত where alpha অত
- beta at 58th word at position 1 is ��ত where alpha অত
- beta at 58th word at position 0 is অত where alpha অত
- beta at 59th word at position 11 is � where alpha কঠিন
- beta at 59th word at position 10 is �� where alpha কঠিন
- beta at 59th word at position 9 is ন where alpha কঠিন
- beta at 59th word at position 8 is �ন where alpha কঠিন
- beta at 59th word at position 7 is ��ন where alpha কঠিন
- beta at 59th word at position 6 is িন where alpha কঠিন
- beta at 59th word at position 5 is �িন where alpha কঠিন
- beta at 59th word at position 4 is ��িন where alpha কঠিন
- beta at 59th word at position 3 is ঠিন where alpha কঠিন
- beta at 59th word at position 2 is �ঠিন where alpha কঠিন
- beta at 59th word at position 1 is ��ঠিন where alpha কঠিন
- beta at 59th word at position 0 is কঠিন where alpha কঠিন
- beta at 60th word at position 8 is � where alpha পথে
- beta at 60th word at position 7 is �� where alpha পথে
- beta at 60th word at position 6 is ে where alpha পথে
-found bivokti suffix
-পথে = পথ + ে
- beta at 61th word at position 11 is � where alpha দলকে
- beta at 61th word at position 10 is �� where alpha দলকে
- beta at 61th word at position 9 is ে where alpha দলকে
-found bivokti suffix
-দলকে = দলক + ে
- beta at 62th word at position 14 is � where alpha ফুটবল
- beta at 62th word at position 13 is �� where alpha ফুটবল
- beta at 62th word at position 12 is ল where alpha ফুটবল
- beta at 62th word at position 11 is �ল where alpha ফুটবল
- beta at 62th word at position 10 is ��ল where alpha ফুটবল
- beta at 62th word at position 9 is বল where alpha ফুটবল
- beta at 62th word at position 8 is �বল where alpha ফুটবল
- beta at 62th word at position 7 is ��বল where alpha ফুটবল
- beta at 62th word at position 6 is টবল where alpha ফুটবল
- beta at 62th word at position 5 is �টবল where alpha ফুটবল
- beta at 62th word at position 4 is ��টবল where alpha ফুটবল
- beta at 62th word at position 3 is ুটবল where alpha ফুটবল
- beta at 62th word at position 2 is �ুটবল where alpha ফুটবল
- beta at 62th word at position 1 is ��ুটবল where alpha ফুটবল
- beta at 62th word at position 0 is ফুটবল where alpha ফুটবল
- beta at 63th word at position 14 is � where alpha খেলান
- beta at 63th word at position 13 is �� where alpha খেলান
- beta at 63th word at position 12 is ন where alpha খেলান
- beta at 63th word at position 11 is �ন where alpha খেলান
- beta at 63th word at position 10 is ��ন where alpha খেলান
- beta at 63th word at position 9 is ান where alpha খেলান
- beta at 63th word at position 8 is �ান where alpha খেলান
- beta at 63th word at position 7 is ��ান where alpha খেলান
- beta at 63th word at position 6 is লান where alpha খেলান
- beta at 63th word at position 5 is �লান where alpha খেলান
- beta at 63th word at position 4 is ��লান where alpha খেলান
- beta at 63th word at position 3 is েলান where alpha খেলান
- beta at 63th word at position 2 is �েলান where alpha খেলান
- beta at 63th word at position 1 is ��েলান where alpha খেলান
- beta at 63th word at position 0 is খেলান where alpha খেলান
-found NotStemmed_suffix where alpha is না
-না = না + 
-found NotStemmed_suffix where alpha is কিন্তু
-কিন্তু = কিন্তু + 
-found NotStemmed_suffix where alpha is তাঁরা
-তাঁরা = তাঁরা + 
- beta at 67th word at position 11 is � where alpha দলকে
- beta at 67th word at position 10 is �� where alpha দলকে
- beta at 67th word at position 9 is ে where alpha দলকে
-found bivokti suffix
-দলকে = দলক + ে
- beta at 68th word at position 17 is � where alpha কীভাবে
- beta at 68th word at position 16 is �� where alpha কীভাবে
- beta at 68th word at position 15 is ে where alpha কীভাবে
-found bivokti suffix
-কীভাবে = কীভাব + ে
- beta at 69th word at position 14 is � where alpha ফুটবল
- beta at 69th word at position 13 is �� where alpha ফুটবল
- beta at 69th word at position 12 is ল where alpha ফুটবল
- beta at 69th word at position 11 is �ল where alpha ফুটবল
- beta at 69th word at position 10 is ��ল where alpha ফুটবল
- beta at 69th word at position 9 is বল where alpha ফুটবল
- beta at 69th word at position 8 is �বল where alpha ফুটবল
- beta at 69th word at position 7 is ��বল where alpha ফুটবল
- beta at 69th word at position 6 is টবল where alpha ফুটবল
- beta at 69th word at position 5 is �টবল where alpha ফুটবল
- beta at 69th word at position 4 is ��টবল where alpha ফুটবল
- beta at 69th word at position 3 is ুটবল where alpha ফুটবল
- beta at 69th word at position 2 is �ুটবল where alpha ফুটবল
- beta at 69th word at position 1 is ��ুটবল where alpha ফুটবল
- beta at 69th word at position 0 is ফুটবল where alpha ফুটবল
- beta at 70th word at position 17 is � where alpha খেলাতে
- beta at 70th word at position 16 is �� where alpha খেলাতে
- beta at 70th word at position 15 is ে where alpha খেলাতে
-found bivokti suffix
-খেলাতে = খেলাত + ে
-found NotStemmed_suffix where alpha is চান
-চান = চান + 
-found NotStemmed_suffix where alpha is সে
-সে = সে + 
- beta at 73th word at position 14 is � where alpha বিষয়ে
- beta at 73th word at position 13 is �� where alpha বিষয়ে
- beta at 73th word at position 12 is ে where alpha বিষয়ে
-found bivokti suffix
-বিষয়ে = বিষয় + ে
-found NotStemmed_suffix where alpha is যথেষ্ট
-যথেষ্ট = যথেষ্ট + 
- beta at 75th word at position 26 is � where alpha নিঃসন্দেহ
- beta at 75th word at position 25 is �� where alpha নিঃসন্দেহ
- beta at 75th word at position 24 is হ where alpha নিঃসন্দেহ
- beta at 75th word at position 23 is �হ where alpha নিঃসন্দেহ
- beta at 75th word at position 22 is ��হ where alpha নিঃসন্দেহ
- beta at 75th word at position 21 is েহ where alpha নিঃসন্দেহ
- beta at 75th word at position 20 is �েহ where alpha নিঃসন্দেহ
- beta at 75th word at position 19 is ��েহ where alpha নিঃসন্দেহ
- beta at 75th word at position 18 is দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 17 is �দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 16 is ��দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 15 is ্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 14 is �্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 13 is ��্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 12 is ন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 11 is �ন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 10 is ��ন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 9 is সন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 8 is �সন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 7 is ��সন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 6 is ঃসন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 5 is �ঃসন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 4 is ��ঃসন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 3 is িঃসন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 2 is �িঃসন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 1 is ��িঃসন্দেহ where alpha নিঃসন্দেহ
- beta at 75th word at position 0 is নিঃসন্দেহ where alpha নিঃসন্দেহ
- beta at 76th word at position 5 is � where alpha দল
- beta at 76th word at position 4 is �� where alpha দল
- beta at 76th word at position 3 is ল where alpha দল
- beta at 76th word at position 2 is �ল where alpha দল
- beta at 76th word at position 1 is ��ল where alpha দল
- beta at 76th word at position 0 is দল where alpha দল
- beta at 77th word at position 17 is � where alpha কীভাবে
- beta at 77th word at position 16 is �� where alpha কীভাবে
- beta at 77th word at position 15 is ে where alpha কীভাবে
-found bivokti suffix
-কীভাবে = কীভাব + ে
- beta at 78th word at position 14 is � where alpha রক্ষণ
- beta at 78th word at position 13 is �� where alpha রক্ষণ
- beta at 78th word at position 12 is ণ where alpha রক্ষণ
- beta at 78th word at position 11 is �ণ where alpha রক্ষণ
- beta at 78th word at position 10 is ��ণ where alpha রক্ষণ
- beta at 78th word at position 9 is ষণ where alpha রক্ষণ
- beta at 78th word at position 8 is �ষণ where alpha রক্ষণ
- beta at 78th word at position 7 is ��ষণ where alpha রক্ষণ
- beta at 78th word at position 6 is ্ষণ where alpha রক্ষণ
- beta at 78th word at position 5 is �্ষণ where alpha রক্ষণ
- beta at 78th word at position 4 is ��্ষণ where alpha রক্ষণ
- beta at 78th word at position 3 is ক্ষণ where alpha রক্ষণ
- beta at 78th word at position 2 is �ক্ষণ where alpha রক্ষণ
- beta at 78th word at position 1 is ��ক্ষণ where alpha রক্ষণ
- beta at 78th word at position 0 is রক্ষণ where alpha রক্ষণ
- beta at 79th word at position 20 is � where alpha সামলাবে
- beta at 79th word at position 19 is �� where alpha সামলাবে
- beta at 79th word at position 18 is ে where alpha সামলাবে
-found bivokti suffix
-সামলাবে = সামলাব + ে
- beta at 80th word at position 14 is � where alpha খেলবে
- beta at 80th word at position 13 is �� where alpha খেলবে
- beta at 80th word at position 12 is ে where alpha খেলবে
-found bivokti suffix
-খেলবে = খেলব + ে
-found NotStemmed_suffix where alpha is ও
-ও = ও + 
- beta at 82th word at position 17 is � where alpha আক্রমণ
- beta at 82th word at position 16 is �� where alpha আক্রমণ
- beta at 82th word at position 15 is ণ where alpha আক্রমণ
- beta at 82th word at position 14 is �ণ where alpha আক্রমণ
- beta at 82th word at position 13 is ��ণ where alpha আক্রমণ
- beta at 82th word at position 12 is মণ where alpha আক্রমণ
- beta at 82th word at position 11 is �মণ where alpha আক্রমণ
- beta at 82th word at position 10 is ��মণ where alpha আক্রমণ
- beta at 82th word at position 9 is রমণ where alpha আক্রমণ
- beta at 82th word at position 8 is �রমণ where alpha আক্রমণ
- beta at 82th word at position 7 is ��রমণ where alpha আক্রমণ
- beta at 82th word at position 6 is ্রমণ where alpha আক্রমণ
- beta at 82th word at position 5 is �্রমণ where alpha আক্রমণ
- beta at 82th word at position 4 is ��্রমণ where alpha আক্রমণ
- beta at 82th word at position 3 is ক্রমণ where alpha আক্রমণ
- beta at 82th word at position 2 is �ক্রমণ where alpha আক্রমণ
- beta at 82th word at position 1 is ��ক্রমণ where alpha আক্রমণ
- beta at 82th word at position 0 is আক্রমণ where alpha আক্রমণ
-found NotStemmed_suffix where alpha is করবে
-করবে = করবে + 
-found NotStemmed_suffix where alpha is সে
-সে = সে + 
-found NotStemmed_suffix where alpha is ব্যাপারে
-ব্যাপারে = ব্যাপারে + 
-found NotStemmed_suffix where alpha is তাঁদের
-তাঁদের = তাঁদের + 
- beta at 87th word at position 32 is � where alpha প্রত্যেকেরই
- beta at 87th word at position 31 is �� where alpha প্রত্যেকেরই
- beta at 87th word at position 30 is ই where alpha প্রত্যেকেরই
- beta at 87th word at position 29 is �ই where alpha প্রত্যেকেরই
- beta at 87th word at position 28 is ��ই where alpha প্রত্যেকেরই
- beta at 87th word at position 27 is রই where alpha প্রত্যেকেরই
- beta at 87th word at position 26 is �রই where alpha প্রত্যেকেরই
- beta at 87th word at position 25 is ��রই where alpha প্রত্যেকেরই
- beta at 87th word at position 24 is েরই where alpha প্রত্যেকেরই
- beta at 87th word at position 23 is �েরই where alpha প্রত্যেকেরই
- beta at 87th word at position 22 is ��েরই where alpha প্রত্যেকেরই
- beta at 87th word at position 21 is কেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 20 is �কেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 19 is ��কেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 18 is েকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 17 is �েকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 16 is ��েকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 15 is যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 14 is �যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 13 is ��যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 12 is ্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 11 is �্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 10 is ��্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 9 is ত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 8 is �ত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 7 is ��ত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 6 is রত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 5 is �রত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 4 is ��রত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 3 is ্রত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 2 is �্রত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 1 is ��্রত্যেকেরই where alpha প্রত্যেকেরই
- beta at 87th word at position 0 is প্রত্যেকেরই where alpha প্রত্যেকেরই
- beta at 88th word at position 23 is � where alpha সুস্পষ্ট
- beta at 88th word at position 22 is �� where alpha সুস্পষ্ট
- beta at 88th word at position 21 is ট where alpha সুস্পষ্ট
- beta at 88th word at position 20 is �ট where alpha সুস্পষ্ট
- beta at 88th word at position 19 is ��ট where alpha সুস্পষ্ট
- beta at 88th word at position 18 is ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 17 is �্ট where alpha সুস্পষ্ট
- beta at 88th word at position 16 is ��্ট where alpha সুস্পষ্ট
- beta at 88th word at position 15 is ষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 14 is �ষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 13 is ��ষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 12 is পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 11 is �পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 10 is ��পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 9 is ্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 8 is �্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 7 is ��্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 6 is স্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 5 is �স্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 4 is ��স্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 3 is ুস্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 2 is �ুস্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 1 is ��ুস্পষ্ট where alpha সুস্পষ্ট
- beta at 88th word at position 0 is সুস্পষ্ট where alpha সুস্পষ্ট
- beta at 89th word at position 14 is � where alpha ধারণা
- beta at 89th word at position 13 is �� where alpha ধারণা
- beta at 89th word at position 12 is া where alpha ধারণা
- beta at 89th word at position 11 is �া where alpha ধারণা
- beta at 89th word at position 10 is ��া where alpha ধারণা
- beta at 89th word at position 9 is ণা where alpha ধারণা
- beta at 89th word at position 8 is �ণা where alpha ধারণা
- beta at 89th word at position 7 is ��ণা where alpha ধারণা
- beta at 89th word at position 6 is রণা where alpha ধারণা
- beta at 89th word at position 5 is �রণা where alpha ধারণা
- beta at 89th word at position 4 is ��রণা where alpha ধারণা
- beta at 89th word at position 3 is ারণা where alpha ধারণা
- beta at 89th word at position 2 is �ারণা where alpha ধারণা
- beta at 89th word at position 1 is ��ারণা where alpha ধারণা
- beta at 89th word at position 0 is ধারণা where alpha ধারণা
-found NotStemmed_suffix where alpha is আছে
-আছে = আছে + 
-found NotStemmed_suffix where alpha is কিন্তু
-কিন্তু = কিন্তু + 
-found NotStemmed_suffix where alpha is তাঁদের
-তাঁদের = তাঁদের + 
-found NotStemmed_suffix where alpha is নিয়ে
-নিয়ে = নিয়ে + 
-found NotStemmed_suffix where alpha is যখন
-যখন = যখন + 
- beta at 95th word at position 8 is � where alpha কথা
- beta at 95th word at position 7 is �� where alpha কথা
- beta at 95th word at position 6 is া where alpha কথা
- beta at 95th word at position 5 is �া where alpha কথা
- beta at 95th word at position 4 is ��া where alpha কথা
- beta at 95th word at position 3 is থা where alpha কথা
- beta at 95th word at position 2 is �থা where alpha কথা
- beta at 95th word at position 1 is ��থা where alpha কথা
- beta at 95th word at position 0 is কথা where alpha কথা
-found NotStemmed_suffix where alpha is হয়
-হয় = হয় + 
-found NotStemmed_suffix where alpha is তখন
-তখন = তখন + 
- beta at 98th word at position 14 is � where alpha মানুষ
- beta at 98th word at position 13 is �� where alpha মানুষ
- beta at 98th word at position 12 is ষ where alpha মানুষ
- beta at 98th word at position 11 is �ষ where alpha মানুষ
- beta at 98th word at position 10 is ��ষ where alpha মানুষ
- beta at 98th word at position 9 is ুষ where alpha মানুষ
- beta at 98th word at position 8 is �ুষ where alpha মানুষ
- beta at 98th word at position 7 is ��ুষ where alpha মানুষ
- beta at 98th word at position 6 is নুষ where alpha মানুষ
- beta at 98th word at position 5 is �নুষ where alpha মানুষ
- beta at 98th word at position 4 is ��নুষ where alpha মানুষ
- beta at 98th word at position 3 is ানুষ where alpha মানুষ
- beta at 98th word at position 2 is �ানুষ where alpha মানুষ
- beta at 98th word at position 1 is ��ানুষ where alpha মানুষ
- beta at 98th word at position 0 is মানুষ where alpha মানুষ
- beta at 99th word at position 8 is � where alpha এসব
- beta at 99th word at position 7 is �� where alpha এসব
- beta at 99th word at position 6 is ব where alpha এসব
- beta at 99th word at position 5 is �ব where alpha এসব
- beta at 99th word at position 4 is ��ব where alpha এসব
- beta at 99th word at position 3 is সব where alpha এসব
+পর্যালোচনায় = পর্যালোচন + ায়
+ beta at 7th word at position 23 is � where alpha এমসিসিআই
+ beta at 7th word at position 22 is �� where alpha এমসিসিআই
+ beta at 7th word at position 21 is ই where alpha এমসিসিআই
+ beta at 7th word at position 20 is �ই where alpha এমসিসিআই
+ beta at 7th word at position 19 is ��ই where alpha এমসিসিআই
+ beta at 7th word at position 18 is আই where alpha এমসিসিআই
+ beta at 7th word at position 17 is �আই where alpha এমসিসিআই
+ beta at 7th word at position 16 is ��আই where alpha এমসিসিআই
+ beta at 7th word at position 15 is িআই where alpha এমসিসিআই
+ beta at 7th word at position 14 is �িআই where alpha এমসিসিআই
+ beta at 7th word at position 13 is ��িআই where alpha এমসিসিআই
+ beta at 7th word at position 12 is সিআই where alpha এমসিসিআই
+ beta at 7th word at position 11 is �সিআই where alpha এমসিসিআই
+ beta at 7th word at position 10 is ��সিআই where alpha এমসিসিআই
+ beta at 7th word at position 9 is িসিআই where alpha এমসিসিআই
+ beta at 7th word at position 8 is �িসিআই where alpha এমসিসিআই
+ beta at 7th word at position 7 is ��িসিআই where alpha এমসিসিআই
+ beta at 7th word at position 6 is সিসিআই where alpha এমসিসিআই
+ beta at 7th word at position 5 is �সিসিআই where alpha এমসিসিআই
+ beta at 7th word at position 4 is ��সিসিআই where alpha এমসিসিআই
+ beta at 7th word at position 3 is মসিসিআই where alpha এমসিসিআই
+ beta at 7th word at position 2 is �মসিসিআই where alpha এমসিসিআই
+ beta at 7th word at position 1 is ��মসিসিআই where alpha এমসিসিআই
+ beta at 7th word at position 0 is এমসিসিআই where alpha এমসিসিআই
+ beta at 8th word at position 8 is � where alpha এসব
+ beta at 8th word at position 7 is �� where alpha এসব
+ beta at 8th word at position 6 is ব where alpha এসব
+ beta at 8th word at position 5 is �ব where alpha এসব
+ beta at 8th word at position 4 is ��ব where alpha এসব
+ beta at 8th word at position 3 is সব where alpha এসব
 found bochon suffix
 এসব = এ + সব
- beta at 100th word at position 11 is � where alpha ভুলে
- beta at 100th word at position 10 is �� where alpha ভুলে
- beta at 100th word at position 9 is ে where alpha ভুলে
+ beta at 9th word at position 8 is � where alpha কথা
+ beta at 9th word at position 7 is �� where alpha কথা
+ beta at 9th word at position 6 is া where alpha কথা
+ beta at 9th word at position 5 is �া where alpha কথা
+ beta at 9th word at position 4 is ��া where alpha কথা
+ beta at 9th word at position 3 is থা where alpha কথা
+ beta at 9th word at position 2 is �থা where alpha কথা
+ beta at 9th word at position 1 is ��থা where alpha কথা
+ beta at 9th word at position 0 is কথা where alpha কথা
+ beta at 10th word at position 14 is � where alpha বলেছে
+ beta at 10th word at position 13 is �� where alpha বলেছে
+ beta at 10th word at position 12 is ে where alpha বলেছে
 found bivokti suffix
-ভুলে = ভুল + ে
-osition 3 is লার where alpha ডলার
+বলেছে = বলেছ + ে
+ beta at 11th word at position 29 is � where alpha প্রতিবেদনে
+ beta at 11th word at position 28 is �� where alpha প্রতিবেদনে
+ beta at 11th word at position 27 is ে where alpha প্রতিবেদনে
+found bivokti suffix
+প্রতিবেদনে = প্রতিবেদন + ে
+found NotStemmed_suffix where alpha is বলা
+বলা = বলা + 
+found NotStemmed_suffix where alpha is হয়েছে
+হয়েছে = হয়েছে + 
+ beta at 14th word at position 11 is � where alpha দেশে
+ beta at 14th word at position 10 is �� where alpha দেশে
+ beta at 14th word at position 9 is ে where alpha দেশে
+found bivokti suffix
+দেশে = দেশ + ে
+ beta at 15th word at position 20 is � where alpha বৈদেশিক
+ beta at 15th word at position 19 is �� where alpha বৈদেশিক
+ beta at 15th word at position 18 is ক where alpha বৈদেশিক
+ beta at 15th word at position 17 is �ক where alpha বৈদেশিক
+ beta at 15th word at position 16 is ��ক where alpha বৈদেশিক
+ beta at 15th word at position 15 is িক where alpha বৈদেশিক
+ beta at 15th word at position 14 is �িক where alpha বৈদেশিক
+ beta at 15th word at position 13 is ��িক where alpha বৈদেশিক
+ beta at 15th word at position 12 is শিক where alpha বৈদেশিক
+ beta at 15th word at position 11 is �শিক where alpha বৈদেশিক
+ beta at 15th word at position 10 is ��শিক where alpha বৈদেশিক
+ beta at 15th word at position 9 is েশিক where alpha বৈদেশিক
+ beta at 15th word at position 8 is �েশিক where alpha বৈদেশিক
+ beta at 15th word at position 7 is ��েশিক where alpha বৈদেশিক
+ beta at 15th word at position 6 is দেশিক where alpha বৈদেশিক
+ beta at 15th word at position 5 is �দেশিক where alpha বৈদেশিক
+ beta at 15th word at position 4 is ��দেশিক where alpha বৈদেশিক
+ beta at 15th word at position 3 is ৈদেশিক where alpha বৈদেশিক
+ beta at 15th word at position 2 is �ৈদেশিক where alpha বৈদেশিক
+ beta at 15th word at position 1 is ��ৈদেশিক where alpha বৈদেশিক
+ beta at 15th word at position 0 is বৈদেশিক where alpha বৈদেশিক
+ beta at 16th word at position 20 is � where alpha মুদ্রার
+ beta at 16th word at position 19 is �� where alpha মুদ্রার
+ beta at 16th word at position 18 is র where alpha মুদ্রার
+ beta at 16th word at position 17 is �র where alpha মুদ্রার
+ beta at 16th word at position 16 is ��র where alpha মুদ্রার
+ beta at 16th word at position 15 is ার where alpha মুদ্রার
+ beta at 16th word at position 14 is �ার where alpha মুদ্রার
+ beta at 16th word at position 13 is ��ার where alpha মুদ্রার
+ beta at 16th word at position 12 is রার where alpha মুদ্রার
+ beta at 16th word at position 11 is �রার where alpha মুদ্রার
+ beta at 16th word at position 10 is ��রার where alpha মুদ্রার
+ beta at 16th word at position 9 is ্রার where alpha মুদ্রার
+ beta at 16th word at position 8 is �্রার where alpha মুদ্রার
+ beta at 16th word at position 7 is ��্রার where alpha মুদ্রার
+ beta at 16th word at position 6 is দ্রার where alpha মুদ্রার
+ beta at 16th word at position 5 is �দ্রার where alpha মুদ্রার
+ beta at 16th word at position 4 is ��দ্রার where alpha মুদ্রার
+ beta at 16th word at position 3 is ুদ্রার where alpha মুদ্রার
+ beta at 16th word at position 2 is �ুদ্রার where alpha মুদ্রার
+ beta at 16th word at position 1 is ��ুদ্রার where alpha মুদ্রার
+ beta at 16th word at position 0 is মুদ্রার where alpha মুদ্রার
+ beta at 17th word at position 11 is � where alpha সংকট
+ beta at 17th word at position 10 is �� where alpha সংকট
+ beta at 17th word at position 9 is ট where alpha সংকট
+ beta at 17th word at position 8 is �ট where alpha সংকট
+ beta at 17th word at position 7 is ��ট where alpha সংকট
+ beta at 17th word at position 6 is কট where alpha সংকট
+ beta at 17th word at position 5 is �কট where alpha সংকট
+ beta at 17th word at position 4 is ��কট where alpha সংকট
+ beta at 17th word at position 3 is ংকট where alpha সংকট
+ beta at 17th word at position 2 is �ংকট where alpha সংকট
+ beta at 17th word at position 1 is ��ংকট where alpha সংকট
+ beta at 17th word at position 0 is সংকট where alpha সংকট
+ beta at 18th word at position 17 is � where alpha থাকলেও
+ beta at 18th word at position 16 is �� where alpha থাকলেও
+ beta at 18th word at position 15 is ও where alpha থাকলেও
+ beta at 18th word at position 14 is �ও where alpha থাকলেও
+ beta at 18th word at position 13 is ��ও where alpha থাকলেও
+ beta at 18th word at position 12 is েও where alpha থাকলেও
+ beta at 18th word at position 11 is �েও where alpha থাকলেও
+ beta at 18th word at position 10 is ��েও where alpha থাকলেও
+ beta at 18th word at position 9 is লেও where alpha থাকলেও
+ beta at 18th word at position 8 is �লেও where alpha থাকলেও
+ beta at 18th word at position 7 is ��লেও where alpha থাকলেও
+ beta at 18th word at position 6 is কলেও where alpha থাকলেও
+ beta at 18th word at position 5 is �কলেও where alpha থাকলেও
+ beta at 18th word at position 4 is ��কলেও where alpha থাকলেও
+ beta at 18th word at position 3 is াকলেও where alpha থাকলেও
+ beta at 18th word at position 2 is �াকলেও where alpha থাকলেও
+ beta at 18th word at position 1 is ��াকলেও where alpha থাকলেও
+ beta at 18th word at position 0 is থাকলেও where alpha থাকলেও
+ beta at 19th word at position 11 is � where alpha চলতি
+ beta at 19th word at position 10 is �� where alpha চলতি
+ beta at 19th word at position 9 is ি where alpha চলতি
+ beta at 19th word at position 8 is �ি where alpha চলতি
+ beta at 19th word at position 7 is ��ি where alpha চলতি
+ beta at 19th word at position 6 is তি where alpha চলতি
+ beta at 19th word at position 5 is �তি where alpha চলতি
+ beta at 19th word at position 4 is ��তি where alpha চলতি
+ beta at 19th word at position 3 is লতি where alpha চলতি
+ beta at 19th word at position 2 is �লতি where alpha চলতি
+ beta at 19th word at position 1 is ��লতি where alpha চলতি
+ beta at 19th word at position 0 is চলতি where alpha চলতি
+ beta at 20th word at position 14 is � where alpha বছরের
+ beta at 20th word at position 13 is �� where alpha বছরের
+ beta at 20th word at position 12 is র where alpha বছরের
+ beta at 20th word at position 11 is �র where alpha বছরের
+ beta at 20th word at position 10 is ��র where alpha বছরের
+ beta at 20th word at position 9 is ের where alpha বছরের
+ beta at 20th word at position 8 is �ের where alpha বছরের
+ beta at 20th word at position 7 is ��ের where alpha বছরের
+ beta at 20th word at position 6 is রের where alpha বছরের
+ beta at 20th word at position 5 is �রের where alpha বছরের
+ beta at 20th word at position 4 is ��রের where alpha বছরের
+ beta at 20th word at position 3 is ছরের where alpha বছরের
+ beta at 20th word at position 2 is �ছরের where alpha বছরের
+ beta at 20th word at position 1 is ��ছরের where alpha বছরের
+ beta at 20th word at position 0 is বছরের where alpha বছরের
+ beta at 21th word at position 14 is � where alpha প্রথম
+ beta at 21th word at position 13 is �� where alpha প্রথম
+ beta at 21th word at position 12 is ম where alpha প্রথম
+ beta at 21th word at position 11 is �ম where alpha প্রথম
+ beta at 21th word at position 10 is ��ম where alpha প্রথম
+ beta at 21th word at position 9 is থম where alpha প্রথম
+ beta at 21th word at position 8 is �থম where alpha প্রথম
+ beta at 21th word at position 7 is ��থম where alpha প্রথম
+ beta at 21th word at position 6 is রথম where alpha প্রথম
+ beta at 21th word at position 5 is �রথম where alpha প্রথম
+ beta at 21th word at position 4 is ��রথম where alpha প্রথম
+ beta at 21th word at position 3 is ্রথম where alpha প্রথম
+ beta at 21th word at position 2 is �্রথম where alpha প্রথম
+ beta at 21th word at position 1 is ��্রথম where alpha প্রথম
+ beta at 21th word at position 0 is প্রথম where alpha প্রথম
+ beta at 22th word at position 29 is � where alpha ত্রৈমাসিকে
+ beta at 22th word at position 28 is �� where alpha ত্রৈমাসিকে
+ beta at 22th word at position 27 is ে where alpha ত্রৈমাসিকে
+found bivokti suffix
+ত্রৈমাসিকে = ত্রৈমাসিক + ে
+ beta at 23th word at position 23 is � where alpha সামষ্টিক
+ beta at 23th word at position 22 is �� where alpha সামষ্টিক
+ beta at 23th word at position 21 is ক where alpha সামষ্টিক
+ beta at 23th word at position 20 is �ক where alpha সামষ্টিক
+ beta at 23th word at position 19 is ��ক where alpha সামষ্টিক
+ beta at 23th word at position 18 is িক where alpha সামষ্টিক
+ beta at 23th word at position 17 is �িক where alpha সামষ্টিক
+ beta at 23th word at position 16 is ��িক where alpha সামষ্টিক
+ beta at 23th word at position 15 is টিক where alpha সামষ্টিক
+ beta at 23th word at position 14 is �টিক where alpha সামষ্টিক
+ beta at 23th word at position 13 is ��টিক where alpha সামষ্টিক
+ beta at 23th word at position 12 is ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 11 is �্টিক where alpha সামষ্টিক
+ beta at 23th word at position 10 is ��্টিক where alpha সামষ্টিক
+ beta at 23th word at position 9 is ষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 8 is �ষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 7 is ��ষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 6 is মষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 5 is �মষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 4 is ��মষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 3 is ামষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 2 is �ামষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 1 is ��ামষ্টিক where alpha সামষ্টিক
+ beta at 23th word at position 0 is সামষ্টিক where alpha সামষ্টিক
+ beta at 24th word at position 26 is � where alpha অর্থনীতির
+ beta at 24th word at position 25 is �� where alpha অর্থনীতির
+ beta at 24th word at position 24 is র where alpha অর্থনীতির
+ beta at 24th word at position 23 is �র where alpha অর্থনীতির
+ beta at 24th word at position 22 is ��র where alpha অর্থনীতির
+ beta at 24th word at position 21 is ির where alpha অর্থনীতির
+ beta at 24th word at position 20 is �ির where alpha অর্থনীতির
+ beta at 24th word at position 19 is ��ির where alpha অর্থনীতির
+ beta at 24th word at position 18 is তির where alpha অর্থনীতির
+ beta at 24th word at position 17 is �তির where alpha অর্থনীতির
+ beta at 24th word at position 16 is ��তির where alpha অর্থনীতির
+ beta at 24th word at position 15 is ীতির where alpha অর্থনীতির
+ beta at 24th word at position 14 is �ীতির where alpha অর্থনীতির
+ beta at 24th word at position 13 is ��ীতির where alpha অর্থনীতির
+ beta at 24th word at position 12 is নীতির where alpha অর্থনীতির
+ beta at 24th word at position 11 is �নীতির where alpha অর্থনীতির
+ beta at 24th word at position 10 is ��নীতির where alpha অর্থনীতির
+ beta at 24th word at position 9 is থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 8 is �থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 7 is ��থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 6 is ্থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 5 is �্থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 4 is ��্থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 3 is র্থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 2 is �র্থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 1 is ��র্থনীতির where alpha অর্থনীতির
+ beta at 24th word at position 0 is অর্থনীতির where alpha অর্থনীতির
+ beta at 25th word at position 23 is � where alpha সূচকগুলো
+ beta at 25th word at position 22 is �� where alpha সূচকগুলো
+ beta at 25th word at position 21 is ো where alpha সূচকগুলো
+ beta at 25th word at position 20 is �ো where alpha সূচকগুলো
+ beta at 25th word at position 19 is ��ো where alpha সূচকগুলো
+ beta at 25th word at position 18 is লো where alpha সূচকগুলো
+ beta at 25th word at position 17 is �লো where alpha সূচকগুলো
+ beta at 25th word at position 16 is ��লো where alpha সূচকগুলো
+ beta at 25th word at position 15 is ুলো where alpha সূচকগুলো
+ beta at 25th word at position 14 is �ুলো where alpha সূচকগুলো
+ beta at 25th word at position 13 is ��ুলো where alpha সূচকগুলো
+ beta at 25th word at position 12 is গুলো where alpha সূচকগুলো
+found bochon suffix
+সূচকগুলো = সূচক + গুলো
+ beta at 26th word at position 11 is � where alpha ভালো
+ beta at 26th word at position 10 is �� where alpha ভালো
+ beta at 26th word at position 9 is ো where alpha ভালো
+ beta at 26th word at position 8 is �ো where alpha ভালো
+ beta at 26th word at position 7 is ��ো where alpha ভালো
+ beta at 26th word at position 6 is লো where alpha ভালো
+ beta at 26th word at position 5 is �লো where alpha ভালো
+ beta at 26th word at position 4 is ��লো where alpha ভালো
+ beta at 26th word at position 3 is ালো where alpha ভালো
+ beta at 26th word at position 2 is �ালো where alpha ভালো
+ beta at 26th word at position 1 is ��ালো where alpha ভালো
+ beta at 26th word at position 0 is ভালো where alpha ভালো
+ beta at 27th word at position 20 is � where alpha অবস্থায়
+ beta at 27th word at position 19 is �� where alpha অবস্থায়
+ beta at 27th word at position 18 is য় where alpha অবস্থায়
+ beta at 27th word at position 17 is �য় where alpha অবস্থায়
+ beta at 27th word at position 16 is ��য় where alpha অবস্থায়
+ beta at 27th word at position 15 is ায় where alpha অবস্থায়
+found bivokti suffix
+অবস্থায় = অবস্থ + ায়
+ beta at 28th word at position 23 is � where alpha আছে�দেশে�
+ beta at 28th word at position 22 is � where alpha আছে�দেশে�
+ beta at 28th word at position 21 is �� where alpha আছে�দেশে�
+ beta at 28th word at position 20 is ��� where alpha আছে�দেশে�
+ beta at 28th word at position 19 is ে� where alpha আছে�দেশে�
+ beta at 28th word at position 18 is �ে� where alpha আছে�দেশে�
+ beta at 28th word at position 17 is ��ে� where alpha আছে�দেশে�
+ beta at 28th word at position 16 is শে� where alpha আছে�দেশে�
+ beta at 28th word at position 15 is �শে� where alpha আছে�দেশে�
+ beta at 28th word at position 14 is ��শে� where alpha আছে�দেশে�
+ beta at 28th word at position 13 is েশে� where alpha আছে�দেশে�
+ beta at 28th word at position 12 is �েশে� where alpha আছে�দেশে�
+ beta at 28th word at position 11 is ��েশে� where alpha আছে�দেশে�
+ beta at 28th word at position 10 is দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 9 is �দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 8 is ��দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 7 is ���দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 6 is ে�দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 5 is �ে�দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 4 is ��ে�দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 3 is ছে�দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 2 is �ছে�দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 1 is ��ছে�দেশে� where alpha আছে�দেশে�
+ beta at 28th word at position 0 is আছে�দেশে� where alpha আছে�দেশে�
+ beta at 29th word at position 26 is � where alpha অর্থনৈতিক
+ beta at 29th word at position 25 is �� where alpha অর্থনৈতিক
+ beta at 29th word at position 24 is ক where alpha অর্থনৈতিক
+ beta at 29th word at position 23 is �ক where alpha অর্থনৈতিক
+ beta at 29th word at position 22 is ��ক where alpha অর্থনৈতিক
+ beta at 29th word at position 21 is িক where alpha অর্থনৈতিক
+ beta at 29th word at position 20 is �িক where alpha অর্থনৈতিক
+ beta at 29th word at position 19 is ��িক where alpha অর্থনৈতিক
+ beta at 29th word at position 18 is তিক where alpha অর্থনৈতিক
+ beta at 29th word at position 17 is �তিক where alpha অর্থনৈতিক
+ beta at 29th word at position 16 is ��তিক where alpha অর্থনৈতিক
+ beta at 29th word at position 15 is ৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 14 is �ৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 13 is ��ৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 12 is নৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 11 is �নৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 10 is ��নৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 9 is থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 8 is �থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 7 is ��থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 6 is ্থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 5 is �্থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 4 is ��্থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 3 is র্থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 2 is �র্থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 1 is ��র্থনৈতিক where alpha অর্থনৈতিক
+ beta at 29th word at position 0 is অর্থনৈতিক where alpha অর্থনৈতিক
+ beta at 30th word at position 26 is � where alpha পরিস্থিতি
+ beta at 30th word at position 25 is �� where alpha পরিস্থিতি
+ beta at 30th word at position 24 is ি where alpha পরিস্থিতি
+ beta at 30th word at position 23 is �ি where alpha পরিস্থিতি
+ beta at 30th word at position 22 is ��ি where alpha পরিস্থিতি
+ beta at 30th word at position 21 is তি where alpha পরিস্থিতি
+ beta at 30th word at position 20 is �তি where alpha পরিস্থিতি
+ beta at 30th word at position 19 is ��তি where alpha পরিস্থিতি
+ beta at 30th word at position 18 is িতি where alpha পরিস্থিতি
+ beta at 30th word at position 17 is �িতি where alpha পরিস্থিতি
+ beta at 30th word at position 16 is ��িতি where alpha পরিস্থিতি
+ beta at 30th word at position 15 is থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 14 is �থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 13 is ��থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 12 is ্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 11 is �্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 10 is ��্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 9 is স্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 8 is �স্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 7 is ��স্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 6 is িস্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 5 is �িস্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 4 is ��িস্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 3 is রিস্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 2 is �রিস্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 1 is ��রিস্থিতি where alpha পরিস্থিতি
+ beta at 30th word at position 0 is পরিস্থিতি where alpha পরিস্থিতি
+ beta at 31th word at position 29 is � where alpha বিশ্লেষণের
+ beta at 31th word at position 28 is �� where alpha বিশ্লেষণের
+ beta at 31th word at position 27 is র where alpha বিশ্লেষণের
+ beta at 31th word at position 26 is �র where alpha বিশ্লেষণের
+ beta at 31th word at position 25 is ��র where alpha বিশ্লেষণের
+ beta at 31th word at position 24 is ের where alpha বিশ্লেষণের
+ beta at 31th word at position 23 is �ের where alpha বিশ্লেষণের
+ beta at 31th word at position 22 is ��ের where alpha বিশ্লেষণের
+ beta at 31th word at position 21 is ণের where alpha বিশ্লেষণের
+ beta at 31th word at position 20 is �ণের where alpha বিশ্লেষণের
+ beta at 31th word at position 19 is ��ণের where alpha বিশ্লেষণের
+ beta at 31th word at position 18 is ষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 17 is �ষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 16 is ��ষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 15 is েষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 14 is �েষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 13 is ��েষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 12 is লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 11 is �লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 10 is ��লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 9 is ্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 8 is �্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 7 is ��্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 6 is শ্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 5 is �শ্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 4 is ��শ্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 3 is িশ্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 2 is �িশ্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 1 is ��িশ্লেষণের where alpha বিশ্লেষণের
+ beta at 31th word at position 0 is বিশ্লেষণের where alpha বিশ্লেষণের
+ beta at 32th word at position 23 is � where alpha পাশাপাশি
+ beta at 32th word at position 22 is �� where alpha পাশাপাশি
+ beta at 32th word at position 21 is ি where alpha পাশাপাশি
+ beta at 32th word at position 20 is �ি where alpha পাশাপাশি
+ beta at 32th word at position 19 is ��ি where alpha পাশাপাশি
+ beta at 32th word at position 18 is শি where alpha পাশাপাশি
+ beta at 32th word at position 17 is �শি where alpha পাশাপাশি
+ beta at 32th word at position 16 is ��শি where alpha পাশাপাশি
+ beta at 32th word at position 15 is াশি where alpha পাশাপাশি
+ beta at 32th word at position 14 is �াশি where alpha পাশাপাশি
+ beta at 32th word at position 13 is ��াশি where alpha পাশাপাশি
+ beta at 32th word at position 12 is পাশি where alpha পাশাপাশি
+ beta at 32th word at position 11 is �পাশি where alpha পাশাপাশি
+ beta at 32th word at position 10 is ��পাশি where alpha পাশাপাশি
+ beta at 32th word at position 9 is াপাশি where alpha পাশাপাশি
+ beta at 32th word at position 8 is �াপাশি where alpha পাশাপাশি
+ beta at 32th word at position 7 is ��াপাশি where alpha পাশাপাশি
+ beta at 32th word at position 6 is শাপাশি where alpha পাশাপাশি
+ beta at 32th word at position 5 is �শাপাশি where alpha পাশাপাশি
+ beta at 32th word at position 4 is ��শাপাশি where alpha পাশাপাশি
+ beta at 32th word at position 3 is াশাপাশি where alpha পাশাপাশি
+ beta at 32th word at position 2 is �াশাপাশি where alpha পাশাপাশি
+ beta at 32th word at position 1 is ��াশাপাশি where alpha পাশাপাশি
+ beta at 32th word at position 0 is পাশাপাশি where alpha পাশাপাশি
+found NotStemmed_suffix where alpha is বেশ
+বেশ = বেশ + 
+found NotStemmed_suffix where alpha is কিছু
+কিছু = কিছু + 
+ beta at 35th word at position 17 is � where alpha সূচকের
+ beta at 35th word at position 16 is �� where alpha সূচকের
+ beta at 35th word at position 15 is র where alpha সূচকের
+ beta at 35th word at position 14 is �র where alpha সূচকের
+ beta at 35th word at position 13 is ��র where alpha সূচকের
+ beta at 35th word at position 12 is ের where alpha সূচকের
+ beta at 35th word at position 11 is �ের where alpha সূচকের
+ beta at 35th word at position 10 is ��ের where alpha সূচকের
+ beta at 35th word at position 9 is কের where alpha সূচকের
+ beta at 35th word at position 8 is �কের where alpha সূচকের
+ beta at 35th word at position 7 is ��কের where alpha সূচকের
+ beta at 35th word at position 6 is চকের where alpha সূচকের
+ beta at 35th word at position 5 is �চকের where alpha সূচকের
+ beta at 35th word at position 4 is ��চকের where alpha সূচকের
+ beta at 35th word at position 3 is ূচকের where alpha সূচকের
+ beta at 35th word at position 2 is �ূচকের where alpha সূচকের
+ beta at 35th word at position 1 is ��ূচকের where alpha সূচকের
+ beta at 35th word at position 0 is সূচকের where alpha সূচকের
+ beta at 36th word at position 26 is � where alpha পূর্বাভাস
+ beta at 36th word at position 25 is �� where alpha পূর্বাভাস
+ beta at 36th word at position 24 is স where alpha পূর্বাভাস
+ beta at 36th word at position 23 is �স where alpha পূর্বাভাস
+ beta at 36th word at position 22 is ��স where alpha পূর্বাভাস
+ beta at 36th word at position 21 is াস where alpha পূর্বাভাস
+ beta at 36th word at position 20 is �াস where alpha পূর্বাভাস
+ beta at 36th word at position 19 is ��াস where alpha পূর্বাভাস
+ beta at 36th word at position 18 is ভাস where alpha পূর্বাভাস
+ beta at 36th word at position 17 is �ভাস where alpha পূর্বাভাস
+ beta at 36th word at position 16 is ��ভাস where alpha পূর্বাভাস
+ beta at 36th word at position 15 is াভাস where alpha পূর্বাভাস
+ beta at 36th word at position 14 is �াভাস where alpha পূর্বাভাস
+ beta at 36th word at position 13 is ��াভাস where alpha পূর্বাভাস
+ beta at 36th word at position 12 is বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 11 is �বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 10 is ��বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 9 is ্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 8 is �্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 7 is ��্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 6 is র্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 5 is �র্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 4 is ��র্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 3 is ূর্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 2 is �ূর্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 1 is ��ূর্বাভাস where alpha পূর্বাভাস
+ beta at 36th word at position 0 is পূর্বাভাস where alpha পূর্বাভাস
+found NotStemmed_suffix where alpha is দিয়েছে
+দিয়েছে = দিয়েছে + 
+ beta at 38th word at position 23 is � where alpha এমসিসিআই
+ beta at 38th word at position 22 is �� where alpha এমসিসিআই
+ beta at 38th word at position 21 is ই where alpha এমসিসিআই
+ beta at 38th word at position 20 is �ই where alpha এমসিসিআই
+ beta at 38th word at position 19 is ��ই where alpha এমসিসিআই
+ beta at 38th word at position 18 is আই where alpha এমসিসিআই
+ beta at 38th word at position 17 is �আই where alpha এমসিসিআই
+ beta at 38th word at position 16 is ��আই where alpha এমসিসিআই
+ beta at 38th word at position 15 is িআই where alpha এমসিসিআই
+ beta at 38th word at position 14 is �িআই where alpha এমসিসিআই
+ beta at 38th word at position 13 is ��িআই where alpha এমসিসিআই
+ beta at 38th word at position 12 is সিআই where alpha এমসিসিআই
+ beta at 38th word at position 11 is �সিআই where alpha এমসিসিআই
+ beta at 38th word at position 10 is ��সিআই where alpha এমসিসিআই
+ beta at 38th word at position 9 is িসিআই where alpha এমসিসিআই
+ beta at 38th word at position 8 is �িসিআই where alpha এমসিসিআই
+ beta at 38th word at position 7 is ��িসিআই where alpha এমসিসিআই
+ beta at 38th word at position 6 is সিসিআই where alpha এমসিসিআই
+ beta at 38th word at position 5 is �সিসিআই where alpha এমসিসিআই
+ beta at 38th word at position 4 is ��সিসিআই where alpha এমসিসিআই
+ beta at 38th word at position 3 is মসিসিআই where alpha এমসিসিআই
+ beta at 38th word at position 2 is �মসিসিআই where alpha এমসিসিআই
+ beta at 38th word at position 1 is ��মসিসিআই where alpha এমসিসিআই
+ beta at 38th word at position 0 is এমসিসিআই where alpha এমসিসিআই
+found NotStemmed_suffix where alpha is তারা
+তারা = তারা + 
+ beta at 40th word at position 11 is � where alpha বলছে
+ beta at 40th word at position 10 is �� where alpha বলছে
+ beta at 40th word at position 9 is ে where alpha বলছে
+found bivokti suffix
+বলছে = বলছ + ে
+ beta at 41th word at position 11 is � where alpha চলতি
+ beta at 41th word at position 10 is �� where alpha চলতি
+ beta at 41th word at position 9 is ি where alpha চলতি
+ beta at 41th word at position 8 is �ি where alpha চলতি
+ beta at 41th word at position 7 is ��ি where alpha চলতি
+ beta at 41th word at position 6 is তি where alpha চলতি
+ beta at 41th word at position 5 is �তি where alpha চলতি
+ beta at 41th word at position 4 is ��তি where alpha চলতি
+ beta at 41th word at position 3 is লতি where alpha চলতি
+ beta at 41th word at position 2 is �লতি where alpha চলতি
+ beta at 41th word at position 1 is ��লতি where alpha চলতি
+ beta at 41th word at position 0 is চলতি where alpha চলতি
+ beta at 42th word at position 5 is � where alpha মে
+ beta at 42th word at position 4 is �� where alpha মে
+ beta at 42th word at position 3 is ে where alpha মে
+found bivokti suffix
+মে = ম + ে
+found NotStemmed_suffix where alpha is ও
+ও = ও + 
+ beta at 44th word at position 8 is � where alpha জুন
+ beta at 44th word at position 7 is �� where alpha জুন
+ beta at 44th word at position 6 is ন where alpha জুন
+ beta at 44th word at position 5 is �ন where alpha জুন
+ beta at 44th word at position 4 is ��ন where alpha জুন
+ beta at 44th word at position 3 is ুন where alpha জুন
+ beta at 44th word at position 2 is �ুন where alpha জুন
+ beta at 44th word at position 1 is ��ুন where alpha জুন
+ beta at 44th word at position 0 is জুন where alpha জুন
+ beta at 45th word at position 11 is � where alpha মাসে
+ beta at 45th word at position 10 is �� where alpha মাসে
+ beta at 45th word at position 9 is ে where alpha মাসে
+found bivokti suffix
+মাসে = মাস + ে
+ beta at 46th word at position 14 is � where alpha দেশের
+ beta at 46th word at position 13 is �� where alpha দেশের
+ beta at 46th word at position 12 is র where alpha দেশের
+ beta at 46th word at position 11 is �র where alpha দেশের
+ beta at 46th word at position 10 is ��র where alpha দেশের
+ beta at 46th word at position 9 is ের where alpha দেশের
+ beta at 46th word at position 8 is �ের where alpha দেশের
+ beta at 46th word at position 7 is ��ের where alpha দেশের
+ beta at 46th word at position 6 is শের where alpha দেশের
+ beta at 46th word at position 5 is �শের where alpha দেশের
+ beta at 46th word at position 4 is ��শের where alpha দেশের
+ beta at 46th word at position 3 is েশের where alpha দেশের
+ beta at 46th word at position 2 is �েশের where alpha দেশের
+ beta at 46th word at position 1 is ��েশের where alpha দেশের
+ beta at 46th word at position 0 is দেশের where alpha দেশের
+ beta at 47th word at position 20 is � where alpha রপ্তানি
+ beta at 47th word at position 19 is �� where alpha রপ্তানি
+ beta at 47th word at position 18 is ি where alpha রপ্তানি
+ beta at 47th word at position 17 is �ি where alpha রপ্তানি
+ beta at 47th word at position 16 is ��ি where alpha রপ্তানি
+ beta at 47th word at position 15 is নি where alpha রপ্তানি
+ beta at 47th word at position 14 is �নি where alpha রপ্তানি
+ beta at 47th word at position 13 is ��নি where alpha রপ্তানি
+ beta at 47th word at position 12 is ানি where alpha রপ্তানি
+ beta at 47th word at position 11 is �ানি where alpha রপ্তানি
+ beta at 47th word at position 10 is ��ানি where alpha রপ্তানি
+ beta at 47th word at position 9 is তানি where alpha রপ্তানি
+ beta at 47th word at position 8 is �তানি where alpha রপ্তানি
+ beta at 47th word at position 7 is ��তানি where alpha রপ্তানি
+ beta at 47th word at position 6 is ্তানি where alpha রপ্তানি
+ beta at 47th word at position 5 is �্তানি where alpha রপ্তানি
+ beta at 47th word at position 4 is ��্তানি where alpha রপ্তানি
+ beta at 47th word at position 3 is প্তানি where alpha রপ্তানি
+ beta at 47th word at position 2 is �প্তানি where alpha রপ্তানি
+ beta at 47th word at position 1 is ��প্তানি where alpha রপ্তানি
+ beta at 47th word at position 0 is রপ্তানি where alpha রপ্তানি
+ beta at 48th word at position 5 is � where alpha আয়
+ beta at 48th word at position 4 is �� where alpha আয়
+ beta at 48th word at position 3 is য় where alpha আয়
+ beta at 48th word at position 2 is �য় where alpha আয়
+ beta at 48th word at position 1 is ��য় where alpha আয়
+ beta at 48th word at position 0 is আয় where alpha আয়
+ beta at 49th word at position 11 is � where alpha বেড়ে
+ beta at 49th word at position 10 is �� where alpha বেড়ে
+ beta at 49th word at position 9 is ে where alpha বেড়ে
+found bivokti suffix
+বেড়ে = বেড় + ে
+ beta at 50th word at position 20 is � where alpha দাঁড়াতে
+ beta at 50th word at position 19 is �� where alpha দাঁড়াতে
+ beta at 50th word at position 18 is ে where alpha দাঁড়াতে
+found bivokti suffix
+দাঁড়াতে = দাঁড়াত + ে
+found NotStemmed_suffix where alpha is পারে
+পারে = পারে + 
+ beta at 52th word at position 23 is � where alpha যথাক্রমে
+ beta at 52th word at position 22 is �� where alpha যথাক্রমে
+ beta at 52th word at position 21 is ে where alpha যথাক্রমে
+found bivokti suffix
+যথাক্রমে = যথাক্রম + ে
+ beta at 53th word at position 8 is � where alpha ৪৮২
+ beta at 53th word at position 7 is �� where alpha ৪৮২
+ beta at 53th word at position 6 is ২ where alpha ৪৮২
+ beta at 53th word at position 5 is �২ where alpha ৪৮২
+ beta at 53th word at position 4 is ��২ where alpha ৪৮২
+ beta at 53th word at position 3 is ৮২ where alpha ৪৮২
+ beta at 53th word at position 2 is �৮২ where alpha ৪৮২
+ beta at 53th word at position 1 is ��৮২ where alpha ৪৮২
+ beta at 53th word at position 0 is ৪৮২ where alpha ৪৮২
+ beta at 54th word at position 11 is � where alpha কোটি
+ beta at 54th word at position 10 is �� where alpha কোটি
+ beta at 54th word at position 9 is ি where alpha কোটি
+ beta at 54th word at position 8 is �ি where alpha কোটি
+ beta at 54th word at position 7 is ��ি where alpha কোটি
+ beta at 54th word at position 6 is টি where alpha কোটি
+found bochon suffix
+কোটি = কো + টি
+found NotStemmed_suffix where alpha is ও
+ও = ও + 
+ beta at 56th word at position 8 is � where alpha ৪৯১
+ beta at 56th word at position 7 is �� where alpha ৪৯১
+ beta at 56th word at position 6 is ১ where alpha ৪৯১
+ beta at 56th word at position 5 is �১ where alpha ৪৯১
+ beta at 56th word at position 4 is ��১ where alpha ৪৯১
+ beta at 56th word at position 3 is ৯১ where alpha ৪৯১
+ beta at 56th word at position 2 is �৯১ where alpha ৪৯১
+ beta at 56th word at position 1 is ��৯১ where alpha ৪৯১
+ beta at 56th word at position 0 is ৪৯১ where alpha ৪৯১
+ beta at 57th word at position 11 is � where alpha কোটি
+ beta at 57th word at position 10 is �� where alpha কোটি
+ beta at 57th word at position 9 is ি where alpha কোটি
+ beta at 57th word at position 8 is �ি where alpha কোটি
+ beta at 57th word at position 7 is ��ি where alpha কোটি
+ beta at 57th word at position 6 is টি where alpha কোটি
+found bochon suffix
+কোটি = কো + টি
+ beta at 58th word at position 11 is � where alpha ডলার
+ beta at 58th word at position 10 is �� where alpha ডলার
+ beta at 58th word at position 9 is র where alpha ডলার
+ beta at 58th word at position 8 is �র where alpha ডলার
+ beta at 58th word at position 7 is ��র where alpha ডলার
+ beta at 58th word at position 6 is ার where alpha ডলার
+ beta at 58th word at position 5 is �ার where alpha ডলার
+ beta at 58th word at position 4 is ��ার where alpha ডলার
+ beta at 58th word at position 3 is লার where alpha ডলার
+ beta at 58th word at position 2 is �লার where alpha ডলার
+ beta at 58th word at position 1 is ��লার where alpha ডলার
+ beta at 58th word at position 0 is ডলার where alpha ডলার
+found noun suffix
+ডলার =  + ডলার
+found NotStemmed_suffix where alpha is একই
+একই = একই + 
+ beta at 60th word at position 11 is � where alpha সময়ে
+ beta at 60th word at position 10 is �� where alpha সময়ে
+ beta at 60th word at position 9 is ে where alpha সময়ে
+found bivokti suffix
+সময়ে = সময় + ে
+ beta at 61th word at position 17 is � where alpha আমদানি
+ beta at 61th word at position 16 is �� where alpha আমদানি
+ beta at 61th word at position 15 is ি where alpha আমদানি
+ beta at 61th word at position 14 is �ি where alpha আমদানি
+ beta at 61th word at position 13 is ��ি where alpha আমদানি
+ beta at 61th word at position 12 is নি where alpha আমদানি
+ beta at 61th word at position 11 is �নি where alpha আমদানি
+ beta at 61th word at position 10 is ��নি where alpha আমদানি
+ beta at 61th word at position 9 is ানি where alpha আমদানি
+ beta at 61th word at position 8 is �ানি where alpha আমদানি
+ beta at 61th word at position 7 is ��ানি where alpha আমদানি
+ beta at 61th word at position 6 is দানি where alpha আমদানি
+ beta at 61th word at position 5 is �দানি where alpha আমদানি
+ beta at 61th word at position 4 is ��দানি where alpha আমদানি
+ beta at 61th word at position 3 is মদানি where alpha আমদানি
+ beta at 61th word at position 2 is �মদানি where alpha আমদানি
+ beta at 61th word at position 1 is ��মদানি where alpha আমদানি
+ beta at 61th word at position 0 is আমদানি where alpha আমদানি
+ beta at 62th word at position 11 is � where alpha ব্যয়
+ beta at 62th word at position 10 is �� where alpha ব্যয়
+ beta at 62th word at position 9 is য় where alpha ব্যয়
+ beta at 62th word at position 8 is �য় where alpha ব্যয়
+ beta at 62th word at position 7 is ��য় where alpha ব্যয়
+ beta at 62th word at position 6 is যয় where alpha ব্যয়
+ beta at 62th word at position 5 is �যয় where alpha ব্যয়
+ beta at 62th word at position 4 is ��যয় where alpha ব্যয়
+ beta at 62th word at position 3 is ্যয় where alpha ব্যয়
+ beta at 62th word at position 2 is �্যয় where alpha ব্যয়
+ beta at 62th word at position 1 is ��্যয় where alpha ব্যয়
+ beta at 62th word at position 0 is ব্যয় where alpha ব্যয়
+ beta at 63th word at position 11 is � where alpha বেড়ে
+ beta at 63th word at position 10 is �� where alpha বেড়ে
+ beta at 63th word at position 9 is ে where alpha বেড়ে
+found bivokti suffix
+বেড়ে = বেড় + ে
+ beta at 64th word at position 20 is � where alpha দাঁড়াতে
+ beta at 64th word at position 19 is �� where alpha দাঁড়াতে
+ beta at 64th word at position 18 is ে where alpha দাঁড়াতে
+found bivokti suffix
+দাঁড়াতে = দাঁড়াত + ে
+found NotStemmed_suffix where alpha is পারে
+পারে = পারে + 
+ beta at 66th word at position 8 is � where alpha ৭৭৯
+ beta at 66th word at position 7 is �� where alpha ৭৭৯
+ beta at 66th word at position 6 is ৯ where alpha ৭৭৯
+ beta at 66th word at position 5 is �৯ where alpha ৭৭৯
+ beta at 66th word at position 4 is ��৯ where alpha ৭৭৯
+ beta at 66th word at position 3 is ৭৯ where alpha ৭৭৯
+ beta at 66th word at position 2 is �৭৯ where alpha ৭৭৯
+ beta at 66th word at position 1 is ��৭৯ where alpha ৭৭৯
+ beta at 66th word at position 0 is ৭৭৯ where alpha ৭৭৯
+ beta at 67th word at position 11 is � where alpha কোটি
+ beta at 67th word at position 10 is �� where alpha কোটি
+ beta at 67th word at position 9 is ি where alpha কোটি
+ beta at 67th word at position 8 is �ি where alpha কোটি
+ beta at 67th word at position 7 is ��ি where alpha কোটি
+ beta at 67th word at position 6 is টি where alpha কোটি
+found bochon suffix
+কোটি = কো + টি
+found NotStemmed_suffix where alpha is ও
+ও = ও + 
+ beta at 69th word at position 8 is � where alpha ৭৮৫
+ beta at 69th word at position 7 is �� where alpha ৭৮৫
+ beta at 69th word at position 6 is ৫ where alpha ৭৮৫
+ beta at 69th word at position 5 is �৫ where alpha ৭৮৫
+ beta at 69th word at position 4 is ��৫ where alpha ৭৮৫
+ beta at 69th word at position 3 is ৮৫ where alpha ৭৮৫
+ beta at 69th word at position 2 is �৮৫ where alpha ৭৮৫
+ beta at 69th word at position 1 is ��৮৫ where alpha ৭৮৫
+ beta at 69th word at position 0 is ৭৮৫ where alpha ৭৮৫
+ beta at 70th word at position 11 is � where alpha কোটি
+ beta at 70th word at position 10 is �� where alpha কোটি
+ beta at 70th word at position 9 is ি where alpha কোটি
+ beta at 70th word at position 8 is �ি where alpha কোটি
+ beta at 70th word at position 7 is ��ি where alpha কোটি
+ beta at 70th word at position 6 is টি where alpha কোটি
+found bochon suffix
+কোটি = কো + টি
+ beta at 71th word at position 11 is � where alpha ডলার
+ beta at 71th word at position 10 is �� where alpha ডলার
+ beta at 71th word at position 9 is র where alpha ডলার
+ beta at 71th word at position 8 is �র where alpha ডলার
+ beta at 71th word at position 7 is ��র where alpha ডলার
+ beta at 71th word at position 6 is ার where alpha ডলার
+ beta at 71th word at position 5 is �ার where alpha ডলার
+ beta at 71th word at position 4 is ��ার where alpha ডলার
+ beta at 71th word at position 3 is লার where alpha ডলার
  beta at 71th word at position 2 is �লার where alpha ডলার
  beta at 71th word at position 1 is ��লার where alpha ডলার
  beta at 71th word at position 0 is ডলার where alpha ডলার

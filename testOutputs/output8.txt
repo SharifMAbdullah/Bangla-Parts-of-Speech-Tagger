@@ -1,0 +1,86 @@
+অ্যান্টার্কটিকা_noun
+যাওয়ার_verb
+পরিকল্পনা_ noun
+শুরু_ noun
+বছর_ noun
+পাঁচেক_ adverb
+আগে_ adverb
+কোনো_ pronoun
+এক_ noun
+সন্ধ্যায়_noun
+শারমীন_noun
+টিভিতে_noun
+ডকুমেন্টারি_noun
+দেখতে_ verb
+দেখতেই_noun
+বলল_verb
+অ্যান্টার্কটিকা_noun
+যেতে_ verb
+হবে_ verb
+খোঁজ_ noun
+নিয়ে_ verb
+জানলাম_ verb
+যাওয়া_verb
+যায়_verb
+বটে_ adjective
+তবে_conjunction
+খরচ_ noun
+অনেক_ adjective
+এমনিতেই_pronoun
+প্রতিবছর_ adverb
+নানা_ adverb
+দেশ_ noun
+ঘুরে_ verb
+বেড়াচ্ছি_ verb
+তার_ pronoun
+ওপর_ adjective
+এত_pronoun
+খরচের_noun
+ধাক্কা_ noun
+সামলানো_ verb
+কঠিন_ adjective
+কিন্তু_conjunction
+যেতেও_noun
+তো_ adjective
+মন_ noun
+চায়তখন_noun
+দুজনে_noun
+মিলে_ verb
+অভিযানের_noun
+অর্থসংস্থান_ noun
+নিয়ে_ verb
+ভাবতে_ verb
+বসলাম_ verb
+শারমীন_noun
+জানাল_ verb
+সে_pronoun
+আলাদা_ adverb
+করে_ verb
+জমাবে_ verb
+বছর_ noun
+তিনেকের_noun
+মধ্যে_ adverb
+যা_ verb
+জমল_ verb
+তা_ adjective
+দিয়ে_ verb
+দুজনে_noun
+আরামে_noun
+পাঁচ_ adverb
+থেকে_ verb
+ছয়টি_ adverb
+দেশ_ noun
+ভ্রমণ_ noun
+করতে_ verb
+পারতাম_ verb
+কিন্তু_conjunction
+জমানো_ verb
+সে_pronoun
+টাকাও_noun
+অ্যান্টার্কটিকা_noun
+ভ্রমণব্যয়ের_noun
+অর্ধেক_ adverb
+তবে_conjunction
+সে_pronoun
+সমস্যারও_noun
+সমাধান_ noun

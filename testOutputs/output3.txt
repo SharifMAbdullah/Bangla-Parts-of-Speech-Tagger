@@ -1,0 +1,72 @@
+কর্মশালায়_noun
+জানানো_ verb
+হয়_ verb
+প্রতিবছর_ adverb
+পানিতে_noun
+ডুবে_ verb
+বাংলাদেশে_noun
+১২_noun
+হাজার_ noun
+শিশু_ adverb
+মারা_ verb
+যায়_verb
+পানিতে_noun
+ডুবে_ verb
+শিশুমৃত্যুতে_noun
+বাংলাদেশ_ noun
+বিশ্বে_noun
+শীর্ষে_noun
+আছে_ verb
+এসব_ pronoun
+মৃত্যু_ noun
+রোধে_ verb
+গণমাধ্যম_ noun
+গুরুত্বপূর্ণ_ adjective
+ভূমিকা_ noun
+পালন_ noun
+করতে_ verb
+পারে_ verb
+যদিও_ adjective
+পানিতে_noun
+ডুবে_ verb
+মৃত্যুর_noun
+সব_ verb
+তথ্য_ adverb
+গণমাধ্যমে_noun
+আসে_ verb
+না_ verb
+এ_ adjective
+নিয়ে_ verb
+জাতীয়_ adverb
+ও_ adjective
+স্থানীয়ভাবে_adverb
+কোনো_ pronoun
+কার্যকর_ adverb
+তথ্য_ adverb
+ব্যবস্থাপনা_noun
+এখনো_ adverb
+গড়ে_ verb
+ওঠেনি_noun
+এ_ adjective
+ছাড়া_ verb
+গণমাধ্যমের_noun
+প্রতিবেদনগুলো_noun
+শুধু_ adverb
+ঘটনাকেন্দ্রিক_noun
+হয়ে_ verb
+থাকে_ verb
+এ_ adjective
+নিয়ে_ verb
+অনুসন্ধানী_ noun
+বা_ verb
+ব্যাখ্যামূলক_ adjective
+ব্যাখ্যামূলক_ adjective
+প্রতিবেদন_ noun
+করার_ verb
+সুযোগ_ noun
+আছে_ verb
+গণমাধ্যমকর্মীদের_noun
+এ_ adjective
+বিষয়ে_ adjective
+এগিয়ে_ verb
+আসতে_ verb

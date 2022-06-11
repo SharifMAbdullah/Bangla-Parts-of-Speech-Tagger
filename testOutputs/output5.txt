@@ -1,0 +1,69 @@
+হোয়াইট_noun
+হাউসে_noun
+আসিয়ান_noun
+নেতারা_noun
+সফরে_noun
+যাওয়ার_verb
+পর_ adjective
+যুক্তরাষ্ট্রের_noun
+প্রেসিডেন্ট_ noun
+জো_ pronoun
+বাইডেন_noun
+এশিয়া_ pronoun
+সফরে_noun
+এসেছিলেন_ verb
+এসেছিলেন_ verb
+তাঁর_ pronoun
+সফরটি_noun
+ছিল_ verb
+দীর্ঘ_ adverb
+প্রতীক্ষিত_ adverb
+এতে_pronoun
+প্রত্যাশার_noun
+চাপ_ verb
+থাকলেও_noun
+সেটি_pronoun
+পূরণ_ adverb
+হয়নি_noun
+বাইডেনের_noun
+এ_ adjective
+সফরে_noun
+কোনো_ pronoun
+নীতিনির্ধারণী_noun
+সিদ্ধান্ত_ noun
+আসেনি_noun
+আসিয়ানের_noun
+অর্থনীতিতে_noun
+বাইডেন_noun
+১৫০_noun
+মিলিয়ন_noun
+ডলার_ verb
+দেওয়ার_noun
+ঘোষণা_ noun
+দিয়েছেন_ verb
+এটা_ pronoun
+খুব_ adverb
+বড়_ adjective
+অঙ্কের_noun
+অর্থায়ন_noun
+নয়_ verb
+এতে_pronoun
+বলা_verb
+যায়_verb
+এশিয়া_ pronoun
+সফরকে_noun
+তিনি_ pronoun
+তেমন_ adverb
+গুরুত্ব_ noun
+দেননি_noun
+কিন্তু_conjunction
+বাস্তবতা_ noun
+বলছে_verb
+এশিয়াকে_noun
+কম_ verb
+গুরুত্ব_ noun
+দেওয়ার_noun
+জন্য_ adjective
+যুক্তরাষ্ট্রকে_noun
+ভবিষ্যতে_ adverb
+ভুগতে_ verb

@@ -1,0 +1,82 @@
+হালে_noun
+খাবারটি_noun
+বার্গার_noun
+নামে_ verb
+পরিচিত_ adverb
+হলেও_noun
+এর_ pronoun
+আসল_ verb
+নাম_ verb
+কিন্তু_conjunction
+আরেকটু_noun
+বড়—হামবার্গার_noun
+শব্দটির_noun
+উৎপত্তি_ noun
+জার্মানির_noun
+শহর_ noun
+হামবুর্গ_noun
+থেকে_ verb
+একসময়_ adverb
+প্রচুর_ adverb
+জার্মান_ adjective
+নাগরিক_ adverb
+অভিবাসী_ adjective
+হয়ে_ verb
+যুক্তরাষ্ট্রে_noun
+পাড়ি_ verb
+জমাত_ verb
+তাদের_ pronoun
+বলা_verb
+হতো_noun
+‘হামবার্গার’_noun
+যেমন_ adjective
+লন্ডন_noun
+থেকে_ verb
+আগত_ adverb
+ব্যক্তিদের_noun
+বলা_verb
+হতো_noun
+‘লন্ডনার’_noun
+এই_pronoun
+অভিবাসীদের_noun
+তৈরি_ adverb
+রেসিপিই_noun
+গোটা_ verb
+যুক্তরাষ্ট্রে_noun
+একসময়_ adverb
+জনপ্রিয়_ adverb
+হয়ে_ verb
+ওঠে_ verb
+তবে_conjunction
+দারুণ_ adverb
+এ_ adjective
+খাবার_ verb
+উদ্ভাবনের_noun
+মূল_ adverb
+কৃতিত্ব_ noun
+কিন্তু_conjunction
+মধ্য_ adverb
+এশীয়_ adverb
+মঙ্গোলতাতার_noun
+জাতির_noun
+যাহোক_noun
+জার্মানদের_noun
+হাত_ noun
+ধরে_ verb
+যুক্তরাষ্ট্রে_noun
+এসে_ verb
+এটি_ pronoun
+জনপ্রিয়_ adverb
+হয়_ verb
+১৯০৪_noun
+সালে_noun
+সেন্ট_noun
+লুইসে_noun
+অনুষ্ঠিত_ adjective
+ওয়ার্ল্ড_noun
+ফেয়ারের_noun
+মাধ্যমে_noun
+বহির্বিশ্বে_noun
+ছড়িয়ে_ verb
+পড়ে_ verb
+এর_ pronoun

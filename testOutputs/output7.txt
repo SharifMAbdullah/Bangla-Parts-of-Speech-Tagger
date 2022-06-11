@@ -1,0 +1,99 @@
+এ_ adjective
+পর্যন্ত_ adjective
+এই_pronoun
+আইনের_noun
+খসড়ার_noun
+বিষয়ে_ adjective
+যা_ verb
+জানা_ verb
+যায়_verb
+তা_ adjective
+হচ্ছে_ verb
+১৮_noun
+থেকে_ verb
+৫০_noun
+বছর_ noun
+বয়সী_ adverb
+ব্যক্তিরা_noun
+নির্দিষ্ট_ adverb
+একটি_ adverb
+চাঁদা_ noun
+দিয়ে_ verb
+পেনশনের_noun
+জন্য_ adjective
+নিবন্ধিত_ adverb
+হবেন_ verb
+ন্যূনপক্ষে_ adverb
+১০_noun
+বছর_ noun
+এ_ adjective
+চাঁদার_noun
+ধারাবাহিকতা_ noun
+থাকলে_ verb
+তাঁরা_ pronoun
+নির্দিষ্ট_ adverb
+বয়সসীমা_noun
+অতিক্রম_ noun
+করার_ verb
+পর_ adjective
+রাষ্ট্রীয়_ adverb
+পেনশন_ noun
+পাওয়ার_noun
+উপযুক্ততা_ noun
+অর্জন_ noun
+করবেন_ verb
+তা_ adjective
+ছাড়া_ verb
+বেসরকারি_noun
+খাতকে_noun
+পেনশনব্যবস্থায়_noun
+অন্তর্ভুক্তিরও_noun
+একটি_ adverb
+পথরেখা_ noun
+করা_ verb
+হচ্ছে_ verb
+বলে_verb
+জানা_ verb
+গেছে_ verb
+পেনশন_ noun
+আইন_ noun
+ও_ adjective
+এবিষয়ক_noun
+নীতিমালা_noun
+চূড়ান্ত_ adverb
+করার_ verb
+আগে_ adverb
+জনমত_ noun
+গ্রহণ_ noun
+ও_ adjective
+বিশেষজ্ঞ_ adjective
+পরামর্শ_ noun
+গ্রহণের_noun
+প্রয়োজন_ noun
+রয়েছে_ verb
+সংশ্লিষ্ট_ adverb
+মন্ত্রণালয়কে_noun
+বলব_verb
+মন্ত্রিপরিষদে_noun
+পেশ_ noun
+করার_ verb
+আগে_ adverb
+খসড়া_ noun
+আইনটি_noun
+জনমতের_noun
+জন্য_ adjective
+প্রকাশ_ adverb
+করুন_ verb
+নির্দিষ্ট_ adverb
+সময়ের_noun
+পর_ adjective
+জনমতগুলো_noun
+সন্নিবেশ_ noun
+করে_ verb
+আইনের_noun
+চূড়ান্ত_ adverb
+খসড়া_ noun
+মন্ত্রিপরিষদের_noun
+অনুমোদনের_noun
+জন্য_ adjective
+পেশ_ noun
