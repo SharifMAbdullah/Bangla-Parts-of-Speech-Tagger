@@ -288,11 +288,12 @@ void POSchecker()
     string actual;
     string test;
     fstream f1,f2;
+
     for(int x = 1; x <= 10; x++)
     {
         string A = to_string(x);
-        string output_file = "output" + A + ".txt";
-        string actual_file = "accurateOutput" + A + ".txt";
+        string output_file = "~\testOutputs\output" + A + ".txt";
+        string actual_file = "~\accurateOutputs\accurateOutput" + A + ".txt";
         f1.open(output_file);
         f2.open(actual_file);
     

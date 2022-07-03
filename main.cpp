@@ -486,9 +486,9 @@ int main()
                         wordWithRootAndSuffix[i].second.second);
     reCheck();
 
-    cout << "If you want to find POS tags for the text in read.txt file, enter 1\n
-            If you want to calculate the accuracy rate of this tool(based on words already tagged by this tool
-            and corresponding manually tagged words), enter 2\n";
+    cout << "If you want to find POS tags for the text in read.txt file, enter 1\n"
+          <<  "If you want to calculate the accuracy rate of this tool(based on words already tagged by this tool"
+           << " and corresponding manually tagged words), enter 2\n";
     int choice;
     cin >> choice;
     if(choice == 1)
