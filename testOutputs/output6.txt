@@ -79,17 +79,4 @@
 পদত্যাগ_ noun
 দাবি_ verb
 করে_ verb
-ই_noun
-সুস্পষ্ট_ adjective
-ধারণা_ noun
-আছে_ verb
-কিন্তু_conjunction
-তাঁদের_ pronoun
-নিয়ে_ verb
-যখন_ adverb
-কথা_ noun
-হয়_ verb
-তখন_ adjective
-মানুষ_ noun
-এসব_ pronoun
-ভুলে_ verb
+আসছে_verb

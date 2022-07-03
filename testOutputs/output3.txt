@@ -70,3 +70,4 @@
 বিষয়ে_ adjective
 এগিয়ে_ verb
 আসতে_ verb
+হবে_verb

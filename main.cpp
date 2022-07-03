@@ -5,6 +5,7 @@
 #include <sstream>
 #include "BPlusTree.h"
 #include "stringOperations.h"
+#include "confusionMatrix.h"
 using namespace std;
 #define N 1000
 #define M 70000
@@ -438,14 +439,7 @@ void reCheck()
     fstream f;
     f.open("test.txt");
     int n = lenStringArray(tags);
-    // for(int i=0;i< n - 1;i++)
-    //     {
-    //         if(wordWithRootAndSuffix[i].first==wordWithRootAndSuffix[i+1].first)
-    //         {
-    //             tags[i] = "adjective";
-    //             tags[i+1] = "adjective";
-    //         }
-    //     }
+
     for(int i=0;i<n;i++)
     {
         if(tokenizedWords[i]=="সে" || !(tokenizedWords[i].rfind("এমনি",0)) ||!(tokenizedWords[i].rfind("এই",0)) 
@@ -492,9 +486,28 @@ int main()
                         wordWithRootAndSuffix[i].second.second);
     reCheck();
 
-    fstream f;
-    f.open("write.txt");
-    for(int i=0;i<n;i++)
-        f << tokenizedWords[i] + "_" + tags[i] << endl;
-    f.close();
+    cout << "If you want to find POS tags for the text in read.txt file, enter 1\n
+            If you want to calculate the accuracy rate of this tool(based on words already tagged by this tool
+            and corresponding manually tagged words), enter 2\n";
+    int choice;
+    cin >> choice;
+    if(choice == 1)
+    {
+        fstream f;
+        f.open("write.txt");
+        for(int i=0;i<n;i++)
+            f << tokenizedWords[i] + "_" + tags[i] << endl;
+        f.close();
+    }
+    else
+    {
+        POSchecker();
+        cout << "Calculated confusion matrix : \n"; 
+        printMatrix();
+        cout << "\nTotal words : " << calculateTotalElements() << "\n";
+        int result = calculateAccuracyRate();
+        cout << "Overall accuracy rate of the tool : " << result <<"%\n";
+        result = calculateMisClassificationRate();
+        cout << "Overall misclassification rate of the tool : " << result <<"%\n";
+    }
 }

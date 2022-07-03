@@ -12,7 +12,6 @@
 এশিয়া_ pronoun
 সফরে_noun
 এসেছিলেন_ verb
-এসেছিলেন_ verb
 তাঁর_ pronoun
 সফরটি_noun
 ছিল_ verb
@@ -67,3 +66,4 @@
 যুক্তরাষ্ট্রকে_noun
 ভবিষ্যতে_ adverb
 ভুগতে_ verb
+হবে_verb

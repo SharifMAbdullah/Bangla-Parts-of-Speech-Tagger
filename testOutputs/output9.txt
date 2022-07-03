@@ -97,3 +97,4 @@
 দাম_ noun
 স্বাভাবিক_ adjective
 রাখা_ verb
+জরুরি_noun

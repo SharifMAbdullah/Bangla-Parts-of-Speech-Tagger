@@ -26,7 +26,8 @@
 সূচকগুলো_noun
 ভালো_ adjective
 অবস্থায়_ preposition
-আছে�দেশে�_noun
+আছে�
+দেশে_noun
 অর্থনৈতিক_ adverb
 পরিস্থিতি_ noun
 বিশ্লেষণের_noun
@@ -95,3 +96,4 @@
 ও_ adjective
 ২১৬_noun
 কোটি_ adverb
+ডলার_noun

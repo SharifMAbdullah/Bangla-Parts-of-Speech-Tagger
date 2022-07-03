@@ -9,7 +9,8 @@
 নাম_ verb
 কিন্তু_conjunction
 আরেকটু_noun
-বড়—হামবার্গার_noun
+বড়_adjective
+হামবার্গার_noun
 শব্দটির_noun
 উৎপত্তি_ noun
 জার্মানির_noun
@@ -80,3 +81,4 @@
 ছড়িয়ে_ verb
 পড়ে_ verb
 এর_ pronoun
+জনপ্রিয়তা_noun

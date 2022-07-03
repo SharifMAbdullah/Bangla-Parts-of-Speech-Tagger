@@ -46,7 +46,8 @@
 ছাড়া_ verb
 বেসরকারি_noun
 খাতকে_noun
-পেনশনব্যবস্থায়_noun
+পেনশন_noun
+ব্যবস্থায়_ noun
 অন্তর্ভুক্তিরও_noun
 একটি_ adverb
 পথরেখা_ noun
@@ -97,3 +98,4 @@
 অনুমোদনের_noun
 জন্য_ adjective
 পেশ_ noun
+করুন_verb

@@ -53,7 +53,6 @@
 কিছুই_noun
 জানেন_ verb
 না_ verb
-না_ verb
 হয়তো_ adverb
 তাঁরা_ pronoun
 অত_ adjective
@@ -99,3 +98,4 @@
 মানুষ_ noun
 এসব_ pronoun
 ভুলে_ verb
+যায়_verb
