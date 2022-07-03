@@ -475,16 +475,6 @@ int main()
     sort(nounSuffix, nounSuffix+11);                
     sort(adverbSuffix, adverbSuffix+2);             
     sort(adjectiveSuffix, adjectiveSuffix+5);       
-    
-    tokeniser();
-    //stopWordRemover();
-    stemmer();
-    int n = lenStringArray(strings);
-    cout << n;
-    for(int i=0;i<n;i++)
-        bangla_POS_tagger(i,wordWithRootAndSuffix[i].first, wordWithRootAndSuffix[i].second.first, 
-                        wordWithRootAndSuffix[i].second.second);
-    reCheck();
 
     cout << "If you want to find POS tags for the text in read.txt file, enter 1\n"
           <<  "If you want to calculate the accuracy rate of this tool(based on words already tagged by this tool"
@@ -493,6 +483,15 @@ int main()
     cin >> choice;
     if(choice == 1)
     {
+        tokeniser();
+        //stopWordRemover();
+        stemmer();
+        int n = lenStringArray(strings);
+        for(int i=0;i<n;i++)
+            bangla_POS_tagger(i,wordWithRootAndSuffix[i].first, wordWithRootAndSuffix[i].second.first, 
+                            wordWithRootAndSuffix[i].second.second);
+        reCheck();
+        
         fstream f;
         f.open("write.txt");
         for(int i=0;i<n;i++)

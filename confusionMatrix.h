@@ -292,7 +292,7 @@ void POSchecker()
     for(int x = 1; x <= 10; x++)
     {
         string A = to_string(x);
-        string output_file = "~\testOutputs\output" + A + ".txt";
+        string output_file = "~\testOutputs\testoutput" + A + ".txt";
         string actual_file = "~\accurateOutputs\accurateOutput" + A + ".txt";
         f1.open(output_file);
         f2.open(actual_file);
