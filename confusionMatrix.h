@@ -292,11 +292,15 @@ void POSchecker()
     for(int x = 1; x <= 10; x++)
     {
         string A = to_string(x);
-        string output_file = "~\testOutputs\testoutput" + A + ".txt";
+        string output_file = "~\testOutput\testoutput" + A + ".txt";
         string actual_file = "~\accurateOutputs\accurateOutput" + A + ".txt";
         f1.open(output_file);
         f2.open(actual_file);
-    
+        if(!f1) cout << "testOutput file could not be opened\n";
+        else if(!f2) cout << "accurateOutput file could not be opened\n";
+        else   cout <<"Opened correctly\n";
+        
+
         while(f1.peek()!=EOF)
         {
             f1.clear();
