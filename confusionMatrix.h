@@ -284,7 +284,7 @@ void POSchecker()
         f2.open(actual_file);
         if(!f1) cout << "testOutput file " << A <<  "could not be opened\n";
         else if(!f2) cout << "accurateOutput file "<< A << "could not be opened\n";
-        else   cout <<"Opened correctly\n";
+        else   cout <<"Test files opened correctly\n";
         
         while(f1.peek()!=EOF)
         {
@@ -296,11 +296,10 @@ void POSchecker()
             getline(f2,test);
             
             if(actual==test)
-                {cout <<"found match " << " " << actual << " " << test <<"\n";checkMatch(actual);}
+                checkMatch(actual);
                 
             else
                 {
-                    cout <<"did not match " << " " << actual << " " << test <<"\n";
                     checkNN(actual,test);
                     checkPRO(actual,test);
                     checkADV(actual,test);

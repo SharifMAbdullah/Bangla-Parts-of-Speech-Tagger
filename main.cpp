@@ -110,9 +110,7 @@ void storeSuffixFromTextFile(int choice)
                     //cout << "ok bochon" <<endl;
                     Bochon_suffix[i] = s;
                     i++;
-                    //cout << Bochon_suffix[i-1] << endl;
                 }
-        cout << "length bochon : " << lenStringArray(Bochon_suffix) << endl;
         f.close();
         }
     else if(choice == 2)
@@ -124,7 +122,6 @@ void storeSuffixFromTextFile(int choice)
                     Bivokti_suffix[i] = s;
                     i++;
                 }
-        cout << "length bivokti : " << lenStringArray(Bivokti_suffix) << endl;
         f.close();
         }
     else if(choice == 3)
@@ -136,7 +133,6 @@ void storeSuffixFromTextFile(int choice)
                     quantifierList[i] = s;
                     i++;
                 }
-        cout << "length quantifiers : " << lenStringArray(quantifierList) << endl;
         f.close();
         }
     else if(choice == 4)
@@ -148,7 +144,6 @@ void storeSuffixFromTextFile(int choice)
                     NotStemmed_suffix[i] = s;
                     i++;
                 }
-        cout << "length not stemmed : " << lenStringArray(NotStemmed_suffix) << endl;
         f.close();
         }
 }
