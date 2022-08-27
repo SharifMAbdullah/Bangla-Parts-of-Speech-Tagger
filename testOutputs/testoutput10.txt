@@ -1,84 +1,84 @@
 হালে_noun
 খাবারটি_noun
 বার্গার_noun
-নামে_ verb
-পরিচিত_ adverb
+নামে_verb
+পরিচিত_adverb
 হলেও_noun
-এর_ pronoun
-আসল_ verb
-নাম_ verb
+এর_pronoun
+আসল_verb
+নাম_verb
 কিন্তু_conjunction
 আরেকটু_noun
 বড়_adjective
 হামবার্গার_noun
 শব্দটির_noun
-উৎপত্তি_ noun
+উৎপত্তি_noun
 জার্মানির_noun
-শহর_ noun
+শহর_noun
 হামবুর্গ_noun
-থেকে_ verb
-একসময়_ adverb
-প্রচুর_ adverb
-জার্মান_ adjective
-নাগরিক_ adverb
-অভিবাসী_ adjective
-হয়ে_ verb
+থেকে_verb
+একসময়_adverb
+প্রচুর_adverb
+জার্মান_adjective
+নাগরিক_adverb
+অভিবাসী_adjective
+হয়ে_verb
 যুক্তরাষ্ট্রে_noun
-পাড়ি_ verb
-জমাত_ verb
-তাদের_ pronoun
+পাড়ি_verb
+জমাত_verb
+তাদের_pronoun
 বলা_verb
 হতো_noun
 ‘হামবার্গার’_noun
-যেমন_ adjective
+যেমন_adjective
 লন্ডন_noun
-থেকে_ verb
-আগত_ adverb
+থেকে_verb
+আগত_adverb
 ব্যক্তিদের_noun
 বলা_verb
 হতো_noun
 ‘লন্ডনার’_noun
 এই_pronoun
 অভিবাসীদের_noun
-তৈরি_ adverb
+তৈরি_adverb
 রেসিপিই_noun
-গোটা_ verb
+গোটা_verb
 যুক্তরাষ্ট্রে_noun
-একসময়_ adverb
-জনপ্রিয়_ adverb
-হয়ে_ verb
-ওঠে_ verb
+একসময়_adverb
+জনপ্রিয়_adverb
+হয়ে_verb
+ওঠে_verb
 তবে_conjunction
-দারুণ_ adverb
-এ_ adjective
-খাবার_ verb
+দারুণ_adverb
+এ_adjective
+খাবার_verb
 উদ্ভাবনের_noun
-মূল_ adverb
-কৃতিত্ব_ noun
+মূল_adverb
+কৃতিত্ব_noun
 কিন্তু_conjunction
-মধ্য_ adverb
-এশীয়_ adverb
+মধ্য_adverb
+এশীয়_adverb
 মঙ্গোলতাতার_noun
 জাতির_noun
 যাহোক_noun
 জার্মানদের_noun
-হাত_ noun
-ধরে_ verb
+হাত_noun
+ধরে_verb
 যুক্তরাষ্ট্রে_noun
-এসে_ verb
-এটি_ pronoun
-জনপ্রিয়_ adverb
-হয়_ verb
+এসে_verb
+এটি_pronoun
+জনপ্রিয়_adverb
+হয়_verb
 ১৯০৪_noun
 সালে_noun
 সেন্ট_noun
 লুইসে_noun
-অনুষ্ঠিত_ adjective
+অনুষ্ঠিত_adjective
 ওয়ার্ল্ড_noun
 ফেয়ারের_noun
 মাধ্যমে_noun
 বহির্বিশ্বে_noun
-ছড়িয়ে_ verb
-পড়ে_ verb
-এর_ pronoun
+ছড়িয়ে_verb
+পড়ে_verb
+এর_pronoun
 জনপ্রিয়তা_noun

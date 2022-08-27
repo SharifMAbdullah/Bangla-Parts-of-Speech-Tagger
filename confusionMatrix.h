@@ -1,4 +1,5 @@
 #include <iostream>
+#include<fstream>
 #include"stringOperations.h"
 using namespace std;
 #define NN 0
@@ -189,10 +190,10 @@ void checkINTJ(string actual, string test)
 
 void checkMatch(string actual)
 {
-    if(stringFind(actual,"noun")!=  -1) 
-        matrix[0][0]++;
-    else if(stringFind(actual,"pronoun")!=  -1) 
+    if(stringFind(actual,"pronoun")!=  -1) 
         matrix[1][1]++;
+    else if(stringFind(actual,"noun")!=  -1) 
+        matrix[0][0]++;
     else if(stringFind(actual,"verb")!=  -1) 
         matrix[2][2]++;
     else if(stringFind(actual,"adverb")!=  -1) 
@@ -209,8 +210,11 @@ void checkMatch(string actual)
 
 void printMatrix()
 {
+    string s[8]  = {"NN",  "PRO", "VRB", "ADV", "ADJ", "PRE", "CON", "INTJ"};
+    printf("\tNN\tPRO\tVRB\tADV\tADJ\tPRE\tCON\tINTJ\n");
     for(int j=0;j<8;j++)
     {
+    cout << s[j] <<"\t";
         for(int k=0;k<8;k++)
         {
             printf("%d\t",matrix[j][k]);
@@ -224,9 +228,11 @@ int calculateTotalElements()
     int result = 0;
     for(int i=0;i<8;i++)
         for(int j=0;j<8;j++)
-            result += matrix[i][j];
+            {
+                result += matrix[i][j];
+            }
 
-return result;
+return (float)result;
 }
 
 int calculateAccurateResult()
@@ -236,22 +242,7 @@ int calculateAccurateResult()
         result += matrix[i][i];
 
 cout << "Total true positive results " << result <<"\n";
-return result;
-}
-
-int calculateFalsePositive()
-{
-    int result = 0;
-    for(int i=0;i<8;i++)
-    {
-        for(int j=0;j<8;j++)
-        {
-            if(i==j) continue;
-            result += matrix[j][i];
-        }
-    }
-cout << "Total false positive results " << result <<"\n";
-return result;
+return (float)result;
 }
 
 int calculateFalseNegative()
@@ -266,52 +257,50 @@ int calculateFalseNegative()
         }
     }
 cout << "Total false negative results " << result <<"\n";
-return result;
+return (float)result;
 }
 
-int calculateTotalFalseResult()
-{
-    return calculateFalsePositive() + calculateFalseNegative();
-}
-int calculateAccuracyRate()
+
+float calculateAccuracyRate()
 {
     return 100*calculateAccurateResult()/calculateTotalElements();
 }
 
-int calculateMisClassificationRate()
+float calculateMisClassificationRate()
 {
-    return 100*calculateTotalFalseResult()/calculateTotalElements();
+    return 100*calculateFalseNegative()/calculateTotalElements();
 }
 //checks if produced outputs are same as actual outputs
 void POSchecker()
 {
-    string actual;
-    string test;
     fstream f1,f2;
 
     for(int x = 1; x <= 10; x++)
     {
         string A = to_string(x);
-        string output_file = "~\testOutput\testoutput" + A + ".txt";
-        string actual_file = "~\accurateOutputs\accurateOutput" + A + ".txt";
+        string output_file = "testOutputs/testOutput" + A + ".txt";
+        string actual_file = "accurateOutputs/accurateOutput" + A + ".txt";
         f1.open(output_file);
         f2.open(actual_file);
-        if(!f1) cout << "testOutput file could not be opened\n";
-        else if(!f2) cout << "accurateOutput file could not be opened\n";
+        if(!f1) cout << "testOutput file " << A <<  "could not be opened\n";
+        else if(!f2) cout << "accurateOutput file "<< A << "could not be opened\n";
         else   cout <<"Opened correctly\n";
         
-
         while(f1.peek()!=EOF)
         {
+            string actual = "";
+            string test = "";
             f1.clear();
             f2.clear();
             getline(f1,actual);
             getline(f2,test);
+            
             if(actual==test)
-                checkMatch(actual);
+                {cout <<"found match " << " " << actual << " " << test <<"\n";checkMatch(actual);}
                 
             else
                 {
+                    cout <<"did not match " << " " << actual << " " << test <<"\n";
                     checkNN(actual,test);
                     checkPRO(actual,test);
                     checkADV(actual,test);
@@ -325,4 +314,3 @@ void POSchecker()
     f2.close();
     }
 }
-

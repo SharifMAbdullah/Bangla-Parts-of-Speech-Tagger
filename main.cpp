@@ -501,10 +501,13 @@ int main()
     else
     {
         POSchecker();
+        cout << "********************************************************\n";
+        cout << "Read the matrix as: \nNoun has been identified as Noun\nNoun has been identified as Pronoun\nand so on\n";
+        cout << "********************************************************\n";
         cout << "Calculated confusion matrix : \n"; 
         printMatrix();
         cout << "\nTotal words : " << calculateTotalElements() << "\n";
-        int result = calculateAccuracyRate();
+        float result = calculateAccuracyRate();
         cout << "Overall accuracy rate of the tool : " << result <<"%\n";
         result = calculateMisClassificationRate();
         cout << "Overall misclassification rate of the tool : " << result <<"%\n";
