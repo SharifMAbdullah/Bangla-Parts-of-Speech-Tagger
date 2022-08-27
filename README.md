@@ -13,8 +13,8 @@ Pronoun, Noun and Verb, respectively.
 this tool can help to understand the basics of Bangla language. This tool can also help in the use and analysis of corpora,
 Named Entity Recognition (NER), sentiment analysis, question answering, and word sense disambiguation.
 
-I have used the algorithm proposed by Md. Nesarul Hoque and Md. Hanif Seddiqui, “Bangla
-Parts-of-Speech Tagging using Bangla Stemmer and Rule based Analyzer,” in 18th
+I have used the algorithm proposed by Md. Nesarul Hoque and Md. Hanif Seddiqui, “[Bangla
+Parts-of-Speech Tagging using Bangla Stemmer and Rule based Analyzer](https://ieeexplore.ieee.org/document/7488111)”, in 18th
 International Conference on Computer and Information Technology (ICCIT), 2015.
 
 I have used C++ as the programming language.
